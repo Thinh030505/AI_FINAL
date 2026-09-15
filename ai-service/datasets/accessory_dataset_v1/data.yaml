@@ -1,0 +1,41 @@
+path: datasets/accessory_dataset_v1
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: person
+  1: glasses
+  2: sunglasses
+  3: airpods
+  4: earbuds
+  5: headphones
+  6: earring
+  7: necklace
+  8: chain
+  9: pendant
+  10: choker
+  11: watch
+  12: smartwatch
+  13: bracelet
+  14: ring
+  15: hat
+  16: cap
+  17: beanie
+  18: mask
+  19: shirt
+  20: tshirt
+  21: jacket
+  22: hoodie
+  23: coat
+  24: belt
+  25: phone
+  26: wallet
+  27: bag
+  28: backpack
+  29: handbag
+  30: keys
+  31: shoes
+  32: sneakers
+
+nc: 33

@@ -1,0 +1,55 @@
+{
+  "timestamp": "2026-09-10 16:07:07",
+  "baseline": {
+    "model": "ai-service/models/yolo11n.pt",
+    "mAP50": 0.0861,
+    "mAP50_95": 0.0585,
+    "precision": 0.5217,
+    "recall": 0.15,
+    "f1_score": 0.233,
+    "micro_recall": 0.0,
+    "small_recall": 0.0,
+    "hard_neg_fpr": 0.1429,
+    "latency_p95_ms": 71.48
+  },
+  "candidate": {
+    "model": "models/candidates/yolo11n_finegrained_v1.pt",
+    "mAP50": 0.1342,
+    "mAP50_95": 0.0912,
+    "precision": 0.5135,
+    "recall": 0.2375,
+    "f1_score": 0.3248,
+    "micro_recall": 0.0,
+    "small_recall": 0.2,
+    "hard_neg_fpr": 0.2857,
+    "latency_p95_ms": 63.07
+  },
+  "gates": {
+    "gate_1_performance": {
+      "passed": true,
+      "baseline_mAP50_95": 0.0585,
+      "candidate_mAP50_95": 0.0912,
+      "baseline_small_recall": 0.0,
+      "candidate_small_recall": 0.2,
+      "baseline_micro_recall": 0.0,
+      "candidate_micro_recall": 0.0
+    },
+    "gate_2_hard_negative_suppression": {
+      "passed": false,
+      "baseline_fpr": 0.1429,
+      "candidate_fpr": 0.2857
+    },
+    "gate_3_latency": {
+      "passed": true,
+      "candidate_latency_p95_ms": 63.07,
+      "max_allowed_ms": 120.0
+    },
+    "gate_4_vram_budget": {
+      "passed": true,
+      "candidate_peak_vram_mb": 0.0,
+      "max_allowed_mb": 4500.0
+    },
+    "verdict": "REJECT_MAINTAIN_BASELINE"
+  },
+  "failures_count": 22
+}

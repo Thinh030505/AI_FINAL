@@ -1,0 +1,45 @@
+{
+  "model_path": "ai-service/models/yolo11n.pt",
+  "device": "cpu",
+  "evaluated_at": "2026-09-10 15:54:56",
+  "confidence_threshold": 0.25,
+  "iou_threshold": 0.5,
+  "metrics": {
+    "mAP50": 0.0861,
+    "mAP50_95": 0.0585,
+    "precision": 0.5217,
+    "recall": 0.15,
+    "f1_score": 0.233,
+    "true_positives": 12,
+    "false_positives": 11,
+    "false_negatives": 68
+  },
+  "scale_breakdown": {
+    "micro_objects": {
+      "ground_truth_count": 2,
+      "true_positives": 0,
+      "recall": 0.0
+    },
+    "small_objects": {
+      "ground_truth_count": 20,
+      "true_positives": 0,
+      "recall": 0.0
+    },
+    "medium_large_objects": {
+      "ground_truth_count": 58,
+      "true_positives": 12,
+      "recall": 0.2069
+    }
+  },
+  "hard_negatives": {
+    "total_evaluated": 7,
+    "false_positives_detected": 1,
+    "cases_triggered": 1,
+    "false_positive_rate": 0.1429
+  },
+  "latency_and_vram": {
+    "latency_p50_ms": 43.66,
+    "latency_p95_ms": 71.48,
+    "peak_vram_mb": 0.0
+  }
+}

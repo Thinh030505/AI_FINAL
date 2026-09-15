@@ -1,0 +1,8 @@
+{
+  "candidate_name": "yolo11n_finegrained_v1",
+  "base_model": "yolo11n",
+  "epochs": 15,
+  "device": "cpu",
+  "weights_path": "D:\\hocWeb\\P_AI\\models\\candidates\\yolo11n_finegrained_v1.pt",
+  "status": "COMPLETED"
+}

@@ -1,0 +1,220 @@
+[
+  {
+    "type": "false_positive_hard_negative",
+    "image": "hard_negative_bare_ear.jpg",
+    "saved_visual": "D:\\hocWeb\\P_AI\\reports\\phase11_failures\\fail_fp_hardneg_hard_negative_bare_ear.jpg",
+    "details": [
+      "person (0.40)"
+    ]
+  },
+  {
+    "type": "false_positive_hard_negative",
+    "image": "hard_negative_empty_hand.jpg",
+    "saved_visual": "D:\\hocWeb\\P_AI\\reports\\phase11_failures\\fail_fp_hardneg_hard_negative_empty_hand.jpg",
+    "details": [
+      "person (0.86)",
+      "person (0.81)"
+    ]
+  },
+  {
+    "type": "false_negative_missed",
+    "image": "office.jpg",
+    "saved_visual": "D:\\hocWeb\\P_AI\\reports\\phase11_failures\\fail_fn_office.jpg",
+    "details": [
+      "chair",
+      "chair",
+      "desk",
+      "laptop",
+      "monitor"
+    ]
+  },
+  {
+    "type": "false_negative_missed",
+    "image": "street.jpg",
+    "saved_visual": "D:\\hocWeb\\P_AI\\reports\\phase11_failures\\fail_fn_street.jpg",
+    "details": [
+      "car",
+      "car",
+      "traffic_light",
+      "person"
+    ]
+  },
+  {
+    "type": "false_negative_missed",
+    "image": "beach.jpg",
+    "saved_visual": "D:\\hocWeb\\P_AI\\reports\\phase11_failures\\fail_fn_beach.jpg",
+    "details": [
+      "person",
+      "person",
+      "umbrella",
+      "surfboard"
+    ]
+  },
+  {
+    "type": "false_negative_missed",
+    "image": "person_phone.jpg",
+    "saved_visual": "D:\\hocWeb\\P_AI\\reports\\phase11_failures\\fail_fn_person_phone.jpg",
+    "details": [
+      "cell phone",
+      "shirt"
+    ]
+  },
+  {
+    "type": "false_negative_missed",
+    "image": "person_glasses.jpg",
+    "saved_visual": "D:\\hocWeb\\P_AI\\reports\\phase11_failures\\fail_fn_person_glasses.jpg",
+    "details": [
+      "eyeglasses",
+      "shirt"
+    ]
+  },
+  {
+    "type": "false_negative_missed",
+    "image": "person_airpods.jpg",
+    "saved_visual": "D:\\hocWeb\\P_AI\\reports\\phase11_failures\\fail_fn_person_airpods.jpg",
+    "details": [
+      "earphones",
+      "shirt"
+    ]
+  },
+  {
+    "type": "false_negative_missed",
+    "image": "person_necklace.jpg",
+    "saved_visual": "D:\\hocWeb\\P_AI\\reports\\phase11_failures\\fail_fn_person_necklace.jpg",
+    "details": [
+      "necklace",
+      "shirt"
+    ]
+  },
+  {
+    "type": "false_negative_missed",
+    "image": "person_watch.jpg",
+    "saved_visual": "D:\\hocWeb\\P_AI\\reports\\phase11_failures\\fail_fn_person_watch.jpg",
+    "details": [
+      "wristwatch",
+      "shirt"
+    ]
+  },
+  {
+    "type": "false_negative_missed",
+    "image": "person_bracelet.jpg",
+    "saved_visual": "D:\\hocWeb\\P_AI\\reports\\phase11_failures\\fail_fn_person_bracelet.jpg",
+    "details": [
+      "bracelet",
+      "shirt"
+    ]
+  },
+  {
+    "type": "false_negative_missed",
+    "image": "person_ring.jpg",
+    "saved_visual": "D:\\hocWeb\\P_AI\\reports\\phase11_failures\\fail_fn_person_ring.jpg",
+    "details": [
+      "ring",
+      "shirt"
+    ]
+  },
+  {
+    "type": "false_negative_missed",
+    "image": "person_multi_accessories.jpg",
+    "saved_visual": "D:\\hocWeb\\P_AI\\reports\\phase11_failures\\fail_fn_person_multi_accessories.jpg",
+    "details": [
+      "eyeglasses",
+      "earphones",
+      "necklace",
+      "wristwatch",
+      "ring",
+      "cell phone",
+      "shirt"
+    ]
+  },
+  {
+    "type": "false_negative_missed",
+    "image": "person_far.jpg",
+    "saved_visual": "D:\\hocWeb\\P_AI\\reports\\phase11_failures\\fail_fn_person_far.jpg",
+    "details": [
+      "person"
+    ]
+  },
+  {
+    "type": "false_negative_missed",
+    "image": "person_low_light.jpg",
+    "saved_visual": "D:\\hocWeb\\P_AI\\reports\\phase11_failures\\fail_fn_person_low_light.jpg",
+    "details": [
+      "person",
+      "eyeglasses",
+      "necklace"
+    ]
+  },
+  {
+    "type": "false_negative_missed",
+    "image": "person_occluded.jpg",
+    "saved_visual": "D:\\hocWeb\\P_AI\\reports\\phase11_failures\\fail_fn_person_occluded.jpg",
+    "details": [
+      "eyeglasses",
+      "necklace"
+    ]
+  },
+  {
+    "type": "false_negative_missed",
+    "image": "multiple_people.jpg",
+    "saved_visual": "D:\\hocWeb\\P_AI\\reports\\phase11_failures\\fail_fn_multiple_people.jpg",
+    "details": [
+      "eyeglasses",
+      "eyeglasses"
+    ]
+  },
+  {
+    "type": "false_negative_missed",
+    "image": "dining_tableware.jpg",
+    "saved_visual": "D:\\hocWeb\\P_AI\\reports\\phase11_failures\\fail_fn_dining_tableware.jpg",
+    "details": [
+      "wine_glass",
+      "plate",
+      "fork",
+      "knife",
+      "bottle",
+      "dining_table"
+    ]
+  },
+  {
+    "type": "false_negative_missed",
+    "image": "workstation_gadgets.jpg",
+    "saved_visual": "D:\\hocWeb\\P_AI\\reports\\phase11_failures\\fail_fn_workstation_gadgets.jpg",
+    "details": [
+      "desk"
+    ]
+  },
+  {
+    "type": "false_negative_missed",
+    "image": "fashion_apparel_full.jpg",
+    "saved_visual": "D:\\hocWeb\\P_AI\\reports\\phase11_failures\\fail_fn_fashion_apparel_full.jpg",
+    "details": [
+      "sneakers",
+      "sneakers",
+      "backpack"
+    ]
+  },
+  {
+    "type": "false_negative_missed",
+    "image": "gadgets_motion_blur.jpg",
+    "saved_visual": "D:\\hocWeb\\P_AI\\reports\\phase11_failures\\fail_fn_gadgets_motion_blur.jpg",
+    "details": [
+      "mouse",
+      "pen",
+      "desk"
+    ]
+  },
+  {
+    "type": "false_negative_missed",
+    "image": "dining_low_contrast_noise.jpg",
+    "saved_visual": "D:\\hocWeb\\P_AI\\reports\\phase11_failures\\fail_fn_dining_low_contrast_noise.jpg",
+    "details": [
+      "wine_glass",
+      "plate",
+      "fork",
+      "knife",
+      "bottle",
+      "dining_table"
+    ]
+  }
+]

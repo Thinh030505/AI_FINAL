@@ -1,0 +1,181 @@
+class_id,class_name,group,scale_tier,train_count,val_count,test_count,total_count
+0,person,Person & Demographics / Parts,large,51,12,11,74
+1,human_face,Person & Demographics / Parts,medium,0,0,0,0
+2,human_head,Person & Demographics / Parts,medium,0,0,0,0
+3,human_hand,Person & Demographics / Parts,small,0,0,0,0
+4,human_foot,Person & Demographics / Parts,small,0,0,0,0
+5,human_eye,Person & Demographics / Parts,micro,0,0,0,0
+6,human_ear,Person & Demographics / Parts,micro,0,0,0,0
+7,human_torso,Person & Demographics / Parts,large,0,0,0,0
+8,shirt,Apparel & Clothing,medium,19,2,4,25
+9,t-shirt,Apparel & Clothing,medium,15,3,2,20
+10,blouse,Apparel & Clothing,medium,0,0,0,0
+11,dress,Apparel & Clothing,large,0,0,0,0
+12,pants,Apparel & Clothing,medium,0,0,0,0
+13,jeans,Apparel & Clothing,medium,18,5,5,28
+14,shorts,Apparel & Clothing,medium,0,0,0,0
+15,skirt,Apparel & Clothing,medium,0,0,0,0
+16,jacket,Apparel & Clothing,large,25,9,8,42
+17,coat,Apparel & Clothing,large,0,0,0,0
+18,hoodie,Apparel & Clothing,large,10,3,2,15
+19,sweater,Apparel & Clothing,medium,0,0,0,0
+20,suit,Apparel & Clothing,large,0,0,0,0
+21,vest,Apparel & Clothing,medium,0,0,0,0
+22,swimsuit,Apparel & Clothing,medium,0,0,0,0
+23,scarf,Apparel & Clothing,small,0,0,0,0
+24,tie,Apparel & Clothing,small,0,0,0,0
+25,uniform,Apparel & Clothing,large,0,0,0,0
+26,belt,Fashion Accessories,small,0,0,0,0
+27,wallet,Fashion Accessories,small,0,0,0,0
+28,umbrella,Fashion Accessories,medium,0,0,0,0
+29,glove,Fashion Accessories,small,0,0,0,0
+30,badge,Fashion Accessories,micro,0,0,0,0
+31,face_mask,Fashion Accessories,small,0,0,0,0
+32,keychain,Fashion Accessories,micro,0,0,0,0
+33,lanyard,Fashion Accessories,small,0,0,0,0
+34,handkerchief,Fashion Accessories,small,0,0,0,0
+35,hair_clip,Fashion Accessories,micro,0,0,0,0
+36,cell phone,Personal Electronics & Gadgets,small,18,5,5,28
+37,tablet,Personal Electronics & Gadgets,medium,0,0,0,0
+38,laptop,Personal Electronics & Gadgets,medium,41,6,9,56
+39,mouse,Personal Electronics & Gadgets,small,41,6,9,56
+40,keyboard,Personal Electronics & Gadgets,medium,0,0,0,0
+41,monitor,Personal Electronics & Gadgets,large,0,0,0,0
+42,smartwatch,Personal Electronics & Gadgets,micro,0,0,0,0
+43,camera,Personal Electronics & Gadgets,small,0,0,0,0
+44,headphones,Personal Electronics & Gadgets,medium,20,5,5,30
+45,earphones,Personal Electronics & Gadgets,micro,19,9,8,36
+46,remote,Personal Electronics & Gadgets,small,0,0,0,0
+47,power_bank,Personal Electronics & Gadgets,small,0,0,0,0
+48,game_controller,Personal Electronics & Gadgets,small,0,0,0,0
+49,stylus,Personal Electronics & Gadgets,micro,0,0,0,0
+50,charging_cable,Personal Electronics & Gadgets,small,0,0,0,0
+51,usb_drive,Personal Electronics & Gadgets,micro,0,0,0,0
+52,speaker,Personal Electronics & Gadgets,medium,0,0,0,0
+53,eyeglasses,Eyewear & Headwear,small,12,1,2,15
+54,sunglasses,Eyewear & Headwear,small,12,3,3,18
+55,safety_goggles,Eyewear & Headwear,small,0,0,0,0
+56,cap,Eyewear & Headwear,medium,0,0,0,0
+57,hat,Eyewear & Headwear,medium,0,0,0,0
+58,beanie,Eyewear & Headwear,medium,0,0,0,0
+59,helmet,Eyewear & Headwear,medium,0,0,0,0
+60,headband,Eyewear & Headwear,micro,0,0,0,0
+61,beret,Eyewear & Headwear,medium,0,0,0,0
+62,hood,Eyewear & Headwear,medium,0,0,0,0
+63,backpack,Bags & Luggage,medium,6,1,3,10
+64,handbag,Bags & Luggage,medium,12,4,2,18
+65,tote_bag,Bags & Luggage,medium,0,0,0,0
+66,suitcase,Bags & Luggage,large,0,0,0,0
+67,duffel_bag,Bags & Luggage,large,0,0,0,0
+68,briefcase,Bags & Luggage,medium,0,0,0,0
+69,shopping_bag,Bags & Luggage,medium,0,0,0,0
+70,fanny_pack,Bags & Luggage,small,0,0,0,0
+71,crossbody_bag,Bags & Luggage,medium,0,0,0,0
+72,clutch,Bags & Luggage,small,0,0,0,0
+73,camera_bag,Bags & Luggage,medium,0,0,0,0
+74,shoes,Footwear,small,0,0,0,0
+75,sneakers,Footwear,small,36,10,10,56
+76,boots,Footwear,medium,0,0,0,0
+77,sandals,Footwear,small,0,0,0,0
+78,high_heels,Footwear,small,0,0,0,0
+79,slippers,Footwear,small,0,0,0,0
+80,flip_flops,Footwear,small,0,0,0,0
+81,loafers,Footwear,small,0,0,0,0
+82,clogs,Footwear,small,0,0,0,0
+83,wristwatch,Jewelry & Micro-Adornments,micro,19,3,5,27
+84,ring,Jewelry & Micro-Adornments,micro,21,7,5,33
+85,necklace,Jewelry & Micro-Adornments,micro,15,9,6,30
+86,pendant,Jewelry & Micro-Adornments,micro,0,0,0,0
+87,bracelet,Jewelry & Micro-Adornments,micro,12,6,2,20
+88,earring,Jewelry & Micro-Adornments,micro,0,0,0,0
+89,brooch,Jewelry & Micro-Adornments,micro,0,0,0,0
+90,anklet,Jewelry & Micro-Adornments,micro,0,0,0,0
+91,piercing,Jewelry & Micro-Adornments,micro,0,0,0,0
+92,cufflink,Jewelry & Micro-Adornments,micro,0,0,0,0
+93,hairpin,Jewelry & Micro-Adornments,micro,0,0,0,0
+94,chair,Home & Office Furniture,large,0,0,0,0
+95,couch,Home & Office Furniture,large,0,0,0,0
+96,dining_table,Home & Office Furniture,large,0,0,0,0
+97,desk,Home & Office Furniture,large,0,0,0,0
+98,bed,Home & Office Furniture,large,0,0,0,0
+99,shelf,Home & Office Furniture,large,0,0,0,0
+100,wardrobe,Home & Office Furniture,large,0,0,0,0
+101,nightstand,Home & Office Furniture,medium,0,0,0,0
+102,stool,Home & Office Furniture,medium,0,0,0,0
+103,mirror,Home & Office Furniture,large,0,0,0,0
+104,coffee_table,Home & Office Furniture,large,0,0,0,0
+105,lamp,Home & Office Furniture,medium,0,0,0,0
+106,pillow,Home & Office Furniture,medium,0,0,0,0
+107,curtain,Home & Office Furniture,large,0,0,0,0
+108,bottle,Food & Dining Ware,small,0,0,0,0
+109,wine_glass,Food & Dining Ware,small,0,0,0,0
+110,cup,Food & Dining Ware,small,41,6,9,56
+111,fork,Food & Dining Ware,small,0,0,0,0
+112,knife,Food & Dining Ware,small,0,0,0,0
+113,spoon,Food & Dining Ware,small,0,0,0,0
+114,bowl,Food & Dining Ware,medium,0,0,0,0
+115,plate,Food & Dining Ware,medium,0,0,0,0
+116,chopsticks,Food & Dining Ware,small,0,0,0,0
+117,teapot,Food & Dining Ware,medium,0,0,0,0
+118,tray,Food & Dining Ware,large,0,0,0,0
+119,can,Food & Dining Ware,small,0,0,0,0
+120,thermos,Food & Dining Ware,small,0,0,0,0
+121,straw,Food & Dining Ware,micro,0,0,0,0
+122,microwave,Kitchenware & Appliances,large,0,0,0,0
+123,oven,Kitchenware & Appliances,large,0,0,0,0
+124,toaster,Kitchenware & Appliances,medium,0,0,0,0
+125,refrigerator,Kitchenware & Appliances,large,0,0,0,0
+126,blender,Kitchenware & Appliances,medium,0,0,0,0
+127,kettle,Kitchenware & Appliances,medium,0,0,0,0
+128,pot,Kitchenware & Appliances,medium,0,0,0,0
+129,pan,Kitchenware & Appliances,medium,0,0,0,0
+130,sink,Kitchenware & Appliances,large,0,0,0,0
+131,cutting_board,Kitchenware & Appliances,medium,0,0,0,0
+132,traffic_light,Street & Urban Environment,medium,0,0,0,0
+133,stop_sign,Street & Urban Environment,medium,0,0,0,0
+134,fire_hydrant,Street & Urban Environment,medium,0,0,0,0
+135,parking_meter,Street & Urban Environment,medium,0,0,0,0
+136,bench,Street & Urban Environment,large,0,0,0,0
+137,trash_can,Street & Urban Environment,medium,0,0,0,0
+138,street_light,Street & Urban Environment,large,0,0,0,0
+139,billboard,Street & Urban Environment,large,0,0,0,0
+140,vending_machine,Street & Urban Environment,large,0,0,0,0
+141,mailbox,Street & Urban Environment,medium,0,0,0,0
+142,bicycle,Vehicles & Mobility,large,0,0,0,0
+143,car,Vehicles & Mobility,large,0,0,0,0
+144,motorcycle,Vehicles & Mobility,large,0,0,0,0
+145,airplane,Vehicles & Mobility,large,0,0,0,0
+146,bus,Vehicles & Mobility,large,0,0,0,0
+147,train,Vehicles & Mobility,large,0,0,0,0
+148,truck,Vehicles & Mobility,large,0,0,0,0
+149,boat,Vehicles & Mobility,large,0,0,0,0
+150,electric_scooter,Vehicles & Mobility,medium,0,0,0,0
+151,skateboard,Vehicles & Mobility,medium,0,0,0,0
+152,wheelchair,Vehicles & Mobility,large,0,0,0,0
+153,surfboard,Sports & Fitness,large,0,0,0,0
+154,tennis_racket,Sports & Fitness,medium,0,0,0,0
+155,baseball_bat,Sports & Fitness,medium,0,0,0,0
+156,baseball_glove,Sports & Fitness,small,0,0,0,0
+157,sports_ball,Sports & Fitness,small,0,0,0,0
+158,frisbee,Sports & Fitness,small,0,0,0,0
+159,skis,Sports & Fitness,large,0,0,0,0
+160,snowboard,Sports & Fitness,large,0,0,0,0
+161,dumbbell,Sports & Fitness,small,0,0,0,0
+162,yoga_mat,Sports & Fitness,large,0,0,0,0
+163,pen,"Tools, Stationery & Hardware",micro,41,6,9,56
+164,pencil,"Tools, Stationery & Hardware",micro,0,0,0,0
+165,book,"Tools, Stationery & Hardware",small,0,0,0,0
+166,scissors,"Tools, Stationery & Hardware",small,0,0,0,0
+167,stapler,"Tools, Stationery & Hardware",small,0,0,0,0
+168,hammer,"Tools, Stationery & Hardware",medium,0,0,0,0
+169,screwdriver,"Tools, Stationery & Hardware",small,0,0,0,0
+170,wrench,"Tools, Stationery & Hardware",small,0,0,0,0
+171,flashlight,"Tools, Stationery & Hardware",small,0,0,0,0
+172,bare_skin,Background / Hard-Negative Distractors,medium,0,0,0,0
+173,bare_wrist,Background / Hard-Negative Distractors,small,0,0,0,0
+174,bare_neck,Background / Hard-Negative Distractors,small,0,0,0,0
+175,bare_ear,Background / Hard-Negative Distractors,micro,0,0,0,0
+176,empty_hand,Background / Hard-Negative Distractors,small,0,0,0,0
+177,plain_fabric,Background / Hard-Negative Distractors,large,0,0,0,0
+178,wall_texture,Background / Hard-Negative Distractors,large,0,0,0,0
+179,desk_surface,Background / Hard-Negative Distractors,large,0,0,0,0

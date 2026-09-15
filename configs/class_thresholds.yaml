@@ -1,0 +1,947 @@
+version: 1.0.0
+default_threshold: 0.25
+classes:
+  person:
+    class_id: 0
+    threshold: 0.1
+    precision: 1.0
+    recall: 1.0
+    f1_score: 1.0
+    status: calibrated
+  human_face:
+    class_id: 1
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  human_head:
+    class_id: 2
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  human_hand:
+    class_id: 3
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  human_foot:
+    class_id: 4
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  human_eye:
+    class_id: 5
+    threshold: 0.2
+    f1_score: 0.0
+    status: default_tier
+  human_ear:
+    class_id: 6
+    threshold: 0.2
+    f1_score: 0.0
+    status: default_tier
+  human_torso:
+    class_id: 7
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  shirt:
+    class_id: 8
+    threshold: 0.45
+    precision: 0.5
+    recall: 0.5
+    f1_score: 0.5
+    status: calibrated
+  t-shirt:
+    class_id: 9
+    threshold: 0.75
+    precision: 1.0
+    recall: 0.3333
+    f1_score: 0.5
+    status: calibrated
+  blouse:
+    class_id: 10
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  dress:
+    class_id: 11
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  pants:
+    class_id: 12
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  jeans:
+    class_id: 13
+    threshold: 0.15
+    precision: 1.0
+    recall: 1.0
+    f1_score: 1.0
+    status: calibrated
+  shorts:
+    class_id: 14
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  skirt:
+    class_id: 15
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  jacket:
+    class_id: 16
+    threshold: 0.3
+    precision: 1.0
+    recall: 0.5556
+    f1_score: 0.7143
+    status: calibrated
+  coat:
+    class_id: 17
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  hoodie:
+    class_id: 18
+    threshold: 0.1
+    precision: 0.0
+    recall: 0.0
+    f1_score: 0.0
+    status: calibrated
+  sweater:
+    class_id: 19
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  suit:
+    class_id: 20
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  vest:
+    class_id: 21
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  swimsuit:
+    class_id: 22
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  scarf:
+    class_id: 23
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  tie:
+    class_id: 24
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  uniform:
+    class_id: 25
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  belt:
+    class_id: 26
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  wallet:
+    class_id: 27
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  umbrella:
+    class_id: 28
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  glove:
+    class_id: 29
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  badge:
+    class_id: 30
+    threshold: 0.2
+    f1_score: 0.0
+    status: default_tier
+  face_mask:
+    class_id: 31
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  keychain:
+    class_id: 32
+    threshold: 0.2
+    f1_score: 0.0
+    status: default_tier
+  lanyard:
+    class_id: 33
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  handkerchief:
+    class_id: 34
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  hair_clip:
+    class_id: 35
+    threshold: 0.2
+    f1_score: 0.0
+    status: default_tier
+  cell phone:
+    class_id: 36
+    threshold: 0.1
+    precision: 1.0
+    recall: 1.0
+    f1_score: 1.0
+    status: calibrated
+  tablet:
+    class_id: 37
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  laptop:
+    class_id: 38
+    threshold: 0.6
+    precision: 1.0
+    recall: 1.0
+    f1_score: 1.0
+    status: calibrated
+  mouse:
+    class_id: 39
+    threshold: 0.1
+    precision: 1.0
+    recall: 1.0
+    f1_score: 1.0
+    status: calibrated
+  keyboard:
+    class_id: 40
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  monitor:
+    class_id: 41
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  smartwatch:
+    class_id: 42
+    threshold: 0.2
+    f1_score: 0.0
+    status: default_tier
+  camera:
+    class_id: 43
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  headphones:
+    class_id: 44
+    threshold: 0.1
+    precision: 1.0
+    recall: 1.0
+    f1_score: 1.0
+    status: calibrated
+  earphones:
+    class_id: 45
+    threshold: 0.1
+    precision: 1.0
+    recall: 1.0
+    f1_score: 1.0
+    status: calibrated
+  remote:
+    class_id: 46
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  power_bank:
+    class_id: 47
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  game_controller:
+    class_id: 48
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  stylus:
+    class_id: 49
+    threshold: 0.2
+    f1_score: 0.0
+    status: default_tier
+  charging_cable:
+    class_id: 50
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  usb_drive:
+    class_id: 51
+    threshold: 0.2
+    f1_score: 0.0
+    status: default_tier
+  speaker:
+    class_id: 52
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  eyeglasses:
+    class_id: 53
+    threshold: 0.1
+    precision: 1.0
+    recall: 1.0
+    f1_score: 1.0
+    status: calibrated
+  sunglasses:
+    class_id: 54
+    threshold: 0.1
+    precision: 1.0
+    recall: 1.0
+    f1_score: 1.0
+    status: calibrated
+  safety_goggles:
+    class_id: 55
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  cap:
+    class_id: 56
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  hat:
+    class_id: 57
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  beanie:
+    class_id: 58
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  helmet:
+    class_id: 59
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  headband:
+    class_id: 60
+    threshold: 0.2
+    f1_score: 0.0
+    status: default_tier
+  beret:
+    class_id: 61
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  hood:
+    class_id: 62
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  backpack:
+    class_id: 63
+    threshold: 0.1
+    precision: 0.0
+    recall: 0.0
+    f1_score: 0.0
+    status: calibrated
+  handbag:
+    class_id: 64
+    threshold: 0.4
+    precision: 0.8
+    recall: 1.0
+    f1_score: 0.8889
+    status: calibrated
+  tote_bag:
+    class_id: 65
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  suitcase:
+    class_id: 66
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  duffel_bag:
+    class_id: 67
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  briefcase:
+    class_id: 68
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  shopping_bag:
+    class_id: 69
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  fanny_pack:
+    class_id: 70
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  crossbody_bag:
+    class_id: 71
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  clutch:
+    class_id: 72
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  camera_bag:
+    class_id: 73
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  shoes:
+    class_id: 74
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  sneakers:
+    class_id: 75
+    threshold: 0.1
+    precision: 1.0
+    recall: 1.0
+    f1_score: 1.0
+    status: calibrated
+  boots:
+    class_id: 76
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  sandals:
+    class_id: 77
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  high_heels:
+    class_id: 78
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  slippers:
+    class_id: 79
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  flip_flops:
+    class_id: 80
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  loafers:
+    class_id: 81
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  clogs:
+    class_id: 82
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  wristwatch:
+    class_id: 83
+    threshold: 0.1
+    precision: 1.0
+    recall: 1.0
+    f1_score: 1.0
+    status: calibrated
+  ring:
+    class_id: 84
+    threshold: 0.1
+    precision: 1.0
+    recall: 1.0
+    f1_score: 1.0
+    status: calibrated
+  necklace:
+    class_id: 85
+    threshold: 0.1
+    precision: 1.0
+    recall: 1.0
+    f1_score: 1.0
+    status: calibrated
+  pendant:
+    class_id: 86
+    threshold: 0.2
+    f1_score: 0.0
+    status: default_tier
+  bracelet:
+    class_id: 87
+    threshold: 0.1
+    precision: 1.0
+    recall: 1.0
+    f1_score: 1.0
+    status: calibrated
+  earring:
+    class_id: 88
+    threshold: 0.2
+    f1_score: 0.0
+    status: default_tier
+  brooch:
+    class_id: 89
+    threshold: 0.2
+    f1_score: 0.0
+    status: default_tier
+  anklet:
+    class_id: 90
+    threshold: 0.2
+    f1_score: 0.0
+    status: default_tier
+  piercing:
+    class_id: 91
+    threshold: 0.2
+    f1_score: 0.0
+    status: default_tier
+  cufflink:
+    class_id: 92
+    threshold: 0.2
+    f1_score: 0.0
+    status: default_tier
+  hairpin:
+    class_id: 93
+    threshold: 0.2
+    f1_score: 0.0
+    status: default_tier
+  chair:
+    class_id: 94
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  couch:
+    class_id: 95
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  dining_table:
+    class_id: 96
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  desk:
+    class_id: 97
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  bed:
+    class_id: 98
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  shelf:
+    class_id: 99
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  wardrobe:
+    class_id: 100
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  nightstand:
+    class_id: 101
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  stool:
+    class_id: 102
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  mirror:
+    class_id: 103
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  coffee_table:
+    class_id: 104
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  lamp:
+    class_id: 105
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  pillow:
+    class_id: 106
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  curtain:
+    class_id: 107
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  bottle:
+    class_id: 108
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  wine_glass:
+    class_id: 109
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  cup:
+    class_id: 110
+    threshold: 0.1
+    precision: 1.0
+    recall: 1.0
+    f1_score: 1.0
+    status: calibrated
+  fork:
+    class_id: 111
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  knife:
+    class_id: 112
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  spoon:
+    class_id: 113
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  bowl:
+    class_id: 114
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  plate:
+    class_id: 115
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  chopsticks:
+    class_id: 116
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  teapot:
+    class_id: 117
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  tray:
+    class_id: 118
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  can:
+    class_id: 119
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  thermos:
+    class_id: 120
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  straw:
+    class_id: 121
+    threshold: 0.2
+    f1_score: 0.0
+    status: default_tier
+  microwave:
+    class_id: 122
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  oven:
+    class_id: 123
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  toaster:
+    class_id: 124
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  refrigerator:
+    class_id: 125
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  blender:
+    class_id: 126
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  kettle:
+    class_id: 127
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  pot:
+    class_id: 128
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  pan:
+    class_id: 129
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  sink:
+    class_id: 130
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  cutting_board:
+    class_id: 131
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  traffic_light:
+    class_id: 132
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  stop_sign:
+    class_id: 133
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  fire_hydrant:
+    class_id: 134
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  parking_meter:
+    class_id: 135
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  bench:
+    class_id: 136
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  trash_can:
+    class_id: 137
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  street_light:
+    class_id: 138
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  billboard:
+    class_id: 139
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  vending_machine:
+    class_id: 140
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  mailbox:
+    class_id: 141
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  bicycle:
+    class_id: 142
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  car:
+    class_id: 143
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  motorcycle:
+    class_id: 144
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  airplane:
+    class_id: 145
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  bus:
+    class_id: 146
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  train:
+    class_id: 147
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  truck:
+    class_id: 148
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  boat:
+    class_id: 149
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  electric_scooter:
+    class_id: 150
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  skateboard:
+    class_id: 151
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  wheelchair:
+    class_id: 152
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  surfboard:
+    class_id: 153
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  tennis_racket:
+    class_id: 154
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  baseball_bat:
+    class_id: 155
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  baseball_glove:
+    class_id: 156
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  sports_ball:
+    class_id: 157
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  frisbee:
+    class_id: 158
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  skis:
+    class_id: 159
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  snowboard:
+    class_id: 160
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  dumbbell:
+    class_id: 161
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  yoga_mat:
+    class_id: 162
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  pen:
+    class_id: 163
+    threshold: 0.1
+    precision: 1.0
+    recall: 1.0
+    f1_score: 1.0
+    status: calibrated
+  pencil:
+    class_id: 164
+    threshold: 0.2
+    f1_score: 0.0
+    status: default_tier
+  book:
+    class_id: 165
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  scissors:
+    class_id: 166
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  stapler:
+    class_id: 167
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  hammer:
+    class_id: 168
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  screwdriver:
+    class_id: 169
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  wrench:
+    class_id: 170
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  flashlight:
+    class_id: 171
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  bare_skin:
+    class_id: 172
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  bare_wrist:
+    class_id: 173
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  bare_neck:
+    class_id: 174
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  bare_ear:
+    class_id: 175
+    threshold: 0.2
+    f1_score: 0.0
+    status: default_tier
+  empty_hand:
+    class_id: 176
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  plain_fabric:
+    class_id: 177
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  wall_texture:
+    class_id: 178
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier
+  desk_surface:
+    class_id: 179
+    threshold: 0.25
+    f1_score: 0.0
+    status: default_tier

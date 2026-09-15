@@ -1,0 +1,886 @@
+{
+  "version": "phase11_v1",
+  "date": "2026-09-10",
+  "total_images": 27,
+  "hard_negative_count": 7,
+  "annotated_count": 20,
+  "entries": [
+    {
+      "image": "hard_negative_bare_wrist.jpg",
+      "category": "hard_negative",
+      "tags": [
+        "bare_skin",
+        "bare_wrist",
+        "hard_negative",
+        "suppression_target"
+      ],
+      "ground_truth_count": 0,
+      "annotations": []
+    },
+    {
+      "image": "hard_negative_bare_neck.jpg",
+      "category": "hard_negative",
+      "tags": [
+        "bare_skin",
+        "bare_neck",
+        "hard_negative",
+        "suppression_target"
+      ],
+      "ground_truth_count": 0,
+      "annotations": []
+    },
+    {
+      "image": "hard_negative_bare_ear.jpg",
+      "category": "hard_negative",
+      "tags": [
+        "bare_skin",
+        "bare_ear",
+        "hard_negative",
+        "suppression_target"
+      ],
+      "ground_truth_count": 0,
+      "annotations": []
+    },
+    {
+      "image": "hard_negative_empty_hand.jpg",
+      "category": "hard_negative",
+      "tags": [
+        "bare_skin",
+        "empty_hand",
+        "hard_negative",
+        "suppression_target"
+      ],
+      "ground_truth_count": 0,
+      "annotations": []
+    },
+    {
+      "image": "hard_negative_empty_desk.jpg",
+      "category": "hard_negative",
+      "tags": [
+        "desk_surface",
+        "hard_negative",
+        "suppression_target"
+      ],
+      "ground_truth_count": 0,
+      "annotations": []
+    },
+    {
+      "image": "hard_negative_wall_texture.jpg",
+      "category": "hard_negative",
+      "tags": [
+        "wall_texture",
+        "hard_negative",
+        "suppression_target"
+      ],
+      "ground_truth_count": 0,
+      "annotations": []
+    },
+    {
+      "image": "hard_negative_plain_fabric.jpg",
+      "category": "hard_negative",
+      "tags": [
+        "plain_fabric",
+        "hard_negative",
+        "suppression_target"
+      ],
+      "ground_truth_count": 0,
+      "annotations": []
+    },
+    {
+      "image": "office.jpg",
+      "category": "indoor_office",
+      "tags": [
+        "office",
+        "furniture",
+        "electronics"
+      ],
+      "ground_truth_count": 5,
+      "annotations": [
+        [
+          94,
+          0.15,
+          0.65,
+          0.22,
+          0.45
+        ],
+        [
+          94,
+          0.82,
+          0.68,
+          0.24,
+          0.48
+        ],
+        [
+          97,
+          0.5,
+          0.72,
+          0.85,
+          0.4
+        ],
+        [
+          38,
+          0.38,
+          0.52,
+          0.2,
+          0.18
+        ],
+        [
+          41,
+          0.62,
+          0.45,
+          0.25,
+          0.28
+        ]
+      ]
+    },
+    {
+      "image": "street.jpg",
+      "category": "street_urban",
+      "tags": [
+        "street",
+        "vehicles",
+        "pedestrians"
+      ],
+      "ground_truth_count": 4,
+      "annotations": [
+        [
+          143,
+          0.22,
+          0.68,
+          0.35,
+          0.28
+        ],
+        [
+          143,
+          0.75,
+          0.65,
+          0.38,
+          0.25
+        ],
+        [
+          132,
+          0.45,
+          0.22,
+          0.08,
+          0.14
+        ],
+        [
+          0,
+          0.52,
+          0.62,
+          0.12,
+          0.32
+        ]
+      ]
+    },
+    {
+      "image": "beach.jpg",
+      "category": "outdoor_beach",
+      "tags": [
+        "beach",
+        "outdoor",
+        "sports",
+        "people"
+      ],
+      "ground_truth_count": 4,
+      "annotations": [
+        [
+          0,
+          0.35,
+          0.55,
+          0.14,
+          0.42
+        ],
+        [
+          0,
+          0.58,
+          0.58,
+          0.12,
+          0.38
+        ],
+        [
+          28,
+          0.72,
+          0.48,
+          0.3,
+          0.4
+        ],
+        [
+          153,
+          0.25,
+          0.62,
+          0.1,
+          0.35
+        ]
+      ]
+    },
+    {
+      "image": "person_phone.jpg",
+      "category": "apparel_electronics",
+      "tags": [
+        "person",
+        "clothing",
+        "cell phone"
+      ],
+      "ground_truth_count": 3,
+      "annotations": [
+        [
+          0,
+          0.5,
+          0.5,
+          0.7,
+          0.95
+        ],
+        [
+          36,
+          0.28,
+          0.72,
+          0.16,
+          0.18
+        ],
+        [
+          8,
+          0.5,
+          0.65,
+          0.6,
+          0.55
+        ]
+      ]
+    },
+    {
+      "image": "person_glasses.jpg",
+      "category": "accessories_suite",
+      "tags": [
+        "micro_accessory",
+        "eyewear"
+      ],
+      "ground_truth_count": 3,
+      "annotations": [
+        [
+          0,
+          0.5,
+          0.5,
+          0.7,
+          0.95
+        ],
+        [
+          53,
+          0.5,
+          0.35,
+          0.32,
+          0.08
+        ],
+        [
+          8,
+          0.5,
+          0.75,
+          0.65,
+          0.5
+        ]
+      ]
+    },
+    {
+      "image": "person_airpods.jpg",
+      "category": "accessories_suite",
+      "tags": [
+        "micro_accessory",
+        "audio"
+      ],
+      "ground_truth_count": 3,
+      "annotations": [
+        [
+          0,
+          0.5,
+          0.5,
+          0.7,
+          0.95
+        ],
+        [
+          45,
+          0.28,
+          0.4,
+          0.05,
+          0.08
+        ],
+        [
+          8,
+          0.5,
+          0.75,
+          0.65,
+          0.5
+        ]
+      ]
+    },
+    {
+      "image": "person_necklace.jpg",
+      "category": "accessories_suite",
+      "tags": [
+        "micro_accessory",
+        "jewelry"
+      ],
+      "ground_truth_count": 3,
+      "annotations": [
+        [
+          0,
+          0.5,
+          0.5,
+          0.7,
+          0.95
+        ],
+        [
+          85,
+          0.5,
+          0.56,
+          0.35,
+          0.16
+        ],
+        [
+          8,
+          0.5,
+          0.75,
+          0.65,
+          0.5
+        ]
+      ]
+    },
+    {
+      "image": "person_watch.jpg",
+      "category": "accessories_suite",
+      "tags": [
+        "micro_accessory",
+        "watch"
+      ],
+      "ground_truth_count": 3,
+      "annotations": [
+        [
+          0,
+          0.5,
+          0.5,
+          0.7,
+          0.95
+        ],
+        [
+          83,
+          0.22,
+          0.735,
+          0.1,
+          0.08
+        ],
+        [
+          8,
+          0.5,
+          0.75,
+          0.65,
+          0.5
+        ]
+      ]
+    },
+    {
+      "image": "person_bracelet.jpg",
+      "category": "accessories_suite",
+      "tags": [
+        "micro_accessory",
+        "jewelry"
+      ],
+      "ground_truth_count": 3,
+      "annotations": [
+        [
+          0,
+          0.5,
+          0.5,
+          0.7,
+          0.95
+        ],
+        [
+          87,
+          0.22,
+          0.72,
+          0.08,
+          0.05
+        ],
+        [
+          8,
+          0.5,
+          0.75,
+          0.65,
+          0.5
+        ]
+      ]
+    },
+    {
+      "image": "person_ring.jpg",
+      "category": "accessories_suite",
+      "tags": [
+        "micro_accessory",
+        "jewelry"
+      ],
+      "ground_truth_count": 3,
+      "annotations": [
+        [
+          0,
+          0.5,
+          0.5,
+          0.7,
+          0.95
+        ],
+        [
+          84,
+          0.25,
+          0.8,
+          0.04,
+          0.04
+        ],
+        [
+          8,
+          0.5,
+          0.75,
+          0.65,
+          0.5
+        ]
+      ]
+    },
+    {
+      "image": "person_multi_accessories.jpg",
+      "category": "accessories_suite",
+      "tags": [
+        "micro_accessory",
+        "dense_accessories",
+        "multi_target"
+      ],
+      "ground_truth_count": 8,
+      "annotations": [
+        [
+          0,
+          0.5,
+          0.5,
+          0.7,
+          0.95
+        ],
+        [
+          53,
+          0.5,
+          0.35,
+          0.32,
+          0.08
+        ],
+        [
+          45,
+          0.28,
+          0.4,
+          0.05,
+          0.08
+        ],
+        [
+          85,
+          0.5,
+          0.56,
+          0.35,
+          0.16
+        ],
+        [
+          83,
+          0.22,
+          0.735,
+          0.1,
+          0.08
+        ],
+        [
+          84,
+          0.25,
+          0.8,
+          0.04,
+          0.04
+        ],
+        [
+          36,
+          0.67,
+          0.75,
+          0.16,
+          0.22
+        ],
+        [
+          8,
+          0.5,
+          0.75,
+          0.65,
+          0.5
+        ]
+      ]
+    },
+    {
+      "image": "person_far.jpg",
+      "category": "accessories_suite",
+      "tags": [
+        "scale_challenge",
+        "far_distance"
+      ],
+      "ground_truth_count": 1,
+      "annotations": [
+        [
+          0,
+          0.5,
+          0.46,
+          0.09,
+          0.19
+        ]
+      ]
+    },
+    {
+      "image": "person_low_light.jpg",
+      "category": "accessories_suite",
+      "tags": [
+        "degradation",
+        "low_light"
+      ],
+      "ground_truth_count": 3,
+      "annotations": [
+        [
+          0,
+          0.5,
+          0.5,
+          0.7,
+          0.95
+        ],
+        [
+          53,
+          0.5,
+          0.35,
+          0.32,
+          0.08
+        ],
+        [
+          85,
+          0.5,
+          0.56,
+          0.35,
+          0.16
+        ]
+      ]
+    },
+    {
+      "image": "person_occluded.jpg",
+      "category": "accessories_suite",
+      "tags": [
+        "occlusion",
+        "partial_view"
+      ],
+      "ground_truth_count": 3,
+      "annotations": [
+        [
+          0,
+          0.5,
+          0.45,
+          0.7,
+          0.75
+        ],
+        [
+          53,
+          0.5,
+          0.35,
+          0.32,
+          0.08
+        ],
+        [
+          85,
+          0.5,
+          0.56,
+          0.35,
+          0.16
+        ]
+      ]
+    },
+    {
+      "image": "multiple_people.jpg",
+      "category": "accessories_suite",
+      "tags": [
+        "multi_person",
+        "crowd"
+      ],
+      "ground_truth_count": 4,
+      "annotations": [
+        [
+          0,
+          0.25,
+          0.5,
+          0.4,
+          0.95
+        ],
+        [
+          0,
+          0.75,
+          0.5,
+          0.4,
+          0.95
+        ],
+        [
+          53,
+          0.25,
+          0.35,
+          0.18,
+          0.08
+        ],
+        [
+          53,
+          0.75,
+          0.35,
+          0.18,
+          0.08
+        ]
+      ]
+    },
+    {
+      "image": "dining_tableware.jpg",
+      "category": "dining_food",
+      "tags": [
+        "dining",
+        "tableware",
+        "bottles",
+        "cutlery"
+      ],
+      "ground_truth_count": 6,
+      "annotations": [
+        [
+          109,
+          0.25,
+          0.5166666666666667,
+          0.075,
+          0.2
+        ],
+        [
+          115,
+          0.5,
+          0.5666666666666667,
+          0.275,
+          0.2
+        ],
+        [
+          111,
+          0.334375,
+          0.5666666666666667,
+          0.025,
+          0.175
+        ],
+        [
+          112,
+          0.665625,
+          0.5666666666666667,
+          0.025,
+          0.175
+        ],
+        [
+          108,
+          0.825,
+          0.4666666666666667,
+          0.0875,
+          0.48333333333333334
+        ],
+        [
+          96,
+          0.5,
+          0.55,
+          0.9,
+          0.7666666666666667
+        ]
+      ]
+    },
+    {
+      "image": "workstation_gadgets.jpg",
+      "category": "electronics_stationery",
+      "tags": [
+        "laptop",
+        "mouse",
+        "cup",
+        "pen",
+        "desk"
+      ],
+      "ground_truth_count": 5,
+      "annotations": [
+        [
+          38,
+          0.5,
+          0.49166666666666664,
+          0.525,
+          0.48333333333333334
+        ],
+        [
+          39,
+          0.85,
+          0.6833333333333333,
+          0.06875,
+          0.14166666666666666
+        ],
+        [
+          110,
+          0.15,
+          0.6,
+          0.1,
+          0.13333333333333333
+        ],
+        [
+          163,
+          0.2125,
+          0.7875,
+          0.18125,
+          0.05
+        ],
+        [
+          97,
+          0.5,
+          0.5,
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "image": "fashion_apparel_full.jpg",
+      "category": "fashion_clothing",
+      "tags": [
+        "jacket",
+        "jeans",
+        "sneakers",
+        "backpack"
+      ],
+      "ground_truth_count": 5,
+      "annotations": [
+        [
+          16,
+          0.5,
+          0.38125,
+          0.5,
+          0.3625
+        ],
+        [
+          13,
+          0.5,
+          0.7,
+          0.4,
+          0.3
+        ],
+        [
+          75,
+          0.36666666666666664,
+          0.8875,
+          0.20833333333333334,
+          0.08125
+        ],
+        [
+          75,
+          0.6333333333333333,
+          0.8875,
+          0.20833333333333334,
+          0.08125
+        ],
+        [
+          63,
+          0.825,
+          0.45,
+          0.2,
+          0.3125
+        ]
+      ]
+    },
+    {
+      "image": "gadgets_motion_blur.jpg",
+      "category": "degradation_blur",
+      "tags": [
+        "motion_blur",
+        "gadgets",
+        "stress_test"
+      ],
+      "ground_truth_count": 5,
+      "annotations": [
+        [
+          38,
+          0.5,
+          0.49166666666666664,
+          0.525,
+          0.48333333333333334
+        ],
+        [
+          39,
+          0.85,
+          0.6833333333333333,
+          0.06875,
+          0.14166666666666666
+        ],
+        [
+          110,
+          0.15,
+          0.6,
+          0.1,
+          0.13333333333333333
+        ],
+        [
+          163,
+          0.2125,
+          0.7875,
+          0.18125,
+          0.05
+        ],
+        [
+          97,
+          0.5,
+          0.5,
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "image": "dining_low_contrast_noise.jpg",
+      "category": "degradation_noise",
+      "tags": [
+        "noise",
+        "low_contrast",
+        "dining",
+        "stress_test"
+      ],
+      "ground_truth_count": 6,
+      "annotations": [
+        [
+          109,
+          0.25,
+          0.5166666666666667,
+          0.075,
+          0.2
+        ],
+        [
+          115,
+          0.5,
+          0.5666666666666667,
+          0.275,
+          0.2
+        ],
+        [
+          111,
+          0.334375,
+          0.5666666666666667,
+          0.025,
+          0.175
+        ],
+        [
+          112,
+          0.665625,
+          0.5666666666666667,
+          0.025,
+          0.175
+        ],
+        [
+          108,
+          0.825,
+          0.4666666666666667,
+          0.0875,
+          0.48333333333333334
+        ],
+        [
+          96,
+          0.5,
+          0.55,
+          0.9,
+          0.7666666666666667
+        ]
+      ]
+    }
+  ]
+}

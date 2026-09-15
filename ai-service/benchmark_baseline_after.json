@@ -1,0 +1,239 @@
+{
+  "timestamp": "2026-09-09T09:59:18Z",
+  "results": [
+    {
+      "category": "Beach",
+      "filename": "beach.jpg",
+      "mode": "balanced",
+      "qualityCheckMs": 2.54,
+      "routingMs": 1.37,
+      "yoloMs": 415.61,
+      "segFormerMs": 414.52,
+      "ocrMs": 21826.03,
+      "visionMs": 1238.09,
+      "fusionMs": 0.06,
+      "serverTotalMs": 23488.12,
+      "clientTotalMs": 23492.75,
+      "detectedObjects": 0,
+      "regionsCount": 3,
+      "ocrLines": 0,
+      "sceneType": "beach",
+      "routingReason": "Balanced mode: OCR enabled (text likelihood 0.33).",
+      "modules": {
+        "objectDetection": "success",
+        "segmentation": "success",
+        "ocr": "success",
+        "vision": "fallback"
+      }
+    },
+    {
+      "category": "Street",
+      "filename": "street.jpg",
+      "mode": "balanced",
+      "qualityCheckMs": 12.98,
+      "routingMs": 2.24,
+      "yoloMs": 457.93,
+      "segFormerMs": 457.65,
+      "ocrMs": 8765.15,
+      "visionMs": 1276.75,
+      "fusionMs": 0.04,
+      "serverTotalMs": 10522.52,
+      "clientTotalMs": 10524.2,
+      "detectedObjects": 8,
+      "regionsCount": 5,
+      "ocrLines": 0,
+      "sceneType": "street / urban",
+      "routingReason": "Balanced mode: OCR enabled (text likelihood 0.50).",
+      "modules": {
+        "objectDetection": "success",
+        "segmentation": "success",
+        "ocr": "success",
+        "vision": "fallback"
+      }
+    },
+    {
+      "category": "Receipt",
+      "filename": "receipt.jpg",
+      "mode": "balanced",
+      "qualityCheckMs": 4.36,
+      "routingMs": 2.24,
+      "yoloMs": 458.21,
+      "segFormerMs": 457.93,
+      "ocrMs": 15622.99,
+      "visionMs": 509.02,
+      "fusionMs": 0.02,
+      "serverTotalMs": 16599.66,
+      "clientTotalMs": 16601.33,
+      "detectedObjects": 0,
+      "regionsCount": 4,
+      "ocrLines": 0,
+      "sceneType": "indoor room",
+      "routingReason": "Balanced mode: OCR enabled (text likelihood 0.40).",
+      "modules": {
+        "objectDetection": "success",
+        "segmentation": "success",
+        "ocr": "success",
+        "vision": "fallback"
+      }
+    },
+    {
+      "category": "Person+Phone",
+      "filename": "person_phone.jpg",
+      "mode": "balanced",
+      "qualityCheckMs": 4.47,
+      "routingMs": 2.47,
+      "yoloMs": 487.81,
+      "segFormerMs": 487.56,
+      "ocrMs": 0.0,
+      "visionMs": 730.12,
+      "fusionMs": 0.03,
+      "serverTotalMs": 1230.2,
+      "clientTotalMs": 1231.78,
+      "detectedObjects": 1,
+      "regionsCount": 2,
+      "ocrLines": 0,
+      "sceneType": "indoor room",
+      "routingReason": "Balanced mode: OCR skipped for low-text scene (0.14).",
+      "modules": {
+        "objectDetection": "success",
+        "segmentation": "success",
+        "ocr": "skipped",
+        "vision": "fallback"
+      }
+    },
+    {
+      "category": "Office",
+      "filename": "office.jpg",
+      "mode": "balanced",
+      "qualityCheckMs": 3.32,
+      "routingMs": 2.21,
+      "yoloMs": 467.1,
+      "segFormerMs": 466.76,
+      "ocrMs": 11018.82,
+      "visionMs": 479.32,
+      "fusionMs": 0.02,
+      "serverTotalMs": 11972.89,
+      "clientTotalMs": 11974.35,
+      "detectedObjects": 1,
+      "regionsCount": 7,
+      "ocrLines": 0,
+      "sceneType": "indoor room",
+      "routingReason": "Balanced mode: OCR enabled (text likelihood 0.34).",
+      "modules": {
+        "objectDetection": "success",
+        "segmentation": "success",
+        "ocr": "success",
+        "vision": "fallback"
+      }
+    },
+    {
+      "category": "Text-heavy",
+      "filename": "text_heavy.png",
+      "mode": "balanced",
+      "qualityCheckMs": 6.87,
+      "routingMs": 2.98,
+      "yoloMs": 699.14,
+      "segFormerMs": 698.87,
+      "ocrMs": 65103.68,
+      "visionMs": 488.73,
+      "fusionMs": 0.02,
+      "serverTotalMs": 66309.94,
+      "clientTotalMs": 66312.17,
+      "detectedObjects": 0,
+      "regionsCount": 2,
+      "ocrLines": 0,
+      "sceneType": "outdoor landscape",
+      "routingReason": "Balanced mode: OCR enabled (text likelihood 0.40).",
+      "modules": {
+        "objectDetection": "success",
+        "segmentation": "success",
+        "ocr": "success",
+        "vision": "fallback"
+      }
+    },
+    {
+      "category": "Low-text",
+      "filename": "low_text.jpg",
+      "mode": "balanced",
+      "qualityCheckMs": 2.2,
+      "routingMs": 1.42,
+      "yoloMs": 398.54,
+      "segFormerMs": 398.27,
+      "ocrMs": 10644.66,
+      "visionMs": 807.19,
+      "fusionMs": 0.03,
+      "serverTotalMs": 11857.27,
+      "clientTotalMs": 11859.41,
+      "detectedObjects": 0,
+      "regionsCount": 5,
+      "ocrLines": 0,
+      "sceneType": "nature / park",
+      "routingReason": "Balanced mode: OCR enabled (text likelihood 0.35).",
+      "modules": {
+        "objectDetection": "success",
+        "segmentation": "success",
+        "ocr": "success",
+        "vision": "fallback"
+      }
+    },
+    {
+      "category": "Object-poor",
+      "filename": "object_poor.jpg",
+      "mode": "balanced",
+      "qualityCheckMs": 2.66,
+      "routingMs": 1.61,
+      "yoloMs": 24.58,
+      "segFormerMs": 0.0,
+      "ocrMs": 9097.47,
+      "visionMs": 656.0,
+      "fusionMs": 0.01,
+      "serverTotalMs": 9784.37,
+      "clientTotalMs": 9785.8,
+      "detectedObjects": 0,
+      "regionsCount": 0,
+      "ocrLines": 0,
+      "sceneType": "general scene",
+      "routingReason": "Balanced mode: OCR enabled (text likelihood 0.49). | Pure document/receipt: SegFormer skipped.",
+      "modules": {
+        "objectDetection": "success",
+        "segmentation": "skipped",
+        "ocr": "success",
+        "vision": "fallback"
+      }
+    }
+  ],
+  "cacheResults": [
+    {
+      "category": "Beach",
+      "cacheHitMs": 5.46
+    },
+    {
+      "category": "Street",
+      "cacheHitMs": 10.81
+    },
+    {
+      "category": "Receipt",
+      "cacheHitMs": 5.32
+    },
+    {
+      "category": "Person+Phone",
+      "cacheHitMs": 6.87
+    },
+    {
+      "category": "Office",
+      "cacheHitMs": 3.19
+    },
+    {
+      "category": "Text-heavy",
+      "cacheHitMs": 8.17
+    },
+    {
+      "category": "Low-text",
+      "cacheHitMs": 8.64
+    },
+    {
+      "category": "Object-poor",
+      "cacheHitMs": 4.05
+    }
+  ]
+}

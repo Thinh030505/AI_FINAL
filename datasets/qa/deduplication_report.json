@@ -1,0 +1,6159 @@
+{
+  "total_scanned": 180,
+  "exact_duplicates_count": 0,
+  "exact_duplicates": [],
+  "near_duplicates_count": 1230,
+  "near_duplicates": [
+    {
+      "file_a": "finegrained_sample_0000.jpg",
+      "file_b": "finegrained_sample_0158.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0000.jpg",
+      "file_b": "finegrained_sample_0176.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0001.jpg",
+      "file_b": "finegrained_sample_0010.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0001.jpg",
+      "file_b": "finegrained_sample_0102.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0001.jpg",
+      "file_b": "finegrained_sample_0143.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0002.jpg",
+      "file_b": "finegrained_sample_0014.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0002.jpg",
+      "file_b": "finegrained_sample_0041.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0002.jpg",
+      "file_b": "finegrained_sample_0092.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0002.jpg",
+      "file_b": "finegrained_sample_0162.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0002.jpg",
+      "file_b": "finegrained_sample_0168.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0003.jpg",
+      "file_b": "finegrained_sample_0127.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0003.jpg",
+      "file_b": "finegrained_sample_0168.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0004.jpg",
+      "file_b": "finegrained_sample_0005.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0004.jpg",
+      "file_b": "finegrained_sample_0023.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0004.jpg",
+      "file_b": "finegrained_sample_0046.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0004.jpg",
+      "file_b": "finegrained_sample_0068.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0004.jpg",
+      "file_b": "finegrained_sample_0088.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0004.jpg",
+      "file_b": "finegrained_sample_0096.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0004.jpg",
+      "file_b": "finegrained_sample_0179.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0005.jpg",
+      "file_b": "finegrained_sample_0046.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0005.jpg",
+      "file_b": "finegrained_sample_0068.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0005.jpg",
+      "file_b": "finegrained_sample_0088.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0005.jpg",
+      "file_b": "finegrained_sample_0096.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0005.jpg",
+      "file_b": "finegrained_sample_0179.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0006.jpg",
+      "file_b": "finegrained_sample_0012.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0006.jpg",
+      "file_b": "finegrained_sample_0015.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0006.jpg",
+      "file_b": "finegrained_sample_0018.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0006.jpg",
+      "file_b": "finegrained_sample_0020.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0006.jpg",
+      "file_b": "finegrained_sample_0025.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0006.jpg",
+      "file_b": "finegrained_sample_0026.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0006.jpg",
+      "file_b": "finegrained_sample_0032.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0006.jpg",
+      "file_b": "finegrained_sample_0038.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0006.jpg",
+      "file_b": "finegrained_sample_0042.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0006.jpg",
+      "file_b": "finegrained_sample_0047.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0006.jpg",
+      "file_b": "finegrained_sample_0048.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0006.jpg",
+      "file_b": "finegrained_sample_0054.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0006.jpg",
+      "file_b": "finegrained_sample_0056.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0006.jpg",
+      "file_b": "finegrained_sample_0060.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0006.jpg",
+      "file_b": "finegrained_sample_0062.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0006.jpg",
+      "file_b": "finegrained_sample_0064.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0006.jpg",
+      "file_b": "finegrained_sample_0070.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0006.jpg",
+      "file_b": "finegrained_sample_0071.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0006.jpg",
+      "file_b": "finegrained_sample_0078.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0006.jpg",
+      "file_b": "finegrained_sample_0087.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0006.jpg",
+      "file_b": "finegrained_sample_0089.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0006.jpg",
+      "file_b": "finegrained_sample_0091.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0006.jpg",
+      "file_b": "finegrained_sample_0101.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0006.jpg",
+      "file_b": "finegrained_sample_0104.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0006.jpg",
+      "file_b": "finegrained_sample_0108.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0006.jpg",
+      "file_b": "finegrained_sample_0112.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0006.jpg",
+      "file_b": "finegrained_sample_0113.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0006.jpg",
+      "file_b": "finegrained_sample_0123.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0006.jpg",
+      "file_b": "finegrained_sample_0125.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0006.jpg",
+      "file_b": "finegrained_sample_0137.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0006.jpg",
+      "file_b": "finegrained_sample_0142.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0006.jpg",
+      "file_b": "finegrained_sample_0145.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0006.jpg",
+      "file_b": "finegrained_sample_0150.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0006.jpg",
+      "file_b": "finegrained_sample_0163.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0006.jpg",
+      "file_b": "finegrained_sample_0170.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0008.jpg",
+      "file_b": "finegrained_sample_0092.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0008.jpg",
+      "file_b": "finegrained_sample_0162.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0008.jpg",
+      "file_b": "finegrained_sample_0168.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0009.jpg",
+      "file_b": "finegrained_sample_0011.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0009.jpg",
+      "file_b": "finegrained_sample_0012.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0009.jpg",
+      "file_b": "finegrained_sample_0025.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0009.jpg",
+      "file_b": "finegrained_sample_0038.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0009.jpg",
+      "file_b": "finegrained_sample_0048.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0009.jpg",
+      "file_b": "finegrained_sample_0051.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0009.jpg",
+      "file_b": "finegrained_sample_0054.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0009.jpg",
+      "file_b": "finegrained_sample_0059.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0009.jpg",
+      "file_b": "finegrained_sample_0063.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0009.jpg",
+      "file_b": "finegrained_sample_0070.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0009.jpg",
+      "file_b": "finegrained_sample_0073.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0009.jpg",
+      "file_b": "finegrained_sample_0076.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0009.jpg",
+      "file_b": "finegrained_sample_0087.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0009.jpg",
+      "file_b": "finegrained_sample_0093.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0009.jpg",
+      "file_b": "finegrained_sample_0159.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0010.jpg",
+      "file_b": "finegrained_sample_0034.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0010.jpg",
+      "file_b": "finegrained_sample_0035.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0010.jpg",
+      "file_b": "finegrained_sample_0044.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0010.jpg",
+      "file_b": "finegrained_sample_0057.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0010.jpg",
+      "file_b": "finegrained_sample_0102.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0010.jpg",
+      "file_b": "finegrained_sample_0107.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0010.jpg",
+      "file_b": "finegrained_sample_0165.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0011.jpg",
+      "file_b": "finegrained_sample_0012.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0011.jpg",
+      "file_b": "finegrained_sample_0025.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0011.jpg",
+      "file_b": "finegrained_sample_0038.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0011.jpg",
+      "file_b": "finegrained_sample_0048.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0011.jpg",
+      "file_b": "finegrained_sample_0054.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0011.jpg",
+      "file_b": "finegrained_sample_0063.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0011.jpg",
+      "file_b": "finegrained_sample_0070.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0011.jpg",
+      "file_b": "finegrained_sample_0087.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0011.jpg",
+      "file_b": "finegrained_sample_0159.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0012.jpg",
+      "file_b": "finegrained_sample_0025.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0012.jpg",
+      "file_b": "finegrained_sample_0038.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0012.jpg",
+      "file_b": "finegrained_sample_0048.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0012.jpg",
+      "file_b": "finegrained_sample_0050.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0012.jpg",
+      "file_b": "finegrained_sample_0054.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0012.jpg",
+      "file_b": "finegrained_sample_0063.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0012.jpg",
+      "file_b": "finegrained_sample_0070.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0012.jpg",
+      "file_b": "finegrained_sample_0082.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0012.jpg",
+      "file_b": "finegrained_sample_0087.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0012.jpg",
+      "file_b": "finegrained_sample_0118.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0012.jpg",
+      "file_b": "finegrained_sample_0126.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0012.jpg",
+      "file_b": "finegrained_sample_0128.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0012.jpg",
+      "file_b": "finegrained_sample_0142.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0012.jpg",
+      "file_b": "finegrained_sample_0159.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0014.jpg",
+      "file_b": "finegrained_sample_0135.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0015.jpg",
+      "file_b": "finegrained_sample_0018.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0015.jpg",
+      "file_b": "finegrained_sample_0019.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0015.jpg",
+      "file_b": "finegrained_sample_0020.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0015.jpg",
+      "file_b": "finegrained_sample_0026.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0015.jpg",
+      "file_b": "finegrained_sample_0027.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0015.jpg",
+      "file_b": "finegrained_sample_0032.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0015.jpg",
+      "file_b": "finegrained_sample_0037.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0015.jpg",
+      "file_b": "finegrained_sample_0042.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0015.jpg",
+      "file_b": "finegrained_sample_0047.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0015.jpg",
+      "file_b": "finegrained_sample_0056.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0015.jpg",
+      "file_b": "finegrained_sample_0060.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0015.jpg",
+      "file_b": "finegrained_sample_0062.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0015.jpg",
+      "file_b": "finegrained_sample_0071.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0015.jpg",
+      "file_b": "finegrained_sample_0078.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0015.jpg",
+      "file_b": "finegrained_sample_0083.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0015.jpg",
+      "file_b": "finegrained_sample_0089.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0015.jpg",
+      "file_b": "finegrained_sample_0091.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0015.jpg",
+      "file_b": "finegrained_sample_0093.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0015.jpg",
+      "file_b": "finegrained_sample_0101.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0015.jpg",
+      "file_b": "finegrained_sample_0108.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0015.jpg",
+      "file_b": "finegrained_sample_0112.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0015.jpg",
+      "file_b": "finegrained_sample_0113.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0015.jpg",
+      "file_b": "finegrained_sample_0119.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0015.jpg",
+      "file_b": "finegrained_sample_0123.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0015.jpg",
+      "file_b": "finegrained_sample_0125.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0015.jpg",
+      "file_b": "finegrained_sample_0136.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0015.jpg",
+      "file_b": "finegrained_sample_0137.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0015.jpg",
+      "file_b": "finegrained_sample_0138.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0015.jpg",
+      "file_b": "finegrained_sample_0145.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0015.jpg",
+      "file_b": "finegrained_sample_0150.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0015.jpg",
+      "file_b": "finegrained_sample_0155.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0015.jpg",
+      "file_b": "finegrained_sample_0159.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0015.jpg",
+      "file_b": "finegrained_sample_0163.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0015.jpg",
+      "file_b": "finegrained_sample_0164.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0015.jpg",
+      "file_b": "finegrained_sample_0170.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0015.jpg",
+      "file_b": "finegrained_sample_0174.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0015.jpg",
+      "file_b": "finegrained_sample_0177.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0016.jpg",
+      "file_b": "finegrained_sample_0022.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0016.jpg",
+      "file_b": "finegrained_sample_0109.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0017.jpg",
+      "file_b": "finegrained_sample_0029.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0017.jpg",
+      "file_b": "finegrained_sample_0121.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0018.jpg",
+      "file_b": "finegrained_sample_0019.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0018.jpg",
+      "file_b": "finegrained_sample_0020.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0018.jpg",
+      "file_b": "finegrained_sample_0026.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0018.jpg",
+      "file_b": "finegrained_sample_0027.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0018.jpg",
+      "file_b": "finegrained_sample_0032.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0018.jpg",
+      "file_b": "finegrained_sample_0037.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0018.jpg",
+      "file_b": "finegrained_sample_0042.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0018.jpg",
+      "file_b": "finegrained_sample_0047.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0018.jpg",
+      "file_b": "finegrained_sample_0056.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0018.jpg",
+      "file_b": "finegrained_sample_0060.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0018.jpg",
+      "file_b": "finegrained_sample_0062.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0018.jpg",
+      "file_b": "finegrained_sample_0064.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0018.jpg",
+      "file_b": "finegrained_sample_0071.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0018.jpg",
+      "file_b": "finegrained_sample_0078.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0018.jpg",
+      "file_b": "finegrained_sample_0083.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0018.jpg",
+      "file_b": "finegrained_sample_0089.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0018.jpg",
+      "file_b": "finegrained_sample_0091.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0018.jpg",
+      "file_b": "finegrained_sample_0093.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0018.jpg",
+      "file_b": "finegrained_sample_0101.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0018.jpg",
+      "file_b": "finegrained_sample_0104.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0018.jpg",
+      "file_b": "finegrained_sample_0108.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0018.jpg",
+      "file_b": "finegrained_sample_0112.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0018.jpg",
+      "file_b": "finegrained_sample_0113.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0018.jpg",
+      "file_b": "finegrained_sample_0119.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0018.jpg",
+      "file_b": "finegrained_sample_0123.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0018.jpg",
+      "file_b": "finegrained_sample_0125.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0018.jpg",
+      "file_b": "finegrained_sample_0137.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0018.jpg",
+      "file_b": "finegrained_sample_0138.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0018.jpg",
+      "file_b": "finegrained_sample_0142.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0018.jpg",
+      "file_b": "finegrained_sample_0145.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0018.jpg",
+      "file_b": "finegrained_sample_0150.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0018.jpg",
+      "file_b": "finegrained_sample_0163.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0018.jpg",
+      "file_b": "finegrained_sample_0164.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0018.jpg",
+      "file_b": "finegrained_sample_0170.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0018.jpg",
+      "file_b": "finegrained_sample_0174.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0018.jpg",
+      "file_b": "finegrained_sample_0177.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0019.jpg",
+      "file_b": "finegrained_sample_0020.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0019.jpg",
+      "file_b": "finegrained_sample_0026.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0019.jpg",
+      "file_b": "finegrained_sample_0027.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0019.jpg",
+      "file_b": "finegrained_sample_0032.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0019.jpg",
+      "file_b": "finegrained_sample_0037.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0019.jpg",
+      "file_b": "finegrained_sample_0040.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0019.jpg",
+      "file_b": "finegrained_sample_0042.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0019.jpg",
+      "file_b": "finegrained_sample_0047.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0019.jpg",
+      "file_b": "finegrained_sample_0055.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0019.jpg",
+      "file_b": "finegrained_sample_0056.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0019.jpg",
+      "file_b": "finegrained_sample_0060.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0019.jpg",
+      "file_b": "finegrained_sample_0062.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0019.jpg",
+      "file_b": "finegrained_sample_0064.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0019.jpg",
+      "file_b": "finegrained_sample_0071.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0019.jpg",
+      "file_b": "finegrained_sample_0078.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0019.jpg",
+      "file_b": "finegrained_sample_0083.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0019.jpg",
+      "file_b": "finegrained_sample_0089.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0019.jpg",
+      "file_b": "finegrained_sample_0091.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0019.jpg",
+      "file_b": "finegrained_sample_0101.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0019.jpg",
+      "file_b": "finegrained_sample_0104.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0019.jpg",
+      "file_b": "finegrained_sample_0108.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0019.jpg",
+      "file_b": "finegrained_sample_0112.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0019.jpg",
+      "file_b": "finegrained_sample_0113.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0019.jpg",
+      "file_b": "finegrained_sample_0119.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0019.jpg",
+      "file_b": "finegrained_sample_0123.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0019.jpg",
+      "file_b": "finegrained_sample_0125.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0019.jpg",
+      "file_b": "finegrained_sample_0136.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0019.jpg",
+      "file_b": "finegrained_sample_0137.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0019.jpg",
+      "file_b": "finegrained_sample_0138.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0019.jpg",
+      "file_b": "finegrained_sample_0145.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0019.jpg",
+      "file_b": "finegrained_sample_0150.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0019.jpg",
+      "file_b": "finegrained_sample_0163.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0019.jpg",
+      "file_b": "finegrained_sample_0170.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0019.jpg",
+      "file_b": "finegrained_sample_0174.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0020.jpg",
+      "file_b": "finegrained_sample_0026.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0020.jpg",
+      "file_b": "finegrained_sample_0027.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0020.jpg",
+      "file_b": "finegrained_sample_0032.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0020.jpg",
+      "file_b": "finegrained_sample_0037.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0020.jpg",
+      "file_b": "finegrained_sample_0042.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0020.jpg",
+      "file_b": "finegrained_sample_0047.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0020.jpg",
+      "file_b": "finegrained_sample_0056.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0020.jpg",
+      "file_b": "finegrained_sample_0060.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0020.jpg",
+      "file_b": "finegrained_sample_0062.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0020.jpg",
+      "file_b": "finegrained_sample_0071.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0020.jpg",
+      "file_b": "finegrained_sample_0078.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0020.jpg",
+      "file_b": "finegrained_sample_0083.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0020.jpg",
+      "file_b": "finegrained_sample_0089.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0020.jpg",
+      "file_b": "finegrained_sample_0091.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0020.jpg",
+      "file_b": "finegrained_sample_0093.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0020.jpg",
+      "file_b": "finegrained_sample_0101.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0020.jpg",
+      "file_b": "finegrained_sample_0108.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0020.jpg",
+      "file_b": "finegrained_sample_0112.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0020.jpg",
+      "file_b": "finegrained_sample_0113.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0020.jpg",
+      "file_b": "finegrained_sample_0119.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0020.jpg",
+      "file_b": "finegrained_sample_0123.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0020.jpg",
+      "file_b": "finegrained_sample_0125.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0020.jpg",
+      "file_b": "finegrained_sample_0136.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0020.jpg",
+      "file_b": "finegrained_sample_0137.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0020.jpg",
+      "file_b": "finegrained_sample_0138.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0020.jpg",
+      "file_b": "finegrained_sample_0145.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0020.jpg",
+      "file_b": "finegrained_sample_0150.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0020.jpg",
+      "file_b": "finegrained_sample_0155.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0020.jpg",
+      "file_b": "finegrained_sample_0159.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0020.jpg",
+      "file_b": "finegrained_sample_0163.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0020.jpg",
+      "file_b": "finegrained_sample_0164.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0020.jpg",
+      "file_b": "finegrained_sample_0170.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0020.jpg",
+      "file_b": "finegrained_sample_0174.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0020.jpg",
+      "file_b": "finegrained_sample_0177.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0021.jpg",
+      "file_b": "finegrained_sample_0023.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0021.jpg",
+      "file_b": "finegrained_sample_0068.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0021.jpg",
+      "file_b": "finegrained_sample_0081.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0021.jpg",
+      "file_b": "finegrained_sample_0156.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0021.jpg",
+      "file_b": "finegrained_sample_0179.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0022.jpg",
+      "file_b": "finegrained_sample_0109.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0023.jpg",
+      "file_b": "finegrained_sample_0046.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0023.jpg",
+      "file_b": "finegrained_sample_0133.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0023.jpg",
+      "file_b": "finegrained_sample_0156.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0025.jpg",
+      "file_b": "finegrained_sample_0038.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0025.jpg",
+      "file_b": "finegrained_sample_0048.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0025.jpg",
+      "file_b": "finegrained_sample_0050.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0025.jpg",
+      "file_b": "finegrained_sample_0054.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0025.jpg",
+      "file_b": "finegrained_sample_0063.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0025.jpg",
+      "file_b": "finegrained_sample_0070.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0025.jpg",
+      "file_b": "finegrained_sample_0082.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0025.jpg",
+      "file_b": "finegrained_sample_0087.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0025.jpg",
+      "file_b": "finegrained_sample_0126.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0025.jpg",
+      "file_b": "finegrained_sample_0142.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0026.jpg",
+      "file_b": "finegrained_sample_0027.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0026.jpg",
+      "file_b": "finegrained_sample_0032.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0026.jpg",
+      "file_b": "finegrained_sample_0037.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0026.jpg",
+      "file_b": "finegrained_sample_0042.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0026.jpg",
+      "file_b": "finegrained_sample_0047.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0026.jpg",
+      "file_b": "finegrained_sample_0056.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0026.jpg",
+      "file_b": "finegrained_sample_0060.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0026.jpg",
+      "file_b": "finegrained_sample_0062.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0026.jpg",
+      "file_b": "finegrained_sample_0064.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0026.jpg",
+      "file_b": "finegrained_sample_0071.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0026.jpg",
+      "file_b": "finegrained_sample_0078.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0026.jpg",
+      "file_b": "finegrained_sample_0083.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0026.jpg",
+      "file_b": "finegrained_sample_0089.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0026.jpg",
+      "file_b": "finegrained_sample_0091.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0026.jpg",
+      "file_b": "finegrained_sample_0093.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0026.jpg",
+      "file_b": "finegrained_sample_0101.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0026.jpg",
+      "file_b": "finegrained_sample_0104.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0026.jpg",
+      "file_b": "finegrained_sample_0108.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0026.jpg",
+      "file_b": "finegrained_sample_0112.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0026.jpg",
+      "file_b": "finegrained_sample_0113.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0026.jpg",
+      "file_b": "finegrained_sample_0119.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0026.jpg",
+      "file_b": "finegrained_sample_0123.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0026.jpg",
+      "file_b": "finegrained_sample_0125.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0026.jpg",
+      "file_b": "finegrained_sample_0137.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0026.jpg",
+      "file_b": "finegrained_sample_0138.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0026.jpg",
+      "file_b": "finegrained_sample_0142.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0026.jpg",
+      "file_b": "finegrained_sample_0145.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0026.jpg",
+      "file_b": "finegrained_sample_0150.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0026.jpg",
+      "file_b": "finegrained_sample_0163.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0026.jpg",
+      "file_b": "finegrained_sample_0164.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0026.jpg",
+      "file_b": "finegrained_sample_0170.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0026.jpg",
+      "file_b": "finegrained_sample_0174.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0026.jpg",
+      "file_b": "finegrained_sample_0177.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0027.jpg",
+      "file_b": "finegrained_sample_0032.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0027.jpg",
+      "file_b": "finegrained_sample_0037.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0027.jpg",
+      "file_b": "finegrained_sample_0040.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0027.jpg",
+      "file_b": "finegrained_sample_0042.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0027.jpg",
+      "file_b": "finegrained_sample_0047.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0027.jpg",
+      "file_b": "finegrained_sample_0055.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0027.jpg",
+      "file_b": "finegrained_sample_0056.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0027.jpg",
+      "file_b": "finegrained_sample_0059.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0027.jpg",
+      "file_b": "finegrained_sample_0060.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0027.jpg",
+      "file_b": "finegrained_sample_0062.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0027.jpg",
+      "file_b": "finegrained_sample_0064.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0027.jpg",
+      "file_b": "finegrained_sample_0071.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0027.jpg",
+      "file_b": "finegrained_sample_0073.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0027.jpg",
+      "file_b": "finegrained_sample_0076.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0027.jpg",
+      "file_b": "finegrained_sample_0078.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0027.jpg",
+      "file_b": "finegrained_sample_0083.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0027.jpg",
+      "file_b": "finegrained_sample_0089.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0027.jpg",
+      "file_b": "finegrained_sample_0091.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0027.jpg",
+      "file_b": "finegrained_sample_0093.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0027.jpg",
+      "file_b": "finegrained_sample_0101.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0027.jpg",
+      "file_b": "finegrained_sample_0104.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0027.jpg",
+      "file_b": "finegrained_sample_0108.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0027.jpg",
+      "file_b": "finegrained_sample_0112.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0027.jpg",
+      "file_b": "finegrained_sample_0113.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0027.jpg",
+      "file_b": "finegrained_sample_0119.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0027.jpg",
+      "file_b": "finegrained_sample_0123.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0027.jpg",
+      "file_b": "finegrained_sample_0125.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0027.jpg",
+      "file_b": "finegrained_sample_0136.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0027.jpg",
+      "file_b": "finegrained_sample_0137.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0027.jpg",
+      "file_b": "finegrained_sample_0138.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0027.jpg",
+      "file_b": "finegrained_sample_0145.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0027.jpg",
+      "file_b": "finegrained_sample_0150.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0027.jpg",
+      "file_b": "finegrained_sample_0163.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0027.jpg",
+      "file_b": "finegrained_sample_0174.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0028.jpg",
+      "file_b": "finegrained_sample_0152.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0028.jpg",
+      "file_b": "finegrained_sample_0156.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0029.jpg",
+      "file_b": "finegrained_sample_0117.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0029.jpg",
+      "file_b": "finegrained_sample_0132.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0032.jpg",
+      "file_b": "finegrained_sample_0037.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0032.jpg",
+      "file_b": "finegrained_sample_0042.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0032.jpg",
+      "file_b": "finegrained_sample_0047.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0032.jpg",
+      "file_b": "finegrained_sample_0056.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0032.jpg",
+      "file_b": "finegrained_sample_0060.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0032.jpg",
+      "file_b": "finegrained_sample_0062.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0032.jpg",
+      "file_b": "finegrained_sample_0064.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0032.jpg",
+      "file_b": "finegrained_sample_0071.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0032.jpg",
+      "file_b": "finegrained_sample_0078.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0032.jpg",
+      "file_b": "finegrained_sample_0083.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0032.jpg",
+      "file_b": "finegrained_sample_0089.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0032.jpg",
+      "file_b": "finegrained_sample_0091.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0032.jpg",
+      "file_b": "finegrained_sample_0093.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0032.jpg",
+      "file_b": "finegrained_sample_0101.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0032.jpg",
+      "file_b": "finegrained_sample_0104.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0032.jpg",
+      "file_b": "finegrained_sample_0108.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0032.jpg",
+      "file_b": "finegrained_sample_0112.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0032.jpg",
+      "file_b": "finegrained_sample_0113.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0032.jpg",
+      "file_b": "finegrained_sample_0119.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0032.jpg",
+      "file_b": "finegrained_sample_0123.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0032.jpg",
+      "file_b": "finegrained_sample_0125.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0032.jpg",
+      "file_b": "finegrained_sample_0137.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0032.jpg",
+      "file_b": "finegrained_sample_0138.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0032.jpg",
+      "file_b": "finegrained_sample_0142.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0032.jpg",
+      "file_b": "finegrained_sample_0145.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0032.jpg",
+      "file_b": "finegrained_sample_0150.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0032.jpg",
+      "file_b": "finegrained_sample_0163.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0032.jpg",
+      "file_b": "finegrained_sample_0164.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0032.jpg",
+      "file_b": "finegrained_sample_0170.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0032.jpg",
+      "file_b": "finegrained_sample_0174.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0032.jpg",
+      "file_b": "finegrained_sample_0177.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0034.jpg",
+      "file_b": "finegrained_sample_0035.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0036.jpg",
+      "file_b": "finegrained_sample_0088.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0036.jpg",
+      "file_b": "finegrained_sample_0090.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0036.jpg",
+      "file_b": "finegrained_sample_0152.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0036.jpg",
+      "file_b": "finegrained_sample_0178.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0037.jpg",
+      "file_b": "finegrained_sample_0040.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0037.jpg",
+      "file_b": "finegrained_sample_0042.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0037.jpg",
+      "file_b": "finegrained_sample_0047.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0037.jpg",
+      "file_b": "finegrained_sample_0055.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0037.jpg",
+      "file_b": "finegrained_sample_0056.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0037.jpg",
+      "file_b": "finegrained_sample_0059.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0037.jpg",
+      "file_b": "finegrained_sample_0060.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0037.jpg",
+      "file_b": "finegrained_sample_0062.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0037.jpg",
+      "file_b": "finegrained_sample_0064.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0037.jpg",
+      "file_b": "finegrained_sample_0071.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0037.jpg",
+      "file_b": "finegrained_sample_0073.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0037.jpg",
+      "file_b": "finegrained_sample_0076.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0037.jpg",
+      "file_b": "finegrained_sample_0078.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0037.jpg",
+      "file_b": "finegrained_sample_0083.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0037.jpg",
+      "file_b": "finegrained_sample_0089.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0037.jpg",
+      "file_b": "finegrained_sample_0091.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0037.jpg",
+      "file_b": "finegrained_sample_0093.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0037.jpg",
+      "file_b": "finegrained_sample_0101.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0037.jpg",
+      "file_b": "finegrained_sample_0104.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0037.jpg",
+      "file_b": "finegrained_sample_0108.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0037.jpg",
+      "file_b": "finegrained_sample_0112.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0037.jpg",
+      "file_b": "finegrained_sample_0113.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0037.jpg",
+      "file_b": "finegrained_sample_0119.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0037.jpg",
+      "file_b": "finegrained_sample_0123.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0037.jpg",
+      "file_b": "finegrained_sample_0125.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0037.jpg",
+      "file_b": "finegrained_sample_0136.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0037.jpg",
+      "file_b": "finegrained_sample_0137.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0037.jpg",
+      "file_b": "finegrained_sample_0138.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0037.jpg",
+      "file_b": "finegrained_sample_0145.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0037.jpg",
+      "file_b": "finegrained_sample_0150.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0037.jpg",
+      "file_b": "finegrained_sample_0163.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0037.jpg",
+      "file_b": "finegrained_sample_0174.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0038.jpg",
+      "file_b": "finegrained_sample_0048.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0038.jpg",
+      "file_b": "finegrained_sample_0050.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0038.jpg",
+      "file_b": "finegrained_sample_0054.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0038.jpg",
+      "file_b": "finegrained_sample_0063.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0038.jpg",
+      "file_b": "finegrained_sample_0070.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0038.jpg",
+      "file_b": "finegrained_sample_0082.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0038.jpg",
+      "file_b": "finegrained_sample_0087.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0038.jpg",
+      "file_b": "finegrained_sample_0118.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0038.jpg",
+      "file_b": "finegrained_sample_0126.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0038.jpg",
+      "file_b": "finegrained_sample_0128.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0038.jpg",
+      "file_b": "finegrained_sample_0142.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0038.jpg",
+      "file_b": "finegrained_sample_0159.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0040.jpg",
+      "file_b": "finegrained_sample_0059.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0040.jpg",
+      "file_b": "finegrained_sample_0073.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0040.jpg",
+      "file_b": "finegrained_sample_0076.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0040.jpg",
+      "file_b": "finegrained_sample_0083.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0040.jpg",
+      "file_b": "finegrained_sample_0118.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0040.jpg",
+      "file_b": "finegrained_sample_0119.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0040.jpg",
+      "file_b": "finegrained_sample_0128.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0040.jpg",
+      "file_b": "finegrained_sample_0136.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0040.jpg",
+      "file_b": "finegrained_sample_0138.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0040.jpg",
+      "file_b": "finegrained_sample_0159.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0040.jpg",
+      "file_b": "finegrained_sample_0174.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0041.jpg",
+      "file_b": "finegrained_sample_0103.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0042.jpg",
+      "file_b": "finegrained_sample_0047.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0042.jpg",
+      "file_b": "finegrained_sample_0056.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0042.jpg",
+      "file_b": "finegrained_sample_0060.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0042.jpg",
+      "file_b": "finegrained_sample_0062.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0042.jpg",
+      "file_b": "finegrained_sample_0071.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0042.jpg",
+      "file_b": "finegrained_sample_0078.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0042.jpg",
+      "file_b": "finegrained_sample_0083.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0042.jpg",
+      "file_b": "finegrained_sample_0089.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0042.jpg",
+      "file_b": "finegrained_sample_0091.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0042.jpg",
+      "file_b": "finegrained_sample_0093.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0042.jpg",
+      "file_b": "finegrained_sample_0101.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0042.jpg",
+      "file_b": "finegrained_sample_0108.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0042.jpg",
+      "file_b": "finegrained_sample_0112.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0042.jpg",
+      "file_b": "finegrained_sample_0113.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0042.jpg",
+      "file_b": "finegrained_sample_0119.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0042.jpg",
+      "file_b": "finegrained_sample_0123.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0042.jpg",
+      "file_b": "finegrained_sample_0125.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0042.jpg",
+      "file_b": "finegrained_sample_0136.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0042.jpg",
+      "file_b": "finegrained_sample_0137.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0042.jpg",
+      "file_b": "finegrained_sample_0138.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0042.jpg",
+      "file_b": "finegrained_sample_0145.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0042.jpg",
+      "file_b": "finegrained_sample_0150.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0042.jpg",
+      "file_b": "finegrained_sample_0155.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0042.jpg",
+      "file_b": "finegrained_sample_0159.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0042.jpg",
+      "file_b": "finegrained_sample_0163.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0042.jpg",
+      "file_b": "finegrained_sample_0164.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0042.jpg",
+      "file_b": "finegrained_sample_0170.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0042.jpg",
+      "file_b": "finegrained_sample_0174.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0042.jpg",
+      "file_b": "finegrained_sample_0177.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0044.jpg",
+      "file_b": "finegrained_sample_0057.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0044.jpg",
+      "file_b": "finegrained_sample_0102.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0044.jpg",
+      "file_b": "finegrained_sample_0107.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0044.jpg",
+      "file_b": "finegrained_sample_0116.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0046.jpg",
+      "file_b": "finegrained_sample_0068.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0046.jpg",
+      "file_b": "finegrained_sample_0088.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0046.jpg",
+      "file_b": "finegrained_sample_0096.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0046.jpg",
+      "file_b": "finegrained_sample_0179.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0047.jpg",
+      "file_b": "finegrained_sample_0056.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0047.jpg",
+      "file_b": "finegrained_sample_0060.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0047.jpg",
+      "file_b": "finegrained_sample_0062.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0047.jpg",
+      "file_b": "finegrained_sample_0071.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0047.jpg",
+      "file_b": "finegrained_sample_0078.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0047.jpg",
+      "file_b": "finegrained_sample_0083.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0047.jpg",
+      "file_b": "finegrained_sample_0089.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0047.jpg",
+      "file_b": "finegrained_sample_0091.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0047.jpg",
+      "file_b": "finegrained_sample_0093.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0047.jpg",
+      "file_b": "finegrained_sample_0101.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0047.jpg",
+      "file_b": "finegrained_sample_0108.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0047.jpg",
+      "file_b": "finegrained_sample_0112.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0047.jpg",
+      "file_b": "finegrained_sample_0113.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0047.jpg",
+      "file_b": "finegrained_sample_0119.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0047.jpg",
+      "file_b": "finegrained_sample_0123.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0047.jpg",
+      "file_b": "finegrained_sample_0125.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0047.jpg",
+      "file_b": "finegrained_sample_0136.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0047.jpg",
+      "file_b": "finegrained_sample_0137.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0047.jpg",
+      "file_b": "finegrained_sample_0138.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0047.jpg",
+      "file_b": "finegrained_sample_0145.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0047.jpg",
+      "file_b": "finegrained_sample_0150.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0047.jpg",
+      "file_b": "finegrained_sample_0155.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0047.jpg",
+      "file_b": "finegrained_sample_0159.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0047.jpg",
+      "file_b": "finegrained_sample_0163.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0047.jpg",
+      "file_b": "finegrained_sample_0164.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0047.jpg",
+      "file_b": "finegrained_sample_0170.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0047.jpg",
+      "file_b": "finegrained_sample_0174.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0047.jpg",
+      "file_b": "finegrained_sample_0177.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0048.jpg",
+      "file_b": "finegrained_sample_0050.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0048.jpg",
+      "file_b": "finegrained_sample_0054.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0048.jpg",
+      "file_b": "finegrained_sample_0063.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0048.jpg",
+      "file_b": "finegrained_sample_0070.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0048.jpg",
+      "file_b": "finegrained_sample_0082.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0048.jpg",
+      "file_b": "finegrained_sample_0087.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0048.jpg",
+      "file_b": "finegrained_sample_0118.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0048.jpg",
+      "file_b": "finegrained_sample_0126.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0048.jpg",
+      "file_b": "finegrained_sample_0128.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0048.jpg",
+      "file_b": "finegrained_sample_0142.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0048.jpg",
+      "file_b": "finegrained_sample_0159.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0050.jpg",
+      "file_b": "finegrained_sample_0054.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0050.jpg",
+      "file_b": "finegrained_sample_0059.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0050.jpg",
+      "file_b": "finegrained_sample_0063.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0050.jpg",
+      "file_b": "finegrained_sample_0070.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0050.jpg",
+      "file_b": "finegrained_sample_0073.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0050.jpg",
+      "file_b": "finegrained_sample_0076.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0050.jpg",
+      "file_b": "finegrained_sample_0087.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0050.jpg",
+      "file_b": "finegrained_sample_0118.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0050.jpg",
+      "file_b": "finegrained_sample_0126.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0050.jpg",
+      "file_b": "finegrained_sample_0128.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0050.jpg",
+      "file_b": "finegrained_sample_0151.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0051.jpg",
+      "file_b": "finegrained_sample_0098.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0051.jpg",
+      "file_b": "finegrained_sample_0159.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0051.jpg",
+      "file_b": "finegrained_sample_0164.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0053.jpg",
+      "file_b": "finegrained_sample_0072.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0054.jpg",
+      "file_b": "finegrained_sample_0063.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0054.jpg",
+      "file_b": "finegrained_sample_0070.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0054.jpg",
+      "file_b": "finegrained_sample_0082.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0054.jpg",
+      "file_b": "finegrained_sample_0087.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0054.jpg",
+      "file_b": "finegrained_sample_0118.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0054.jpg",
+      "file_b": "finegrained_sample_0126.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0054.jpg",
+      "file_b": "finegrained_sample_0128.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0054.jpg",
+      "file_b": "finegrained_sample_0142.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0054.jpg",
+      "file_b": "finegrained_sample_0159.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0055.jpg",
+      "file_b": "finegrained_sample_0083.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0055.jpg",
+      "file_b": "finegrained_sample_0119.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0055.jpg",
+      "file_b": "finegrained_sample_0136.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0055.jpg",
+      "file_b": "finegrained_sample_0138.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0055.jpg",
+      "file_b": "finegrained_sample_0164.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0055.jpg",
+      "file_b": "finegrained_sample_0174.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0055.jpg",
+      "file_b": "finegrained_sample_0177.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0056.jpg",
+      "file_b": "finegrained_sample_0060.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0056.jpg",
+      "file_b": "finegrained_sample_0062.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0056.jpg",
+      "file_b": "finegrained_sample_0071.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0056.jpg",
+      "file_b": "finegrained_sample_0078.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0056.jpg",
+      "file_b": "finegrained_sample_0083.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0056.jpg",
+      "file_b": "finegrained_sample_0089.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0056.jpg",
+      "file_b": "finegrained_sample_0091.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0056.jpg",
+      "file_b": "finegrained_sample_0093.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0056.jpg",
+      "file_b": "finegrained_sample_0101.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0056.jpg",
+      "file_b": "finegrained_sample_0108.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0056.jpg",
+      "file_b": "finegrained_sample_0112.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0056.jpg",
+      "file_b": "finegrained_sample_0113.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0056.jpg",
+      "file_b": "finegrained_sample_0119.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0056.jpg",
+      "file_b": "finegrained_sample_0123.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0056.jpg",
+      "file_b": "finegrained_sample_0125.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0056.jpg",
+      "file_b": "finegrained_sample_0136.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0056.jpg",
+      "file_b": "finegrained_sample_0137.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0056.jpg",
+      "file_b": "finegrained_sample_0138.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0056.jpg",
+      "file_b": "finegrained_sample_0145.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0056.jpg",
+      "file_b": "finegrained_sample_0150.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0056.jpg",
+      "file_b": "finegrained_sample_0155.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0056.jpg",
+      "file_b": "finegrained_sample_0159.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0056.jpg",
+      "file_b": "finegrained_sample_0163.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0056.jpg",
+      "file_b": "finegrained_sample_0164.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0056.jpg",
+      "file_b": "finegrained_sample_0170.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0056.jpg",
+      "file_b": "finegrained_sample_0174.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0056.jpg",
+      "file_b": "finegrained_sample_0177.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0057.jpg",
+      "file_b": "finegrained_sample_0102.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0057.jpg",
+      "file_b": "finegrained_sample_0107.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0059.jpg",
+      "file_b": "finegrained_sample_0073.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0059.jpg",
+      "file_b": "finegrained_sample_0076.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0059.jpg",
+      "file_b": "finegrained_sample_0083.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0059.jpg",
+      "file_b": "finegrained_sample_0126.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0059.jpg",
+      "file_b": "finegrained_sample_0151.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0060.jpg",
+      "file_b": "finegrained_sample_0062.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0060.jpg",
+      "file_b": "finegrained_sample_0071.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0060.jpg",
+      "file_b": "finegrained_sample_0078.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0060.jpg",
+      "file_b": "finegrained_sample_0083.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0060.jpg",
+      "file_b": "finegrained_sample_0089.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0060.jpg",
+      "file_b": "finegrained_sample_0091.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0060.jpg",
+      "file_b": "finegrained_sample_0093.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0060.jpg",
+      "file_b": "finegrained_sample_0101.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0060.jpg",
+      "file_b": "finegrained_sample_0108.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0060.jpg",
+      "file_b": "finegrained_sample_0112.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0060.jpg",
+      "file_b": "finegrained_sample_0113.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0060.jpg",
+      "file_b": "finegrained_sample_0119.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0060.jpg",
+      "file_b": "finegrained_sample_0123.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0060.jpg",
+      "file_b": "finegrained_sample_0125.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0060.jpg",
+      "file_b": "finegrained_sample_0136.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0060.jpg",
+      "file_b": "finegrained_sample_0137.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0060.jpg",
+      "file_b": "finegrained_sample_0138.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0060.jpg",
+      "file_b": "finegrained_sample_0145.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0060.jpg",
+      "file_b": "finegrained_sample_0150.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0060.jpg",
+      "file_b": "finegrained_sample_0155.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0060.jpg",
+      "file_b": "finegrained_sample_0159.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0060.jpg",
+      "file_b": "finegrained_sample_0163.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0060.jpg",
+      "file_b": "finegrained_sample_0164.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0060.jpg",
+      "file_b": "finegrained_sample_0170.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0060.jpg",
+      "file_b": "finegrained_sample_0174.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0060.jpg",
+      "file_b": "finegrained_sample_0177.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0061.jpg",
+      "file_b": "finegrained_sample_0090.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0061.jpg",
+      "file_b": "finegrained_sample_0160.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0062.jpg",
+      "file_b": "finegrained_sample_0071.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0062.jpg",
+      "file_b": "finegrained_sample_0078.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0062.jpg",
+      "file_b": "finegrained_sample_0083.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0062.jpg",
+      "file_b": "finegrained_sample_0089.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0062.jpg",
+      "file_b": "finegrained_sample_0091.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0062.jpg",
+      "file_b": "finegrained_sample_0093.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0062.jpg",
+      "file_b": "finegrained_sample_0101.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0062.jpg",
+      "file_b": "finegrained_sample_0108.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0062.jpg",
+      "file_b": "finegrained_sample_0112.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0062.jpg",
+      "file_b": "finegrained_sample_0113.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0062.jpg",
+      "file_b": "finegrained_sample_0119.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0062.jpg",
+      "file_b": "finegrained_sample_0123.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0062.jpg",
+      "file_b": "finegrained_sample_0125.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0062.jpg",
+      "file_b": "finegrained_sample_0136.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0062.jpg",
+      "file_b": "finegrained_sample_0137.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0062.jpg",
+      "file_b": "finegrained_sample_0138.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0062.jpg",
+      "file_b": "finegrained_sample_0145.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0062.jpg",
+      "file_b": "finegrained_sample_0150.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0062.jpg",
+      "file_b": "finegrained_sample_0155.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0062.jpg",
+      "file_b": "finegrained_sample_0159.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0062.jpg",
+      "file_b": "finegrained_sample_0163.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0062.jpg",
+      "file_b": "finegrained_sample_0164.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0062.jpg",
+      "file_b": "finegrained_sample_0170.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0062.jpg",
+      "file_b": "finegrained_sample_0174.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0062.jpg",
+      "file_b": "finegrained_sample_0177.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0063.jpg",
+      "file_b": "finegrained_sample_0070.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0063.jpg",
+      "file_b": "finegrained_sample_0082.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0063.jpg",
+      "file_b": "finegrained_sample_0087.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0063.jpg",
+      "file_b": "finegrained_sample_0126.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0063.jpg",
+      "file_b": "finegrained_sample_0142.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0063.jpg",
+      "file_b": "finegrained_sample_0151.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0063.jpg",
+      "file_b": "finegrained_sample_0159.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0064.jpg",
+      "file_b": "finegrained_sample_0073.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0064.jpg",
+      "file_b": "finegrained_sample_0083.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0064.jpg",
+      "file_b": "finegrained_sample_0101.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0064.jpg",
+      "file_b": "finegrained_sample_0104.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0064.jpg",
+      "file_b": "finegrained_sample_0118.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0064.jpg",
+      "file_b": "finegrained_sample_0119.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0064.jpg",
+      "file_b": "finegrained_sample_0128.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0064.jpg",
+      "file_b": "finegrained_sample_0136.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0064.jpg",
+      "file_b": "finegrained_sample_0138.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0064.jpg",
+      "file_b": "finegrained_sample_0145.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0064.jpg",
+      "file_b": "finegrained_sample_0174.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0067.jpg",
+      "file_b": "finegrained_sample_0095.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0067.jpg",
+      "file_b": "finegrained_sample_0115.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0068.jpg",
+      "file_b": "finegrained_sample_0075.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0068.jpg",
+      "file_b": "finegrained_sample_0081.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0068.jpg",
+      "file_b": "finegrained_sample_0088.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0068.jpg",
+      "file_b": "finegrained_sample_0144.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0070.jpg",
+      "file_b": "finegrained_sample_0082.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0070.jpg",
+      "file_b": "finegrained_sample_0087.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0070.jpg",
+      "file_b": "finegrained_sample_0118.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0070.jpg",
+      "file_b": "finegrained_sample_0126.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0070.jpg",
+      "file_b": "finegrained_sample_0128.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0070.jpg",
+      "file_b": "finegrained_sample_0142.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0070.jpg",
+      "file_b": "finegrained_sample_0159.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0071.jpg",
+      "file_b": "finegrained_sample_0078.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0071.jpg",
+      "file_b": "finegrained_sample_0083.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0071.jpg",
+      "file_b": "finegrained_sample_0089.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0071.jpg",
+      "file_b": "finegrained_sample_0091.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0071.jpg",
+      "file_b": "finegrained_sample_0093.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0071.jpg",
+      "file_b": "finegrained_sample_0101.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0071.jpg",
+      "file_b": "finegrained_sample_0108.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0071.jpg",
+      "file_b": "finegrained_sample_0112.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0071.jpg",
+      "file_b": "finegrained_sample_0113.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0071.jpg",
+      "file_b": "finegrained_sample_0119.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0071.jpg",
+      "file_b": "finegrained_sample_0123.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0071.jpg",
+      "file_b": "finegrained_sample_0125.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0071.jpg",
+      "file_b": "finegrained_sample_0136.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0071.jpg",
+      "file_b": "finegrained_sample_0137.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0071.jpg",
+      "file_b": "finegrained_sample_0138.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0071.jpg",
+      "file_b": "finegrained_sample_0145.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0071.jpg",
+      "file_b": "finegrained_sample_0150.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0071.jpg",
+      "file_b": "finegrained_sample_0155.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0071.jpg",
+      "file_b": "finegrained_sample_0159.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0071.jpg",
+      "file_b": "finegrained_sample_0163.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0071.jpg",
+      "file_b": "finegrained_sample_0164.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0071.jpg",
+      "file_b": "finegrained_sample_0170.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0071.jpg",
+      "file_b": "finegrained_sample_0174.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0071.jpg",
+      "file_b": "finegrained_sample_0177.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0073.jpg",
+      "file_b": "finegrained_sample_0076.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0073.jpg",
+      "file_b": "finegrained_sample_0083.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0073.jpg",
+      "file_b": "finegrained_sample_0104.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0073.jpg",
+      "file_b": "finegrained_sample_0118.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0073.jpg",
+      "file_b": "finegrained_sample_0126.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0073.jpg",
+      "file_b": "finegrained_sample_0128.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0073.jpg",
+      "file_b": "finegrained_sample_0151.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0073.jpg",
+      "file_b": "finegrained_sample_0159.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0074.jpg",
+      "file_b": "finegrained_sample_0171.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0075.jpg",
+      "file_b": "finegrained_sample_0106.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0075.jpg",
+      "file_b": "finegrained_sample_0133.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0075.jpg",
+      "file_b": "finegrained_sample_0152.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0075.jpg",
+      "file_b": "finegrained_sample_0178.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0076.jpg",
+      "file_b": "finegrained_sample_0083.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0076.jpg",
+      "file_b": "finegrained_sample_0126.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0076.jpg",
+      "file_b": "finegrained_sample_0151.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0078.jpg",
+      "file_b": "finegrained_sample_0083.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0078.jpg",
+      "file_b": "finegrained_sample_0089.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0078.jpg",
+      "file_b": "finegrained_sample_0091.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0078.jpg",
+      "file_b": "finegrained_sample_0093.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0078.jpg",
+      "file_b": "finegrained_sample_0101.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0078.jpg",
+      "file_b": "finegrained_sample_0108.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0078.jpg",
+      "file_b": "finegrained_sample_0112.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0078.jpg",
+      "file_b": "finegrained_sample_0113.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0078.jpg",
+      "file_b": "finegrained_sample_0119.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0078.jpg",
+      "file_b": "finegrained_sample_0123.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0078.jpg",
+      "file_b": "finegrained_sample_0125.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0078.jpg",
+      "file_b": "finegrained_sample_0136.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0078.jpg",
+      "file_b": "finegrained_sample_0137.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0078.jpg",
+      "file_b": "finegrained_sample_0138.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0078.jpg",
+      "file_b": "finegrained_sample_0145.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0078.jpg",
+      "file_b": "finegrained_sample_0150.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0078.jpg",
+      "file_b": "finegrained_sample_0155.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0078.jpg",
+      "file_b": "finegrained_sample_0159.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0078.jpg",
+      "file_b": "finegrained_sample_0163.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0078.jpg",
+      "file_b": "finegrained_sample_0164.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0078.jpg",
+      "file_b": "finegrained_sample_0170.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0078.jpg",
+      "file_b": "finegrained_sample_0174.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0078.jpg",
+      "file_b": "finegrained_sample_0177.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0079.jpg",
+      "file_b": "finegrained_sample_0122.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0079.jpg",
+      "file_b": "finegrained_sample_0173.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0081.jpg",
+      "file_b": "finegrained_sample_0144.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0081.jpg",
+      "file_b": "finegrained_sample_0156.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0081.jpg",
+      "file_b": "finegrained_sample_0179.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0082.jpg",
+      "file_b": "finegrained_sample_0087.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0083.jpg",
+      "file_b": "finegrained_sample_0089.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0083.jpg",
+      "file_b": "finegrained_sample_0091.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0083.jpg",
+      "file_b": "finegrained_sample_0093.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0083.jpg",
+      "file_b": "finegrained_sample_0101.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0083.jpg",
+      "file_b": "finegrained_sample_0104.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0083.jpg",
+      "file_b": "finegrained_sample_0108.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0083.jpg",
+      "file_b": "finegrained_sample_0112.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0083.jpg",
+      "file_b": "finegrained_sample_0113.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0083.jpg",
+      "file_b": "finegrained_sample_0119.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0083.jpg",
+      "file_b": "finegrained_sample_0123.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0083.jpg",
+      "file_b": "finegrained_sample_0125.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0083.jpg",
+      "file_b": "finegrained_sample_0136.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0083.jpg",
+      "file_b": "finegrained_sample_0137.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0083.jpg",
+      "file_b": "finegrained_sample_0138.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0083.jpg",
+      "file_b": "finegrained_sample_0145.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0083.jpg",
+      "file_b": "finegrained_sample_0150.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0083.jpg",
+      "file_b": "finegrained_sample_0163.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0083.jpg",
+      "file_b": "finegrained_sample_0174.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0084.jpg",
+      "file_b": "finegrained_sample_0114.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0084.jpg",
+      "file_b": "finegrained_sample_0117.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0084.jpg",
+      "file_b": "finegrained_sample_0127.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0084.jpg",
+      "file_b": "finegrained_sample_0135.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0084.jpg",
+      "file_b": "finegrained_sample_0148.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0084.jpg",
+      "file_b": "finegrained_sample_0175.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0087.jpg",
+      "file_b": "finegrained_sample_0118.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0087.jpg",
+      "file_b": "finegrained_sample_0126.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0087.jpg",
+      "file_b": "finegrained_sample_0128.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0087.jpg",
+      "file_b": "finegrained_sample_0142.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0087.jpg",
+      "file_b": "finegrained_sample_0159.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0088.jpg",
+      "file_b": "finegrained_sample_0096.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0088.jpg",
+      "file_b": "finegrained_sample_0099.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0088.jpg",
+      "file_b": "finegrained_sample_0179.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0089.jpg",
+      "file_b": "finegrained_sample_0091.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0089.jpg",
+      "file_b": "finegrained_sample_0093.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0089.jpg",
+      "file_b": "finegrained_sample_0101.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0089.jpg",
+      "file_b": "finegrained_sample_0108.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0089.jpg",
+      "file_b": "finegrained_sample_0112.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0089.jpg",
+      "file_b": "finegrained_sample_0113.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0089.jpg",
+      "file_b": "finegrained_sample_0119.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0089.jpg",
+      "file_b": "finegrained_sample_0123.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0089.jpg",
+      "file_b": "finegrained_sample_0125.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0089.jpg",
+      "file_b": "finegrained_sample_0136.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0089.jpg",
+      "file_b": "finegrained_sample_0137.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0089.jpg",
+      "file_b": "finegrained_sample_0138.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0089.jpg",
+      "file_b": "finegrained_sample_0145.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0089.jpg",
+      "file_b": "finegrained_sample_0150.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0089.jpg",
+      "file_b": "finegrained_sample_0155.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0089.jpg",
+      "file_b": "finegrained_sample_0159.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0089.jpg",
+      "file_b": "finegrained_sample_0163.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0089.jpg",
+      "file_b": "finegrained_sample_0164.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0089.jpg",
+      "file_b": "finegrained_sample_0170.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0089.jpg",
+      "file_b": "finegrained_sample_0174.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0089.jpg",
+      "file_b": "finegrained_sample_0177.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0090.jpg",
+      "file_b": "finegrained_sample_0160.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0091.jpg",
+      "file_b": "finegrained_sample_0093.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0091.jpg",
+      "file_b": "finegrained_sample_0101.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0091.jpg",
+      "file_b": "finegrained_sample_0108.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0091.jpg",
+      "file_b": "finegrained_sample_0112.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0091.jpg",
+      "file_b": "finegrained_sample_0113.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0091.jpg",
+      "file_b": "finegrained_sample_0119.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0091.jpg",
+      "file_b": "finegrained_sample_0123.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0091.jpg",
+      "file_b": "finegrained_sample_0125.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0091.jpg",
+      "file_b": "finegrained_sample_0136.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0091.jpg",
+      "file_b": "finegrained_sample_0137.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0091.jpg",
+      "file_b": "finegrained_sample_0138.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0091.jpg",
+      "file_b": "finegrained_sample_0145.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0091.jpg",
+      "file_b": "finegrained_sample_0150.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0091.jpg",
+      "file_b": "finegrained_sample_0155.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0091.jpg",
+      "file_b": "finegrained_sample_0159.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0091.jpg",
+      "file_b": "finegrained_sample_0163.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0091.jpg",
+      "file_b": "finegrained_sample_0164.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0091.jpg",
+      "file_b": "finegrained_sample_0170.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0091.jpg",
+      "file_b": "finegrained_sample_0174.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0091.jpg",
+      "file_b": "finegrained_sample_0177.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0092.jpg",
+      "file_b": "finegrained_sample_0162.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0092.jpg",
+      "file_b": "finegrained_sample_0168.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0093.jpg",
+      "file_b": "finegrained_sample_0098.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0093.jpg",
+      "file_b": "finegrained_sample_0101.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0093.jpg",
+      "file_b": "finegrained_sample_0108.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0093.jpg",
+      "file_b": "finegrained_sample_0112.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0093.jpg",
+      "file_b": "finegrained_sample_0113.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0093.jpg",
+      "file_b": "finegrained_sample_0123.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0093.jpg",
+      "file_b": "finegrained_sample_0125.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0093.jpg",
+      "file_b": "finegrained_sample_0137.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0093.jpg",
+      "file_b": "finegrained_sample_0142.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0093.jpg",
+      "file_b": "finegrained_sample_0145.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0093.jpg",
+      "file_b": "finegrained_sample_0150.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0093.jpg",
+      "file_b": "finegrained_sample_0163.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0093.jpg",
+      "file_b": "finegrained_sample_0164.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0093.jpg",
+      "file_b": "finegrained_sample_0170.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0094.jpg",
+      "file_b": "finegrained_sample_0097.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0094.jpg",
+      "file_b": "finegrained_sample_0114.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0094.jpg",
+      "file_b": "finegrained_sample_0117.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0094.jpg",
+      "file_b": "finegrained_sample_0130.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0094.jpg",
+      "file_b": "finegrained_sample_0135.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0094.jpg",
+      "file_b": "finegrained_sample_0149.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0094.jpg",
+      "file_b": "finegrained_sample_0172.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0094.jpg",
+      "file_b": "finegrained_sample_0175.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0095.jpg",
+      "file_b": "finegrained_sample_0115.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0096.jpg",
+      "file_b": "finegrained_sample_0144.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0096.jpg",
+      "file_b": "finegrained_sample_0156.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0096.jpg",
+      "file_b": "finegrained_sample_0179.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0097.jpg",
+      "file_b": "finegrained_sample_0114.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0097.jpg",
+      "file_b": "finegrained_sample_0117.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0097.jpg",
+      "file_b": "finegrained_sample_0172.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0098.jpg",
+      "file_b": "finegrained_sample_0164.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0098.jpg",
+      "file_b": "finegrained_sample_0177.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0099.jpg",
+      "file_b": "finegrained_sample_0173.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0101.jpg",
+      "file_b": "finegrained_sample_0104.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0101.jpg",
+      "file_b": "finegrained_sample_0108.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0101.jpg",
+      "file_b": "finegrained_sample_0112.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0101.jpg",
+      "file_b": "finegrained_sample_0113.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0101.jpg",
+      "file_b": "finegrained_sample_0119.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0101.jpg",
+      "file_b": "finegrained_sample_0123.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0101.jpg",
+      "file_b": "finegrained_sample_0125.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0101.jpg",
+      "file_b": "finegrained_sample_0137.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0101.jpg",
+      "file_b": "finegrained_sample_0138.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0101.jpg",
+      "file_b": "finegrained_sample_0142.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0101.jpg",
+      "file_b": "finegrained_sample_0145.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0101.jpg",
+      "file_b": "finegrained_sample_0150.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0101.jpg",
+      "file_b": "finegrained_sample_0163.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0101.jpg",
+      "file_b": "finegrained_sample_0164.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0101.jpg",
+      "file_b": "finegrained_sample_0170.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0101.jpg",
+      "file_b": "finegrained_sample_0174.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0101.jpg",
+      "file_b": "finegrained_sample_0177.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0102.jpg",
+      "file_b": "finegrained_sample_0116.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0102.jpg",
+      "file_b": "finegrained_sample_0165.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0104.jpg",
+      "file_b": "finegrained_sample_0118.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0104.jpg",
+      "file_b": "finegrained_sample_0119.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0104.jpg",
+      "file_b": "finegrained_sample_0128.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0104.jpg",
+      "file_b": "finegrained_sample_0136.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0104.jpg",
+      "file_b": "finegrained_sample_0138.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0104.jpg",
+      "file_b": "finegrained_sample_0145.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0104.jpg",
+      "file_b": "finegrained_sample_0174.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0106.jpg",
+      "file_b": "finegrained_sample_0133.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0106.jpg",
+      "file_b": "finegrained_sample_0141.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0108.jpg",
+      "file_b": "finegrained_sample_0112.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0108.jpg",
+      "file_b": "finegrained_sample_0113.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0108.jpg",
+      "file_b": "finegrained_sample_0119.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0108.jpg",
+      "file_b": "finegrained_sample_0123.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0108.jpg",
+      "file_b": "finegrained_sample_0125.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0108.jpg",
+      "file_b": "finegrained_sample_0136.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0108.jpg",
+      "file_b": "finegrained_sample_0137.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0108.jpg",
+      "file_b": "finegrained_sample_0138.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0108.jpg",
+      "file_b": "finegrained_sample_0145.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0108.jpg",
+      "file_b": "finegrained_sample_0150.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0108.jpg",
+      "file_b": "finegrained_sample_0155.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0108.jpg",
+      "file_b": "finegrained_sample_0159.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0108.jpg",
+      "file_b": "finegrained_sample_0163.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0108.jpg",
+      "file_b": "finegrained_sample_0164.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0108.jpg",
+      "file_b": "finegrained_sample_0170.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0108.jpg",
+      "file_b": "finegrained_sample_0174.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0108.jpg",
+      "file_b": "finegrained_sample_0177.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0112.jpg",
+      "file_b": "finegrained_sample_0113.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0112.jpg",
+      "file_b": "finegrained_sample_0119.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0112.jpg",
+      "file_b": "finegrained_sample_0123.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0112.jpg",
+      "file_b": "finegrained_sample_0125.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0112.jpg",
+      "file_b": "finegrained_sample_0136.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0112.jpg",
+      "file_b": "finegrained_sample_0137.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0112.jpg",
+      "file_b": "finegrained_sample_0138.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0112.jpg",
+      "file_b": "finegrained_sample_0145.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0112.jpg",
+      "file_b": "finegrained_sample_0150.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0112.jpg",
+      "file_b": "finegrained_sample_0155.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0112.jpg",
+      "file_b": "finegrained_sample_0159.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0112.jpg",
+      "file_b": "finegrained_sample_0163.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0112.jpg",
+      "file_b": "finegrained_sample_0164.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0112.jpg",
+      "file_b": "finegrained_sample_0170.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0112.jpg",
+      "file_b": "finegrained_sample_0174.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0112.jpg",
+      "file_b": "finegrained_sample_0177.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0113.jpg",
+      "file_b": "finegrained_sample_0119.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0113.jpg",
+      "file_b": "finegrained_sample_0123.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0113.jpg",
+      "file_b": "finegrained_sample_0125.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0113.jpg",
+      "file_b": "finegrained_sample_0136.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0113.jpg",
+      "file_b": "finegrained_sample_0137.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0113.jpg",
+      "file_b": "finegrained_sample_0138.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0113.jpg",
+      "file_b": "finegrained_sample_0145.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0113.jpg",
+      "file_b": "finegrained_sample_0150.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0113.jpg",
+      "file_b": "finegrained_sample_0155.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0113.jpg",
+      "file_b": "finegrained_sample_0159.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0113.jpg",
+      "file_b": "finegrained_sample_0163.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0113.jpg",
+      "file_b": "finegrained_sample_0164.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0113.jpg",
+      "file_b": "finegrained_sample_0170.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0113.jpg",
+      "file_b": "finegrained_sample_0174.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0113.jpg",
+      "file_b": "finegrained_sample_0177.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0114.jpg",
+      "file_b": "finegrained_sample_0117.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0114.jpg",
+      "file_b": "finegrained_sample_0156.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0114.jpg",
+      "file_b": "finegrained_sample_0172.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0116.jpg",
+      "file_b": "finegrained_sample_0165.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0117.jpg",
+      "file_b": "finegrained_sample_0127.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0117.jpg",
+      "file_b": "finegrained_sample_0130.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0117.jpg",
+      "file_b": "finegrained_sample_0135.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0117.jpg",
+      "file_b": "finegrained_sample_0148.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0118.jpg",
+      "file_b": "finegrained_sample_0126.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0118.jpg",
+      "file_b": "finegrained_sample_0128.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0118.jpg",
+      "file_b": "finegrained_sample_0151.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0119.jpg",
+      "file_b": "finegrained_sample_0123.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0119.jpg",
+      "file_b": "finegrained_sample_0125.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0119.jpg",
+      "file_b": "finegrained_sample_0136.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0119.jpg",
+      "file_b": "finegrained_sample_0137.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0119.jpg",
+      "file_b": "finegrained_sample_0138.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0119.jpg",
+      "file_b": "finegrained_sample_0145.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0119.jpg",
+      "file_b": "finegrained_sample_0150.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0119.jpg",
+      "file_b": "finegrained_sample_0163.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0119.jpg",
+      "file_b": "finegrained_sample_0170.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0119.jpg",
+      "file_b": "finegrained_sample_0174.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0122.jpg",
+      "file_b": "finegrained_sample_0173.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0123.jpg",
+      "file_b": "finegrained_sample_0125.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0123.jpg",
+      "file_b": "finegrained_sample_0136.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0123.jpg",
+      "file_b": "finegrained_sample_0137.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0123.jpg",
+      "file_b": "finegrained_sample_0138.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0123.jpg",
+      "file_b": "finegrained_sample_0145.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0123.jpg",
+      "file_b": "finegrained_sample_0150.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0123.jpg",
+      "file_b": "finegrained_sample_0155.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0123.jpg",
+      "file_b": "finegrained_sample_0159.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0123.jpg",
+      "file_b": "finegrained_sample_0163.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0123.jpg",
+      "file_b": "finegrained_sample_0164.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0123.jpg",
+      "file_b": "finegrained_sample_0170.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0123.jpg",
+      "file_b": "finegrained_sample_0174.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0123.jpg",
+      "file_b": "finegrained_sample_0177.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0125.jpg",
+      "file_b": "finegrained_sample_0136.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0125.jpg",
+      "file_b": "finegrained_sample_0137.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0125.jpg",
+      "file_b": "finegrained_sample_0138.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0125.jpg",
+      "file_b": "finegrained_sample_0145.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0125.jpg",
+      "file_b": "finegrained_sample_0150.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0125.jpg",
+      "file_b": "finegrained_sample_0155.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0125.jpg",
+      "file_b": "finegrained_sample_0159.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0125.jpg",
+      "file_b": "finegrained_sample_0163.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0125.jpg",
+      "file_b": "finegrained_sample_0164.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0125.jpg",
+      "file_b": "finegrained_sample_0170.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0125.jpg",
+      "file_b": "finegrained_sample_0174.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0125.jpg",
+      "file_b": "finegrained_sample_0177.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0126.jpg",
+      "file_b": "finegrained_sample_0128.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0126.jpg",
+      "file_b": "finegrained_sample_0151.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0127.jpg",
+      "file_b": "finegrained_sample_0168.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0128.jpg",
+      "file_b": "finegrained_sample_0151.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0130.jpg",
+      "file_b": "finegrained_sample_0135.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0130.jpg",
+      "file_b": "finegrained_sample_0149.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0130.jpg",
+      "file_b": "finegrained_sample_0172.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0132.jpg",
+      "file_b": "finegrained_sample_0157.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0133.jpg",
+      "file_b": "finegrained_sample_0141.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0133.jpg",
+      "file_b": "finegrained_sample_0160.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0135.jpg",
+      "file_b": "finegrained_sample_0149.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0135.jpg",
+      "file_b": "finegrained_sample_0172.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0135.jpg",
+      "file_b": "finegrained_sample_0175.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0136.jpg",
+      "file_b": "finegrained_sample_0137.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0136.jpg",
+      "file_b": "finegrained_sample_0138.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0136.jpg",
+      "file_b": "finegrained_sample_0150.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0136.jpg",
+      "file_b": "finegrained_sample_0163.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0136.jpg",
+      "file_b": "finegrained_sample_0164.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0136.jpg",
+      "file_b": "finegrained_sample_0174.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0137.jpg",
+      "file_b": "finegrained_sample_0138.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0137.jpg",
+      "file_b": "finegrained_sample_0145.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0137.jpg",
+      "file_b": "finegrained_sample_0150.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0137.jpg",
+      "file_b": "finegrained_sample_0155.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0137.jpg",
+      "file_b": "finegrained_sample_0159.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0137.jpg",
+      "file_b": "finegrained_sample_0163.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0137.jpg",
+      "file_b": "finegrained_sample_0164.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0137.jpg",
+      "file_b": "finegrained_sample_0170.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0137.jpg",
+      "file_b": "finegrained_sample_0174.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0137.jpg",
+      "file_b": "finegrained_sample_0177.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0138.jpg",
+      "file_b": "finegrained_sample_0145.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0138.jpg",
+      "file_b": "finegrained_sample_0150.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0138.jpg",
+      "file_b": "finegrained_sample_0163.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0138.jpg",
+      "file_b": "finegrained_sample_0170.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0138.jpg",
+      "file_b": "finegrained_sample_0174.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0142.jpg",
+      "file_b": "finegrained_sample_0145.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0143.jpg",
+      "file_b": "finegrained_sample_0165.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0144.jpg",
+      "file_b": "finegrained_sample_0179.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0145.jpg",
+      "file_b": "finegrained_sample_0150.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0145.jpg",
+      "file_b": "finegrained_sample_0163.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0145.jpg",
+      "file_b": "finegrained_sample_0164.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0145.jpg",
+      "file_b": "finegrained_sample_0170.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0145.jpg",
+      "file_b": "finegrained_sample_0174.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0145.jpg",
+      "file_b": "finegrained_sample_0177.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0149.jpg",
+      "file_b": "finegrained_sample_0172.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0149.jpg",
+      "file_b": "finegrained_sample_0175.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0150.jpg",
+      "file_b": "finegrained_sample_0155.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0150.jpg",
+      "file_b": "finegrained_sample_0159.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0150.jpg",
+      "file_b": "finegrained_sample_0163.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0150.jpg",
+      "file_b": "finegrained_sample_0164.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0150.jpg",
+      "file_b": "finegrained_sample_0170.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0150.jpg",
+      "file_b": "finegrained_sample_0174.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0150.jpg",
+      "file_b": "finegrained_sample_0177.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0152.jpg",
+      "file_b": "finegrained_sample_0178.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0155.jpg",
+      "file_b": "finegrained_sample_0163.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0155.jpg",
+      "file_b": "finegrained_sample_0164.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0156.jpg",
+      "file_b": "finegrained_sample_0179.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0158.jpg",
+      "file_b": "finegrained_sample_0176.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "finegrained_sample_0159.jpg",
+      "file_b": "finegrained_sample_0163.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0163.jpg",
+      "file_b": "finegrained_sample_0164.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0163.jpg",
+      "file_b": "finegrained_sample_0170.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "finegrained_sample_0163.jpg",
+      "file_b": "finegrained_sample_0174.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0163.jpg",
+      "file_b": "finegrained_sample_0177.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0164.jpg",
+      "file_b": "finegrained_sample_0177.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "finegrained_sample_0170.jpg",
+      "file_b": "finegrained_sample_0174.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0170.jpg",
+      "file_b": "finegrained_sample_0177.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "finegrained_sample_0172.jpg",
+      "file_b": "finegrained_sample_0175.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0007.jpg",
+      "file_b": "hardneg_sample_0013.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0007.jpg",
+      "file_b": "hardneg_sample_0030.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0007.jpg",
+      "file_b": "hardneg_sample_0033.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0007.jpg",
+      "file_b": "hardneg_sample_0043.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0007.jpg",
+      "file_b": "hardneg_sample_0045.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "hardneg_sample_0007.jpg",
+      "file_b": "hardneg_sample_0049.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0007.jpg",
+      "file_b": "hardneg_sample_0052.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0007.jpg",
+      "file_b": "hardneg_sample_0065.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0007.jpg",
+      "file_b": "hardneg_sample_0066.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0007.jpg",
+      "file_b": "hardneg_sample_0069.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0007.jpg",
+      "file_b": "hardneg_sample_0086.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0007.jpg",
+      "file_b": "hardneg_sample_0100.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0007.jpg",
+      "file_b": "hardneg_sample_0124.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0007.jpg",
+      "file_b": "hardneg_sample_0129.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0007.jpg",
+      "file_b": "hardneg_sample_0131.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0007.jpg",
+      "file_b": "hardneg_sample_0139.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "hardneg_sample_0007.jpg",
+      "file_b": "hardneg_sample_0140.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0007.jpg",
+      "file_b": "hardneg_sample_0147.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0007.jpg",
+      "file_b": "hardneg_sample_0154.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "hardneg_sample_0007.jpg",
+      "file_b": "hardneg_sample_0161.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0013.jpg",
+      "file_b": "hardneg_sample_0030.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0013.jpg",
+      "file_b": "hardneg_sample_0033.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0013.jpg",
+      "file_b": "hardneg_sample_0043.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0013.jpg",
+      "file_b": "hardneg_sample_0045.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "hardneg_sample_0013.jpg",
+      "file_b": "hardneg_sample_0049.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0013.jpg",
+      "file_b": "hardneg_sample_0052.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0013.jpg",
+      "file_b": "hardneg_sample_0065.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0013.jpg",
+      "file_b": "hardneg_sample_0066.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0013.jpg",
+      "file_b": "hardneg_sample_0069.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0013.jpg",
+      "file_b": "hardneg_sample_0086.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0013.jpg",
+      "file_b": "hardneg_sample_0100.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0013.jpg",
+      "file_b": "hardneg_sample_0124.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0013.jpg",
+      "file_b": "hardneg_sample_0129.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0013.jpg",
+      "file_b": "hardneg_sample_0131.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0013.jpg",
+      "file_b": "hardneg_sample_0139.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "hardneg_sample_0013.jpg",
+      "file_b": "hardneg_sample_0140.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0013.jpg",
+      "file_b": "hardneg_sample_0147.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0013.jpg",
+      "file_b": "hardneg_sample_0154.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "hardneg_sample_0013.jpg",
+      "file_b": "hardneg_sample_0161.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0030.jpg",
+      "file_b": "hardneg_sample_0033.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0030.jpg",
+      "file_b": "hardneg_sample_0043.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0030.jpg",
+      "file_b": "hardneg_sample_0045.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "hardneg_sample_0030.jpg",
+      "file_b": "hardneg_sample_0049.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0030.jpg",
+      "file_b": "hardneg_sample_0052.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0030.jpg",
+      "file_b": "hardneg_sample_0065.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0030.jpg",
+      "file_b": "hardneg_sample_0066.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0030.jpg",
+      "file_b": "hardneg_sample_0069.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0030.jpg",
+      "file_b": "hardneg_sample_0086.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0030.jpg",
+      "file_b": "hardneg_sample_0100.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0030.jpg",
+      "file_b": "hardneg_sample_0124.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0030.jpg",
+      "file_b": "hardneg_sample_0129.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0030.jpg",
+      "file_b": "hardneg_sample_0131.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0030.jpg",
+      "file_b": "hardneg_sample_0139.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "hardneg_sample_0030.jpg",
+      "file_b": "hardneg_sample_0140.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0030.jpg",
+      "file_b": "hardneg_sample_0147.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0030.jpg",
+      "file_b": "hardneg_sample_0154.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "hardneg_sample_0030.jpg",
+      "file_b": "hardneg_sample_0161.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0033.jpg",
+      "file_b": "hardneg_sample_0043.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0033.jpg",
+      "file_b": "hardneg_sample_0045.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "hardneg_sample_0033.jpg",
+      "file_b": "hardneg_sample_0049.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0033.jpg",
+      "file_b": "hardneg_sample_0052.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0033.jpg",
+      "file_b": "hardneg_sample_0065.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0033.jpg",
+      "file_b": "hardneg_sample_0066.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0033.jpg",
+      "file_b": "hardneg_sample_0069.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0033.jpg",
+      "file_b": "hardneg_sample_0086.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0033.jpg",
+      "file_b": "hardneg_sample_0100.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0033.jpg",
+      "file_b": "hardneg_sample_0124.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0033.jpg",
+      "file_b": "hardneg_sample_0129.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0033.jpg",
+      "file_b": "hardneg_sample_0131.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0033.jpg",
+      "file_b": "hardneg_sample_0139.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "hardneg_sample_0033.jpg",
+      "file_b": "hardneg_sample_0140.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0033.jpg",
+      "file_b": "hardneg_sample_0147.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0033.jpg",
+      "file_b": "hardneg_sample_0154.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "hardneg_sample_0033.jpg",
+      "file_b": "hardneg_sample_0161.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0043.jpg",
+      "file_b": "hardneg_sample_0045.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "hardneg_sample_0043.jpg",
+      "file_b": "hardneg_sample_0049.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0043.jpg",
+      "file_b": "hardneg_sample_0052.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0043.jpg",
+      "file_b": "hardneg_sample_0065.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0043.jpg",
+      "file_b": "hardneg_sample_0066.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0043.jpg",
+      "file_b": "hardneg_sample_0069.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0043.jpg",
+      "file_b": "hardneg_sample_0086.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0043.jpg",
+      "file_b": "hardneg_sample_0100.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0043.jpg",
+      "file_b": "hardneg_sample_0124.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0043.jpg",
+      "file_b": "hardneg_sample_0129.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0043.jpg",
+      "file_b": "hardneg_sample_0131.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0043.jpg",
+      "file_b": "hardneg_sample_0139.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "hardneg_sample_0043.jpg",
+      "file_b": "hardneg_sample_0140.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0043.jpg",
+      "file_b": "hardneg_sample_0147.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0043.jpg",
+      "file_b": "hardneg_sample_0154.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "hardneg_sample_0043.jpg",
+      "file_b": "hardneg_sample_0161.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0045.jpg",
+      "file_b": "hardneg_sample_0049.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "hardneg_sample_0045.jpg",
+      "file_b": "hardneg_sample_0066.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "hardneg_sample_0045.jpg",
+      "file_b": "hardneg_sample_0069.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "hardneg_sample_0045.jpg",
+      "file_b": "hardneg_sample_0100.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "hardneg_sample_0045.jpg",
+      "file_b": "hardneg_sample_0124.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "hardneg_sample_0045.jpg",
+      "file_b": "hardneg_sample_0129.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "hardneg_sample_0045.jpg",
+      "file_b": "hardneg_sample_0140.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "hardneg_sample_0045.jpg",
+      "file_b": "hardneg_sample_0147.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "hardneg_sample_0045.jpg",
+      "file_b": "hardneg_sample_0154.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "hardneg_sample_0045.jpg",
+      "file_b": "hardneg_sample_0161.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "hardneg_sample_0049.jpg",
+      "file_b": "hardneg_sample_0052.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0049.jpg",
+      "file_b": "hardneg_sample_0065.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0049.jpg",
+      "file_b": "hardneg_sample_0066.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0049.jpg",
+      "file_b": "hardneg_sample_0069.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0049.jpg",
+      "file_b": "hardneg_sample_0086.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0049.jpg",
+      "file_b": "hardneg_sample_0100.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0049.jpg",
+      "file_b": "hardneg_sample_0124.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0049.jpg",
+      "file_b": "hardneg_sample_0129.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0049.jpg",
+      "file_b": "hardneg_sample_0131.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0049.jpg",
+      "file_b": "hardneg_sample_0139.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "hardneg_sample_0049.jpg",
+      "file_b": "hardneg_sample_0140.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0049.jpg",
+      "file_b": "hardneg_sample_0147.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0049.jpg",
+      "file_b": "hardneg_sample_0154.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "hardneg_sample_0049.jpg",
+      "file_b": "hardneg_sample_0161.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0052.jpg",
+      "file_b": "hardneg_sample_0065.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "hardneg_sample_0052.jpg",
+      "file_b": "hardneg_sample_0066.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0052.jpg",
+      "file_b": "hardneg_sample_0069.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0052.jpg",
+      "file_b": "hardneg_sample_0086.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "hardneg_sample_0052.jpg",
+      "file_b": "hardneg_sample_0100.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0052.jpg",
+      "file_b": "hardneg_sample_0124.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0052.jpg",
+      "file_b": "hardneg_sample_0129.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0052.jpg",
+      "file_b": "hardneg_sample_0131.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "hardneg_sample_0052.jpg",
+      "file_b": "hardneg_sample_0139.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "hardneg_sample_0052.jpg",
+      "file_b": "hardneg_sample_0140.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0052.jpg",
+      "file_b": "hardneg_sample_0147.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0052.jpg",
+      "file_b": "hardneg_sample_0154.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "hardneg_sample_0052.jpg",
+      "file_b": "hardneg_sample_0161.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0065.jpg",
+      "file_b": "hardneg_sample_0066.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0065.jpg",
+      "file_b": "hardneg_sample_0069.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0065.jpg",
+      "file_b": "hardneg_sample_0086.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "hardneg_sample_0065.jpg",
+      "file_b": "hardneg_sample_0100.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0065.jpg",
+      "file_b": "hardneg_sample_0124.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0065.jpg",
+      "file_b": "hardneg_sample_0129.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0065.jpg",
+      "file_b": "hardneg_sample_0131.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0065.jpg",
+      "file_b": "hardneg_sample_0139.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "hardneg_sample_0065.jpg",
+      "file_b": "hardneg_sample_0140.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0065.jpg",
+      "file_b": "hardneg_sample_0147.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0065.jpg",
+      "file_b": "hardneg_sample_0154.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "hardneg_sample_0065.jpg",
+      "file_b": "hardneg_sample_0161.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0066.jpg",
+      "file_b": "hardneg_sample_0069.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0066.jpg",
+      "file_b": "hardneg_sample_0086.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0066.jpg",
+      "file_b": "hardneg_sample_0100.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0066.jpg",
+      "file_b": "hardneg_sample_0124.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0066.jpg",
+      "file_b": "hardneg_sample_0129.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0066.jpg",
+      "file_b": "hardneg_sample_0131.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0066.jpg",
+      "file_b": "hardneg_sample_0139.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "hardneg_sample_0066.jpg",
+      "file_b": "hardneg_sample_0140.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0066.jpg",
+      "file_b": "hardneg_sample_0147.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0066.jpg",
+      "file_b": "hardneg_sample_0154.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "hardneg_sample_0066.jpg",
+      "file_b": "hardneg_sample_0161.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0069.jpg",
+      "file_b": "hardneg_sample_0086.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0069.jpg",
+      "file_b": "hardneg_sample_0100.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0069.jpg",
+      "file_b": "hardneg_sample_0124.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0069.jpg",
+      "file_b": "hardneg_sample_0129.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0069.jpg",
+      "file_b": "hardneg_sample_0131.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0069.jpg",
+      "file_b": "hardneg_sample_0139.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "hardneg_sample_0069.jpg",
+      "file_b": "hardneg_sample_0140.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0069.jpg",
+      "file_b": "hardneg_sample_0147.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0069.jpg",
+      "file_b": "hardneg_sample_0154.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "hardneg_sample_0069.jpg",
+      "file_b": "hardneg_sample_0161.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0086.jpg",
+      "file_b": "hardneg_sample_0100.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0086.jpg",
+      "file_b": "hardneg_sample_0124.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0086.jpg",
+      "file_b": "hardneg_sample_0129.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0086.jpg",
+      "file_b": "hardneg_sample_0131.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "hardneg_sample_0086.jpg",
+      "file_b": "hardneg_sample_0139.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0086.jpg",
+      "file_b": "hardneg_sample_0140.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0086.jpg",
+      "file_b": "hardneg_sample_0147.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0086.jpg",
+      "file_b": "hardneg_sample_0154.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "hardneg_sample_0086.jpg",
+      "file_b": "hardneg_sample_0161.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0100.jpg",
+      "file_b": "hardneg_sample_0124.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0100.jpg",
+      "file_b": "hardneg_sample_0129.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0100.jpg",
+      "file_b": "hardneg_sample_0131.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0100.jpg",
+      "file_b": "hardneg_sample_0139.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "hardneg_sample_0100.jpg",
+      "file_b": "hardneg_sample_0140.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0100.jpg",
+      "file_b": "hardneg_sample_0147.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0100.jpg",
+      "file_b": "hardneg_sample_0154.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "hardneg_sample_0100.jpg",
+      "file_b": "hardneg_sample_0161.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0124.jpg",
+      "file_b": "hardneg_sample_0129.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0124.jpg",
+      "file_b": "hardneg_sample_0131.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0124.jpg",
+      "file_b": "hardneg_sample_0139.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "hardneg_sample_0124.jpg",
+      "file_b": "hardneg_sample_0140.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0124.jpg",
+      "file_b": "hardneg_sample_0147.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0124.jpg",
+      "file_b": "hardneg_sample_0154.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "hardneg_sample_0124.jpg",
+      "file_b": "hardneg_sample_0161.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0129.jpg",
+      "file_b": "hardneg_sample_0131.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0129.jpg",
+      "file_b": "hardneg_sample_0139.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "hardneg_sample_0129.jpg",
+      "file_b": "hardneg_sample_0140.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0129.jpg",
+      "file_b": "hardneg_sample_0147.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0129.jpg",
+      "file_b": "hardneg_sample_0154.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "hardneg_sample_0129.jpg",
+      "file_b": "hardneg_sample_0161.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0131.jpg",
+      "file_b": "hardneg_sample_0139.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "hardneg_sample_0131.jpg",
+      "file_b": "hardneg_sample_0140.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0131.jpg",
+      "file_b": "hardneg_sample_0147.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0131.jpg",
+      "file_b": "hardneg_sample_0154.jpg",
+      "hamming_distance": 3
+    },
+    {
+      "file_a": "hardneg_sample_0131.jpg",
+      "file_b": "hardneg_sample_0161.jpg",
+      "hamming_distance": 1
+    },
+    {
+      "file_a": "hardneg_sample_0139.jpg",
+      "file_b": "hardneg_sample_0140.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "hardneg_sample_0139.jpg",
+      "file_b": "hardneg_sample_0147.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "hardneg_sample_0139.jpg",
+      "file_b": "hardneg_sample_0161.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "hardneg_sample_0140.jpg",
+      "file_b": "hardneg_sample_0147.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0140.jpg",
+      "file_b": "hardneg_sample_0154.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "hardneg_sample_0140.jpg",
+      "file_b": "hardneg_sample_0161.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0147.jpg",
+      "file_b": "hardneg_sample_0154.jpg",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "hardneg_sample_0147.jpg",
+      "file_b": "hardneg_sample_0161.jpg",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "hardneg_sample_0154.jpg",
+      "file_b": "hardneg_sample_0161.jpg",
+      "hamming_distance": 2
+    }
+  ],
+  "status": "WARNING"
+}

@@ -1,0 +1,368 @@
+{
+  "mode": "everything",
+  "overallRecall": 0.368,
+  "cases": [
+    {
+      "file": "person_glasses.jpg",
+      "peopleCount": 1,
+      "objectCount": 1,
+      "accessoryCount": 2,
+      "relationshipCount": 6,
+      "detectedAccessories": [
+        "sunglasses",
+        "sunglasses"
+      ],
+      "expected": [
+        "glasses"
+      ],
+      "matched": [
+        "glasses"
+      ],
+      "recall": 1.0,
+      "timings": {
+        "qualityCheckMs": 4.72,
+        "routingMs": 2.54,
+        "objectDetectionMs": 799.0,
+        "personCropMs": 497.92,
+        "bodyRegionMs": 199.17,
+        "openVocabMs": 3513.64,
+        "segmentationMs": 745.99,
+        "ocrMs": 0.0,
+        "visionMs": 1199.31,
+        "fusionMs": 0.03,
+        "totalMs": 6021.38
+      },
+      "totalMs": 6021
+    },
+    {
+      "file": "person_airpods.jpg",
+      "peopleCount": 1,
+      "objectCount": 1,
+      "accessoryCount": 0,
+      "relationshipCount": 3,
+      "detectedAccessories": [],
+      "expected": [
+        "airpods"
+      ],
+      "matched": [],
+      "recall": 0.0,
+      "timings": {
+        "qualityCheckMs": 5.23,
+        "routingMs": 2.44,
+        "objectDetectionMs": 503.32,
+        "personCropMs": 278.83,
+        "bodyRegionMs": 111.53,
+        "openVocabMs": 550.26,
+        "segmentationMs": 503.08,
+        "ocrMs": 0.0,
+        "visionMs": 685.3,
+        "fusionMs": 0.02,
+        "totalMs": 2030.3
+      },
+      "totalMs": 2030
+    },
+    {
+      "file": "person_necklace.jpg",
+      "peopleCount": 1,
+      "objectCount": 1,
+      "accessoryCount": 0,
+      "relationshipCount": 3,
+      "detectedAccessories": [],
+      "expected": [
+        "necklace"
+      ],
+      "matched": [],
+      "recall": 0.0,
+      "timings": {
+        "qualityCheckMs": 4.67,
+        "routingMs": 3.19,
+        "objectDetectionMs": 556.67,
+        "personCropMs": 268.62,
+        "bodyRegionMs": 107.45,
+        "openVocabMs": 536.85,
+        "segmentationMs": 556.37,
+        "ocrMs": 0.0,
+        "visionMs": 859.6,
+        "fusionMs": 0.02,
+        "totalMs": 2233.83
+      },
+      "totalMs": 2233
+    },
+    {
+      "file": "person_watch.jpg",
+      "peopleCount": 1,
+      "objectCount": 1,
+      "accessoryCount": 0,
+      "relationshipCount": 3,
+      "detectedAccessories": [],
+      "expected": [
+        "watch"
+      ],
+      "matched": [],
+      "recall": 0.0,
+      "timings": {
+        "qualityCheckMs": 5.13,
+        "routingMs": 2.66,
+        "objectDetectionMs": 533.64,
+        "personCropMs": 268.87,
+        "bodyRegionMs": 107.55,
+        "openVocabMs": 468.34,
+        "segmentationMs": 533.35,
+        "ocrMs": 0.0,
+        "visionMs": 729.77,
+        "fusionMs": 0.06,
+        "totalMs": 2012.09
+      },
+      "totalMs": 2012
+    },
+    {
+      "file": "person_bracelet.jpg",
+      "peopleCount": 1,
+      "objectCount": 1,
+      "accessoryCount": 0,
+      "relationshipCount": 3,
+      "detectedAccessories": [],
+      "expected": [
+        "bracelet"
+      ],
+      "matched": [],
+      "recall": 0.0,
+      "timings": {
+        "qualityCheckMs": 5.12,
+        "routingMs": 2.42,
+        "objectDetectionMs": 536.24,
+        "personCropMs": 273.4,
+        "bodyRegionMs": 109.36,
+        "openVocabMs": 455.69,
+        "segmentationMs": 535.96,
+        "ocrMs": 0.0,
+        "visionMs": 861.48,
+        "fusionMs": 0.02,
+        "totalMs": 2138.59
+      },
+      "totalMs": 2138
+    },
+    {
+      "file": "person_ring.jpg",
+      "peopleCount": 1,
+      "objectCount": 1,
+      "accessoryCount": 0,
+      "relationshipCount": 3,
+      "detectedAccessories": [],
+      "expected": [
+        "ring"
+      ],
+      "matched": [],
+      "recall": 0.0,
+      "timings": {
+        "qualityCheckMs": 5.99,
+        "routingMs": 2.67,
+        "objectDetectionMs": 530.23,
+        "personCropMs": 267.81,
+        "bodyRegionMs": 107.12,
+        "openVocabMs": 464.5,
+        "segmentationMs": 527.8,
+        "ocrMs": 0.0,
+        "visionMs": 649.12,
+        "fusionMs": 0.02,
+        "totalMs": 1924.34
+      },
+      "totalMs": 1924
+    },
+    {
+      "file": "person_phone.jpg",
+      "peopleCount": 1,
+      "objectCount": 1,
+      "accessoryCount": 0,
+      "relationshipCount": 3,
+      "detectedAccessories": [],
+      "expected": [
+        "cell phone",
+        "phone"
+      ],
+      "matched": [],
+      "recall": 0.0,
+      "timings": {
+        "qualityCheckMs": 5.92,
+        "routingMs": 2.79,
+        "objectDetectionMs": 522.57,
+        "personCropMs": 283.58,
+        "bodyRegionMs": 113.43,
+        "openVocabMs": 453.08,
+        "segmentationMs": 522.31,
+        "ocrMs": 0.0,
+        "visionMs": 635.38,
+        "fusionMs": 0.04,
+        "totalMs": 1906.33
+      },
+      "totalMs": 1906
+    },
+    {
+      "file": "person_multi_accessories.jpg",
+      "peopleCount": 2,
+      "objectCount": 2,
+      "accessoryCount": 2,
+      "relationshipCount": 9,
+      "detectedAccessories": [
+        "sunglasses",
+        "sunglasses"
+      ],
+      "expected": [
+        "glasses",
+        "airpods",
+        "necklace",
+        "watch",
+        "ring",
+        "phone"
+      ],
+      "matched": [
+        "glasses"
+      ],
+      "recall": 0.17,
+      "timings": {
+        "qualityCheckMs": 5.05,
+        "routingMs": 2.41,
+        "objectDetectionMs": 711.88,
+        "personCropMs": 589.79,
+        "bodyRegionMs": 235.92,
+        "openVocabMs": 446.77,
+        "segmentationMs": 710.41,
+        "ocrMs": 0.0,
+        "visionMs": 642.64,
+        "fusionMs": 0.04,
+        "totalMs": 2402.82
+      },
+      "totalMs": 2402
+    },
+    {
+      "file": "person_far.jpg",
+      "peopleCount": 1,
+      "objectCount": 1,
+      "accessoryCount": 2,
+      "relationshipCount": 7,
+      "detectedAccessories": [
+        "sunglasses",
+        "glasses"
+      ],
+      "expected": [
+        "person"
+      ],
+      "matched": [
+        "person"
+      ],
+      "recall": 1.0,
+      "timings": {
+        "qualityCheckMs": 7.07,
+        "routingMs": 2.36,
+        "objectDetectionMs": 1298.07,
+        "personCropMs": 312.48,
+        "bodyRegionMs": 124.99,
+        "openVocabMs": 340.34,
+        "segmentationMs": 1297.71,
+        "ocrMs": 0.0,
+        "visionMs": 509.58,
+        "fusionMs": 0.02,
+        "totalMs": 2480.43
+      },
+      "totalMs": 2480
+    },
+    {
+      "file": "person_low_light.jpg",
+      "peopleCount": 1,
+      "objectCount": 1,
+      "accessoryCount": 2,
+      "relationshipCount": 6,
+      "detectedAccessories": [
+        "sunglasses",
+        "sunglasses"
+      ],
+      "expected": [
+        "person"
+      ],
+      "matched": [
+        "person"
+      ],
+      "recall": 1.0,
+      "timings": {
+        "qualityCheckMs": 4.79,
+        "routingMs": 2.67,
+        "objectDetectionMs": 585.15,
+        "personCropMs": 337.0,
+        "bodyRegionMs": 134.8,
+        "openVocabMs": 480.55,
+        "segmentationMs": 584.86,
+        "ocrMs": 0.0,
+        "visionMs": 708.57,
+        "fusionMs": 0.03,
+        "totalMs": 2122.15
+      },
+      "totalMs": 2122
+    },
+    {
+      "file": "person_occluded.jpg",
+      "peopleCount": 1,
+      "objectCount": 1,
+      "accessoryCount": 2,
+      "relationshipCount": 6,
+      "detectedAccessories": [
+        "sunglasses",
+        "sunglasses"
+      ],
+      "expected": [
+        "person"
+      ],
+      "matched": [
+        "person"
+      ],
+      "recall": 1.0,
+      "timings": {
+        "qualityCheckMs": 4.49,
+        "routingMs": 2.64,
+        "objectDetectionMs": 542.87,
+        "personCropMs": 267.57,
+        "bodyRegionMs": 107.03,
+        "openVocabMs": 455.66,
+        "segmentationMs": 542.61,
+        "ocrMs": 0.0,
+        "visionMs": 552.95,
+        "fusionMs": 0.02,
+        "totalMs": 1830.68
+      },
+      "totalMs": 1830
+    },
+    {
+      "file": "multiple_people.jpg",
+      "peopleCount": 2,
+      "objectCount": 2,
+      "accessoryCount": 2,
+      "relationshipCount": 10,
+      "detectedAccessories": [
+        "sunglasses",
+        "sunglasses"
+      ],
+      "expected": [
+        "person",
+        "glasses"
+      ],
+      "matched": [
+        "person",
+        "glasses"
+      ],
+      "recall": 1.0,
+      "timings": {
+        "qualityCheckMs": 9.17,
+        "routingMs": 2.99,
+        "objectDetectionMs": 720.22,
+        "personCropMs": 565.43,
+        "bodyRegionMs": 226.17,
+        "openVocabMs": 377.97,
+        "segmentationMs": 719.97,
+        "ocrMs": 0.0,
+        "visionMs": 701.57,
+        "fusionMs": 0.02,
+        "totalMs": 2384.56
+      },
+      "totalMs": 2384
+    }
+  ]
+}

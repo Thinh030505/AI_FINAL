@@ -1,0 +1,11 @@
+{
+  "source_weights": "models/candidates/yolo11n_finegrained_v1.pt",
+  "exported_format": "onnx",
+  "exported_path": "models\\candidates\\yolo11n_finegrained_v1.onnx",
+  "opset": 17,
+  "dynamic_axes": true,
+  "pytorch_size_mb": 5.39,
+  "exported_size_mb": 11.07,
+  "export_time_seconds": 3.37,
+  "timestamp": "2026-09-10 16:07:22"
+}

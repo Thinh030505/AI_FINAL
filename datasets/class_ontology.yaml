@@ -1,0 +1,1351 @@
+# Class Ontology & Canonical Taxonomy Definition
+# Phase 11: Dataset Expansion, Fine-Grained Detection & Model Intelligence Upgrade
+# Format Version: 1.0.0
+# Number of Classes: 180 canonical categories across 16 functional groups
+
+version: "1.0.0"
+date: "2026-09-10"
+total_classes: 180
+
+groups:
+  - id: 1
+    name: "Person & Demographics / Parts"
+    description: "Human entities and distinct anatomical anatomical landmarks"
+  - id: 2
+    name: "Apparel & Clothing"
+    description: "Garments and body coverings"
+  - id: 3
+    name: "Fashion Accessories"
+    description: "Portable personal accessories and embellishments"
+  - id: 4
+    name: "Personal Electronics & Gadgets"
+    description: "Mobile computing, audio, and peripheral devices"
+  - id: 5
+    name: "Eyewear & Headwear"
+    description: "Vision aids, protection, and head coverings"
+  - id: 6
+    name: "Bags & Luggage"
+    description: "Baggage, luggage, carriers, and cases"
+  - id: 7
+    name: "Footwear"
+    description: "Shoes, boots, athletic, and casual footwear"
+  - id: 8
+    name: "Jewelry & Micro-Adornments"
+    description: "Precious and decorative micro-ornaments"
+  - id: 9
+    name: "Home & Office Furniture"
+    description: "Interior furnishing and structural seating/tables"
+  - id: 10
+    name: "Food & Dining Ware"
+    description: "Tableware, eating utensils, and drinkware"
+  - id: 11
+    name: "Kitchenware & Appliances"
+    description: "Cooking devices, white goods, and food prep tools"
+  - id: 12
+    name: "Street & Urban Environment"
+    description: "Municipal infrastructure, signs, and public street furniture"
+  - id: 13
+    name: "Vehicles & Mobility"
+    description: "Transportation, vehicles, personal mobility"
+  - id: 14
+    name: "Sports & Fitness"
+    description: "Athletic gear, balls, and workout equipment"
+  - id: 15
+    name: "Tools, Stationery & Hardware"
+    description: "Writing utensils, hand tools, and workshop equipment"
+  - id: 16
+    name: "Background / Hard-Negative Distractors"
+    description: "True negative distractors to suppress false positive triggers"
+
+classes:
+  # Group 1: Person & Anatomical Landmarks (IDs 0 - 7)
+  - id: 0
+    name: "person"
+    group: "Person & Demographics / Parts"
+    synonyms: ["human", "individual", "pedestrian", "man", "woman", "child", "boy", "girl"]
+    body_region: "none"
+    scale_tier: "large"
+    min_bbox_pixels: 400
+  - id: 1
+    name: "human_face"
+    group: "Person & Demographics / Parts"
+    synonyms: ["face", "portrait"]
+    body_region: "head"
+    scale_tier: "medium"
+    min_bbox_pixels: 200
+  - id: 2
+    name: "human_head"
+    group: "Person & Demographics / Parts"
+    synonyms: ["head"]
+    body_region: "head"
+    scale_tier: "medium"
+    min_bbox_pixels: 250
+  - id: 3
+    name: "human_hand"
+    group: "Person & Demographics / Parts"
+    synonyms: ["hand", "palm", "fist"]
+    body_region: "hands"
+    scale_tier: "small"
+    min_bbox_pixels: 100
+  - id: 4
+    name: "human_foot"
+    group: "Person & Demographics / Parts"
+    synonyms: ["foot", "feet"]
+    body_region: "feet"
+    scale_tier: "small"
+    min_bbox_pixels: 120
+  - id: 5
+    name: "human_eye"
+    group: "Person & Demographics / Parts"
+    synonyms: ["eye", "eyes"]
+    body_region: "head"
+    scale_tier: "micro"
+    min_bbox_pixels: 30
+  - id: 6
+    name: "human_ear"
+    group: "Person & Demographics / Parts"
+    synonyms: ["ear", "ears"]
+    body_region: "ear"
+    scale_tier: "micro"
+    min_bbox_pixels: 40
+  - id: 7
+    name: "human_torso"
+    group: "Person & Demographics / Parts"
+    synonyms: ["torso", "chest"]
+    body_region: "torso"
+    scale_tier: "large"
+    min_bbox_pixels: 500
+
+  # Group 2: Apparel & Clothing (IDs 8 - 25)
+  - id: 8
+    name: "shirt"
+    group: "Apparel & Clothing"
+    synonyms: ["dress shirt", "button-down", "top"]
+    body_region: "torso"
+    scale_tier: "medium"
+    min_bbox_pixels: 300
+  - id: 9
+    name: "t-shirt"
+    group: "Apparel & Clothing"
+    synonyms: ["tee", "tshirt", "t shirt"]
+    body_region: "torso"
+    scale_tier: "medium"
+    min_bbox_pixels: 300
+  - id: 10
+    name: "blouse"
+    group: "Apparel & Clothing"
+    synonyms: ["women blouse"]
+    body_region: "torso"
+    scale_tier: "medium"
+    min_bbox_pixels: 300
+  - id: 11
+    name: "dress"
+    group: "Apparel & Clothing"
+    synonyms: ["gown", "frock", "one-piece"]
+    body_region: "torso"
+    scale_tier: "large"
+    min_bbox_pixels: 600
+  - id: 12
+    name: "pants"
+    group: "Apparel & Clothing"
+    synonyms: ["trousers", "slacks", "chinos"]
+    body_region: "legs"
+    scale_tier: "medium"
+    min_bbox_pixels: 400
+  - id: 13
+    name: "jeans"
+    group: "Apparel & Clothing"
+    synonyms: ["denim pants", "denims"]
+    body_region: "legs"
+    scale_tier: "medium"
+    min_bbox_pixels: 400
+  - id: 14
+    name: "shorts"
+    group: "Apparel & Clothing"
+    synonyms: ["short pants", "bermuda"]
+    body_region: "legs"
+    scale_tier: "medium"
+    min_bbox_pixels: 300
+  - id: 15
+    name: "skirt"
+    group: "Apparel & Clothing"
+    synonyms: ["mini-skirt", "maxi-skirt"]
+    body_region: "legs"
+    scale_tier: "medium"
+    min_bbox_pixels: 350
+  - id: 16
+    name: "jacket"
+    group: "Apparel & Clothing"
+    synonyms: ["windbreaker", "leather jacket", "bomber"]
+    body_region: "torso"
+    scale_tier: "large"
+    min_bbox_pixels: 500
+  - id: 17
+    name: "coat"
+    group: "Apparel & Clothing"
+    synonyms: ["overcoat", "trench coat", "parka"]
+    body_region: "torso"
+    scale_tier: "large"
+    min_bbox_pixels: 600
+  - id: 18
+    name: "hoodie"
+    group: "Apparel & Clothing"
+    synonyms: ["hooded sweatshirt"]
+    body_region: "torso"
+    scale_tier: "large"
+    min_bbox_pixels: 500
+  - id: 19
+    name: "sweater"
+    group: "Apparel & Clothing"
+    synonyms: ["cardigan", "pullover", "jumper"]
+    body_region: "torso"
+    scale_tier: "medium"
+    min_bbox_pixels: 400
+  - id: 20
+    name: "suit"
+    group: "Apparel & Clothing"
+    synonyms: ["blazer", "tuxedo", "business suit"]
+    body_region: "torso"
+    scale_tier: "large"
+    min_bbox_pixels: 600
+  - id: 21
+    name: "vest"
+    group: "Apparel & Clothing"
+    synonyms: ["waistcoat", "sleeveless jacket"]
+    body_region: "torso"
+    scale_tier: "medium"
+    min_bbox_pixels: 300
+  - id: 22
+    name: "swimsuit"
+    group: "Apparel & Clothing"
+    synonyms: ["bikini", "swimwear", "bathing suit"]
+    body_region: "torso"
+    scale_tier: "medium"
+    min_bbox_pixels: 250
+  - id: 23
+    name: "scarf"
+    group: "Apparel & Clothing"
+    synonyms: ["muffler", "shawl", "neck wrap"]
+    body_region: "neck"
+    scale_tier: "small"
+    min_bbox_pixels: 150
+  - id: 24
+    name: "tie"
+    group: "Apparel & Clothing"
+    synonyms: ["necktie", "bow tie"]
+    body_region: "neck"
+    scale_tier: "small"
+    min_bbox_pixels: 80
+  - id: 25
+    name: "uniform"
+    group: "Apparel & Clothing"
+    synonyms: ["workwear", "scrubs", "school uniform"]
+    body_region: "torso"
+    scale_tier: "large"
+    min_bbox_pixels: 500
+
+  # Group 3: Fashion Accessories (IDs 26 - 35)
+  - id: 26
+    name: "belt"
+    group: "Fashion Accessories"
+    synonyms: ["waist belt", "leather belt"]
+    body_region: "torso"
+    scale_tier: "small"
+    min_bbox_pixels: 80
+  - id: 27
+    name: "wallet"
+    group: "Fashion Accessories"
+    synonyms: ["billfold", "coin purse"]
+    body_region: "hands"
+    scale_tier: "small"
+    min_bbox_pixels: 100
+  - id: 28
+    name: "umbrella"
+    group: "Fashion Accessories"
+    synonyms: ["parasol", "rain umbrella"]
+    body_region: "hands"
+    scale_tier: "medium"
+    min_bbox_pixels: 300
+  - id: 29
+    name: "glove"
+    group: "Fashion Accessories"
+    synonyms: ["gloves", "mittens", "hand wrap"]
+    body_region: "hands"
+    scale_tier: "small"
+    min_bbox_pixels: 90
+  - id: 30
+    name: "badge"
+    group: "Fashion Accessories"
+    synonyms: ["name tag", "id badge", "pin badge"]
+    body_region: "torso"
+    scale_tier: "micro"
+    min_bbox_pixels: 40
+  - id: 31
+    name: "face_mask"
+    group: "Fashion Accessories"
+    synonyms: ["medical mask", "surgical mask", "protective mask"]
+    body_region: "face"
+    scale_tier: "small"
+    min_bbox_pixels: 120
+  - id: 32
+    name: "keychain"
+    group: "Fashion Accessories"
+    synonyms: ["key ring", "key fob"]
+    body_region: "hands"
+    scale_tier: "micro"
+    min_bbox_pixels: 40
+  - id: 33
+    name: "lanyard"
+    group: "Fashion Accessories"
+    synonyms: ["neck strap", "badge holder strap"]
+    body_region: "neck"
+    scale_tier: "small"
+    min_bbox_pixels: 80
+  - id: 34
+    name: "handkerchief"
+    group: "Fashion Accessories"
+    synonyms: ["pocket square", "bandana"]
+    body_region: "hands"
+    scale_tier: "small"
+    min_bbox_pixels: 60
+  - id: 35
+    name: "hair_clip"
+    group: "Fashion Accessories"
+    synonyms: ["hairpin", "barrette", "hair tie"]
+    body_region: "head"
+    scale_tier: "micro"
+    min_bbox_pixels: 30
+
+  # Group 4: Personal Electronics & Gadgets (IDs 36 - 52)
+  - id: 36
+    name: "cell phone"
+    group: "Personal Electronics & Gadgets"
+    synonyms: ["smartphone", "mobile phone", "telephone", "iphone", "android phone"]
+    body_region: "hands"
+    scale_tier: "small"
+    min_bbox_pixels: 100
+  - id: 37
+    name: "tablet"
+    group: "Personal Electronics & Gadgets"
+    synonyms: ["ipad", "tablet computer", "slate"]
+    body_region: "hands"
+    scale_tier: "medium"
+    min_bbox_pixels: 250
+  - id: 38
+    name: "laptop"
+    group: "Personal Electronics & Gadgets"
+    synonyms: ["notebook", "macbook", "portable computer"]
+    body_region: "none"
+    scale_tier: "medium"
+    min_bbox_pixels: 400
+  - id: 39
+    name: "mouse"
+    group: "Personal Electronics & Gadgets"
+    synonyms: ["computer mouse", "optical mouse"]
+    body_region: "hands"
+    scale_tier: "small"
+    min_bbox_pixels: 80
+  - id: 40
+    name: "keyboard"
+    group: "Personal Electronics & Gadgets"
+    synonyms: ["computer keyboard", "keypad"]
+    body_region: "none"
+    scale_tier: "medium"
+    min_bbox_pixels: 200
+  - id: 41
+    name: "monitor"
+    group: "Personal Electronics & Gadgets"
+    synonyms: ["display", "screen", "computer screen", "tv"]
+    body_region: "none"
+    scale_tier: "large"
+    min_bbox_pixels: 600
+  - id: 42
+    name: "smartwatch"
+    group: "Personal Electronics & Gadgets"
+    synonyms: ["apple watch", "fitness tracker", "smart band"]
+    body_region: "wrist"
+    scale_tier: "micro"
+    min_bbox_pixels: 50
+  - id: 43
+    name: "camera"
+    group: "Personal Electronics & Gadgets"
+    synonyms: ["dslr", "digital camera", "video camera"]
+    body_region: "hands"
+    scale_tier: "small"
+    min_bbox_pixels: 120
+  - id: 44
+    name: "headphones"
+    group: "Personal Electronics & Gadgets"
+    synonyms: ["over-ear headphones", "headset"]
+    body_region: "ear"
+    scale_tier: "medium"
+    min_bbox_pixels: 180
+  - id: 45
+    name: "earphones"
+    group: "Personal Electronics & Gadgets"
+    synonyms: ["in-ear headphones", "earbuds", "airpods", "wireless earbuds"]
+    body_region: "ear"
+    scale_tier: "micro"
+    min_bbox_pixels: 30
+  - id: 46
+    name: "remote"
+    group: "Personal Electronics & Gadgets"
+    synonyms: ["tv remote", "remote control"]
+    body_region: "hands"
+    scale_tier: "small"
+    min_bbox_pixels: 80
+  - id: 47
+    name: "power_bank"
+    group: "Personal Electronics & Gadgets"
+    synonyms: ["portable charger", "battery pack"]
+    body_region: "hands"
+    scale_tier: "small"
+    min_bbox_pixels: 80
+  - id: 48
+    name: "game_controller"
+    group: "Personal Electronics & Gadgets"
+    synonyms: ["gamepad", "joystick", "xbox controller", "playstation controller"]
+    body_region: "hands"
+    scale_tier: "small"
+    min_bbox_pixels: 120
+  - id: 49
+    name: "stylus"
+    group: "Personal Electronics & Gadgets"
+    synonyms: ["digital pen", "apple pencil"]
+    body_region: "hands"
+    scale_tier: "micro"
+    min_bbox_pixels: 40
+  - id: 50
+    name: "charging_cable"
+    group: "Personal Electronics & Gadgets"
+    synonyms: ["usb cable", "phone charger wire"]
+    body_region: "none"
+    scale_tier: "small"
+    min_bbox_pixels: 50
+  - id: 51
+    name: "usb_drive"
+    group: "Personal Electronics & Gadgets"
+    synonyms: ["thumb drive", "flash drive"]
+    body_region: "hands"
+    scale_tier: "micro"
+    min_bbox_pixels: 30
+  - id: 52
+    name: "speaker"
+    group: "Personal Electronics & Gadgets"
+    synonyms: ["bluetooth speaker", "audio speaker", "smart speaker"]
+    body_region: "none"
+    scale_tier: "medium"
+    min_bbox_pixels: 180
+
+  # Group 5: Eyewear & Headwear (IDs 53 - 62)
+  - id: 53
+    name: "eyeglasses"
+    group: "Eyewear & Headwear"
+    synonyms: ["glasses", "spectacles", "reading glasses"]
+    body_region: "face"
+    scale_tier: "small"
+    min_bbox_pixels: 80
+  - id: 54
+    name: "sunglasses"
+    group: "Eyewear & Headwear"
+    synonyms: ["shades", "dark glasses"]
+    body_region: "face"
+    scale_tier: "small"
+    min_bbox_pixels: 80
+  - id: 55
+    name: "safety_goggles"
+    group: "Eyewear & Headwear"
+    synonyms: ["protective goggles", "eye protection"]
+    body_region: "face"
+    scale_tier: "small"
+    min_bbox_pixels: 90
+  - id: 56
+    name: "cap"
+    group: "Eyewear & Headwear"
+    synonyms: ["baseball cap", "snapback", "trucker hat"]
+    body_region: "head"
+    scale_tier: "medium"
+    min_bbox_pixels: 200
+  - id: 57
+    name: "hat"
+    group: "Eyewear & Headwear"
+    synonyms: ["fedora", "sunhat", "panama hat", "bucket hat"]
+    body_region: "head"
+    scale_tier: "medium"
+    min_bbox_pixels: 220
+  - id: 58
+    name: "beanie"
+    group: "Eyewear & Headwear"
+    synonyms: ["knit cap", "winter hat", "skullcap"]
+    body_region: "head"
+    scale_tier: "medium"
+    min_bbox_pixels: 180
+  - id: 59
+    name: "helmet"
+    group: "Eyewear & Headwear"
+    synonyms: ["motorcycle helmet", "bicycle helmet", "hard hat", "crash helmet"]
+    body_region: "head"
+    scale_tier: "medium"
+    min_bbox_pixels: 250
+  - id: 60
+    name: "headband"
+    group: "Eyewear & Headwear"
+    synonyms: ["hairband", "sweatband"]
+    body_region: "head"
+    scale_tier: "micro"
+    min_bbox_pixels: 50
+  - id: 61
+    name: "beret"
+    group: "Eyewear & Headwear"
+    synonyms: ["french beret"]
+    body_region: "head"
+    scale_tier: "medium"
+    min_bbox_pixels: 180
+  - id: 62
+    name: "hood"
+    group: "Eyewear & Headwear"
+    synonyms: ["jacket hood", "hoodie hood"]
+    body_region: "head"
+    scale_tier: "medium"
+    min_bbox_pixels: 200
+
+  # Group 6: Bags & Luggage (IDs 63 - 73)
+  - id: 63
+    name: "backpack"
+    group: "Bags & Luggage"
+    synonyms: ["rucksack", "knapsack", "bookbag"]
+    body_region: "torso"
+    scale_tier: "medium"
+    min_bbox_pixels: 350
+  - id: 64
+    name: "handbag"
+    group: "Bags & Luggage"
+    synonyms: ["purse", "shoulder bag", "pocketbook"]
+    body_region: "hands"
+    scale_tier: "medium"
+    min_bbox_pixels: 250
+  - id: 65
+    name: "tote_bag"
+    group: "Bags & Luggage"
+    synonyms: ["canvas bag", "shopping tote"]
+    body_region: "hands"
+    scale_tier: "medium"
+    min_bbox_pixels: 300
+  - id: 66
+    name: "suitcase"
+    group: "Bags & Luggage"
+    synonyms: ["luggage", "rolling bag", "trolley case", "travel bag"]
+    body_region: "hands"
+    scale_tier: "large"
+    min_bbox_pixels: 600
+  - id: 67
+    name: "duffel_bag"
+    group: "Bags & Luggage"
+    synonyms: ["gym bag", "weekender"]
+    body_region: "hands"
+    scale_tier: "large"
+    min_bbox_pixels: 500
+  - id: 68
+    name: "briefcase"
+    group: "Bags & Luggage"
+    synonyms: ["attache case", "business bag"]
+    body_region: "hands"
+    scale_tier: "medium"
+    min_bbox_pixels: 350
+  - id: 69
+    name: "shopping_bag"
+    group: "Bags & Luggage"
+    synonyms: ["plastic bag", "paper shopping bag", "grocery bag"]
+    body_region: "hands"
+    scale_tier: "medium"
+    min_bbox_pixels: 250
+  - id: 70
+    name: "fanny_pack"
+    group: "Bags & Luggage"
+    synonyms: ["waist pack", "bum bag", "crossbody pouch"]
+    body_region: "torso"
+    scale_tier: "small"
+    min_bbox_pixels: 150
+  - id: 71
+    name: "crossbody_bag"
+    group: "Bags & Luggage"
+    synonyms: ["messenger bag", "sling bag"]
+    body_region: "torso"
+    scale_tier: "medium"
+    min_bbox_pixels: 250
+  - id: 72
+    name: "clutch"
+    group: "Bags & Luggage"
+    synonyms: ["evening bag", "wristlet"]
+    body_region: "hands"
+    scale_tier: "small"
+    min_bbox_pixels: 100
+  - id: 73
+    name: "camera_bag"
+    group: "Bags & Luggage"
+    synonyms: ["dslr case", "lens case"]
+    body_region: "torso"
+    scale_tier: "medium"
+    min_bbox_pixels: 200
+
+  # Group 7: Footwear (IDs 74 - 82)
+  - id: 74
+    name: "shoes"
+    group: "Footwear"
+    synonyms: ["leather shoes", "dress shoes", "oxfords", "derby"]
+    body_region: "feet"
+    scale_tier: "small"
+    min_bbox_pixels: 150
+  - id: 75
+    name: "sneakers"
+    group: "Footwear"
+    synonyms: ["running shoes", "trainers", "tennis shoes", "athletic footwear"]
+    body_region: "feet"
+    scale_tier: "small"
+    min_bbox_pixels: 150
+  - id: 76
+    name: "boots"
+    group: "Footwear"
+    synonyms: ["ankle boots", "combat boots", "work boots", "rain boots"]
+    body_region: "feet"
+    scale_tier: "medium"
+    min_bbox_pixels: 220
+  - id: 77
+    name: "sandals"
+    group: "Footwear"
+    synonyms: ["strappy sandals", "open-toe shoes"]
+    body_region: "feet"
+    scale_tier: "small"
+    min_bbox_pixels: 120
+  - id: 78
+    name: "high_heels"
+    group: "Footwear"
+    synonyms: ["pumps", "stilettos", "heels"]
+    body_region: "feet"
+    scale_tier: "small"
+    min_bbox_pixels: 140
+  - id: 79
+    name: "slippers"
+    group: "Footwear"
+    synonyms: ["house shoes", "moccasins"]
+    body_region: "feet"
+    scale_tier: "small"
+    min_bbox_pixels: 120
+  - id: 80
+    name: "flip_flops"
+    group: "Footwear"
+    synonyms: ["thongs", "beach sandals"]
+    body_region: "feet"
+    scale_tier: "small"
+    min_bbox_pixels: 100
+  - id: 81
+    name: "loafers"
+    group: "Footwear"
+    synonyms: ["slip-on shoes", "moccasin loafers"]
+    body_region: "feet"
+    scale_tier: "small"
+    min_bbox_pixels: 140
+  - id: 82
+    name: "clogs"
+    group: "Footwear"
+    synonyms: ["crocs", "wooden shoes"]
+    body_region: "feet"
+    scale_tier: "small"
+    min_bbox_pixels: 130
+
+  # Group 8: Jewelry & Micro-Adornments (IDs 83 - 93)
+  - id: 83
+    name: "wristwatch"
+    group: "Jewelry & Micro-Adornments"
+    synonyms: ["watch", "analog watch", "chronograph", "wrist watch"]
+    body_region: "wrist"
+    scale_tier: "micro"
+    min_bbox_pixels: 40
+  - id: 84
+    name: "ring"
+    group: "Jewelry & Micro-Adornments"
+    synonyms: ["finger ring", "wedding ring", "engagement ring", "gold ring"]
+    body_region: "finger"
+    scale_tier: "micro"
+    min_bbox_pixels: 20
+  - id: 85
+    name: "necklace"
+    group: "Jewelry & Micro-Adornments"
+    synonyms: ["choker", "chain", "pendant", "gold chain", "silver necklace"]
+    body_region: "neck"
+    scale_tier: "micro"
+    min_bbox_pixels: 35
+  - id: 86
+    name: "pendant"
+    group: "Jewelry & Micro-Adornments"
+    synonyms: ["locket", "medallion", "charm"]
+    body_region: "neck"
+    scale_tier: "micro"
+    min_bbox_pixels: 25
+  - id: 87
+    name: "bracelet"
+    group: "Jewelry & Micro-Adornments"
+    synonyms: ["bangle", "wristlet", "cuff bracelet"]
+    body_region: "wrist"
+    scale_tier: "micro"
+    min_bbox_pixels: 35
+  - id: 88
+    name: "earring"
+    group: "Jewelry & Micro-Adornments"
+    synonyms: ["earrings", "ear stud", "hoop earring", "drop earring"]
+    body_region: "ear"
+    scale_tier: "micro"
+    min_bbox_pixels: 20
+  - id: 89
+    name: "brooch"
+    group: "Jewelry & Micro-Adornments"
+    synonyms: ["lapel pin", "ornamental pin"]
+    body_region: "torso"
+    scale_tier: "micro"
+    min_bbox_pixels: 30
+  - id: 90
+    name: "anklet"
+    group: "Jewelry & Micro-Adornments"
+    synonyms: ["ankle bracelet", "ankle chain"]
+    body_region: "feet"
+    scale_tier: "micro"
+    min_bbox_pixels: 25
+  - id: 91
+    name: "piercing"
+    group: "Jewelry & Micro-Adornments"
+    synonyms: ["nose ring", "lip piercing", "eyebrow ring"]
+    body_region: "face"
+    scale_tier: "micro"
+    min_bbox_pixels: 15
+  - id: 92
+    name: "cufflink"
+    group: "Jewelry & Micro-Adornments"
+    synonyms: ["cuff link", "shirt cufflink"]
+    body_region: "wrist"
+    scale_tier: "micro"
+    min_bbox_pixels: 20
+  - id: 93
+    name: "hairpin"
+    group: "Jewelry & Micro-Adornments"
+    synonyms: ["bobby pin", "decorative hairpin"]
+    body_region: "head"
+    scale_tier: "micro"
+    min_bbox_pixels: 20
+
+  # Group 9: Home & Office Furniture (IDs 94 - 107)
+  - id: 94
+    name: "chair"
+    group: "Home & Office Furniture"
+    synonyms: ["armchair", "seat", "office chair", "desk chair"]
+    body_region: "none"
+    scale_tier: "large"
+    min_bbox_pixels: 400
+  - id: 95
+    name: "couch"
+    group: "Home & Office Furniture"
+    synonyms: ["sofa", "settee", "davenport", "lounge"]
+    body_region: "none"
+    scale_tier: "large"
+    min_bbox_pixels: 600
+  - id: 96
+    name: "dining_table"
+    group: "Home & Office Furniture"
+    synonyms: ["dining room table", "table"]
+    body_region: "none"
+    scale_tier: "large"
+    min_bbox_pixels: 600
+  - id: 97
+    name: "desk"
+    group: "Home & Office Furniture"
+    synonyms: ["office desk", "computer desk", "workstation"]
+    body_region: "none"
+    scale_tier: "large"
+    min_bbox_pixels: 500
+  - id: 98
+    name: "bed"
+    group: "Home & Office Furniture"
+    synonyms: ["mattress", "bunk bed", "double bed"]
+    body_region: "none"
+    scale_tier: "large"
+    min_bbox_pixels: 800
+  - id: 99
+    name: "shelf"
+    group: "Home & Office Furniture"
+    synonyms: ["bookshelf", "bookcase", "storage rack"]
+    body_region: "none"
+    scale_tier: "large"
+    min_bbox_pixels: 500
+  - id: 100
+    name: "wardrobe"
+    group: "Home & Office Furniture"
+    synonyms: ["closet", "armoire", "cabinet"]
+    body_region: "none"
+    scale_tier: "large"
+    min_bbox_pixels: 700
+  - id: 101
+    name: "nightstand"
+    group: "Home & Office Furniture"
+    synonyms: ["bedside table", "night table"]
+    body_region: "none"
+    scale_tier: "medium"
+    min_bbox_pixels: 300
+  - id: 102
+    name: "stool"
+    group: "Home & Office Furniture"
+    synonyms: ["bar stool", "step stool"]
+    body_region: "none"
+    scale_tier: "medium"
+    min_bbox_pixels: 250
+  - id: 103
+    name: "mirror"
+    group: "Home & Office Furniture"
+    synonyms: ["wall mirror", "vanity mirror", "full-length mirror"]
+    body_region: "none"
+    scale_tier: "large"
+    min_bbox_pixels: 400
+  - id: 104
+    name: "coffee_table"
+    group: "Home & Office Furniture"
+    synonyms: ["tea table", "center table"]
+    body_region: "none"
+    scale_tier: "large"
+    min_bbox_pixels: 400
+  - id: 105
+    name: "lamp"
+    group: "Home & Office Furniture"
+    synonyms: ["table lamp", "desk lamp", "floor lamp"]
+    body_region: "none"
+    scale_tier: "medium"
+    min_bbox_pixels: 200
+  - id: 106
+    name: "pillow"
+    group: "Home & Office Furniture"
+    synonyms: ["cushion", "throw pillow", "bolster"]
+    body_region: "none"
+    scale_tier: "medium"
+    min_bbox_pixels: 250
+  - id: 107
+    name: "curtain"
+    group: "Home & Office Furniture"
+    synonyms: ["drapes", "window blind", "shutter"]
+    body_region: "none"
+    scale_tier: "large"
+    min_bbox_pixels: 500
+
+  # Group 10: Food & Dining Ware (IDs 108 - 121)
+  - id: 108
+    name: "bottle"
+    group: "Food & Dining Ware"
+    synonyms: ["water bottle", "glass bottle", "plastic bottle", "wine bottle"]
+    body_region: "hands"
+    scale_tier: "small"
+    min_bbox_pixels: 120
+  - id: 109
+    name: "wine_glass"
+    group: "Food & Dining Ware"
+    synonyms: ["goblet", "champagne flute", "wineglass"]
+    body_region: "hands"
+    scale_tier: "small"
+    min_bbox_pixels: 90
+  - id: 110
+    name: "cup"
+    group: "Food & Dining Ware"
+    synonyms: ["coffee cup", "tea cup", "mug"]
+    body_region: "hands"
+    scale_tier: "small"
+    min_bbox_pixels: 80
+  - id: 111
+    name: "fork"
+    group: "Food & Dining Ware"
+    synonyms: ["table fork", "dinner fork"]
+    body_region: "hands"
+    scale_tier: "small"
+    min_bbox_pixels: 50
+  - id: 112
+    name: "knife"
+    group: "Food & Dining Ware"
+    synonyms: ["table knife", "butter knife", "kitchen knife"]
+    body_region: "hands"
+    scale_tier: "small"
+    min_bbox_pixels: 60
+  - id: 113
+    name: "spoon"
+    group: "Food & Dining Ware"
+    synonyms: ["tablespoon", "teaspoon", "soup spoon"]
+    body_region: "hands"
+    scale_tier: "small"
+    min_bbox_pixels: 50
+  - id: 114
+    name: "bowl"
+    group: "Food & Dining Ware"
+    synonyms: ["salad bowl", "soup bowl", "cereal bowl"]
+    body_region: "hands"
+    scale_tier: "medium"
+    min_bbox_pixels: 160
+  - id: 115
+    name: "plate"
+    group: "Food & Dining Ware"
+    synonyms: ["dish", "dinner plate", "platter"]
+    body_region: "none"
+    scale_tier: "medium"
+    min_bbox_pixels: 200
+  - id: 116
+    name: "chopsticks"
+    group: "Food & Dining Ware"
+    synonyms: ["wooden chopsticks", "hashi"]
+    body_region: "hands"
+    scale_tier: "small"
+    min_bbox_pixels: 40
+  - id: 117
+    name: "teapot"
+    group: "Food & Dining Ware"
+    synonyms: ["tea kettle", "pottery kettle"]
+    body_region: "hands"
+    scale_tier: "medium"
+    min_bbox_pixels: 180
+  - id: 118
+    name: "tray"
+    group: "Food & Dining Ware"
+    synonyms: ["serving tray", "food platter"]
+    body_region: "hands"
+    scale_tier: "large"
+    min_bbox_pixels: 350
+  - id: 119
+    name: "can"
+    group: "Food & Dining Ware"
+    synonyms: ["tin can", "soda can", "aluminum can"]
+    body_region: "hands"
+    scale_tier: "small"
+    min_bbox_pixels: 100
+  - id: 120
+    name: "thermos"
+    group: "Food & Dining Ware"
+    synonyms: ["flask", "vacuum flask", "insulated bottle"]
+    body_region: "hands"
+    scale_tier: "small"
+    min_bbox_pixels: 120
+  - id: 121
+    name: "straw"
+    group: "Food & Dining Ware"
+    synonyms: ["drinking straw", "plastic straw"]
+    body_region: "hands"
+    scale_tier: "micro"
+    min_bbox_pixels: 30
+
+  # Group 11: Kitchenware & Appliances (IDs 122 - 131)
+  - id: 122
+    name: "microwave"
+    group: "Kitchenware & Appliances"
+    synonyms: ["microwave oven"]
+    body_region: "none"
+    scale_tier: "large"
+    min_bbox_pixels: 500
+  - id: 123
+    name: "oven"
+    group: "Kitchenware & Appliances"
+    synonyms: ["baking oven", "roaster"]
+    body_region: "none"
+    scale_tier: "large"
+    min_bbox_pixels: 600
+  - id: 124
+    name: "toaster"
+    group: "Kitchenware & Appliances"
+    synonyms: ["bread toaster"]
+    body_region: "none"
+    scale_tier: "medium"
+    min_bbox_pixels: 200
+  - id: 125
+    name: "refrigerator"
+    group: "Kitchenware & Appliances"
+    synonyms: ["fridge", "freezer"]
+    body_region: "none"
+    scale_tier: "large"
+    min_bbox_pixels: 800
+  - id: 126
+    name: "blender"
+    group: "Kitchenware & Appliances"
+    synonyms: ["food processor", "smoothie maker"]
+    body_region: "none"
+    scale_tier: "medium"
+    min_bbox_pixels: 220
+  - id: 127
+    name: "kettle"
+    group: "Kitchenware & Appliances"
+    synonyms: ["electric kettle", "water heater kettle"]
+    body_region: "hands"
+    scale_tier: "medium"
+    min_bbox_pixels: 200
+  - id: 128
+    name: "pot"
+    group: "Kitchenware & Appliances"
+    synonyms: ["cooking pot", "saucepan", "stockpot"]
+    body_region: "hands"
+    scale_tier: "medium"
+    min_bbox_pixels: 250
+  - id: 129
+    name: "pan"
+    group: "Kitchenware & Appliances"
+    synonyms: ["frying pan", "skillet", "wok"]
+    body_region: "hands"
+    scale_tier: "medium"
+    min_bbox_pixels: 250
+  - id: 130
+    name: "sink"
+    group: "Kitchenware & Appliances"
+    synonyms: ["kitchen sink", "washbasin"]
+    body_region: "none"
+    scale_tier: "large"
+    min_bbox_pixels: 500
+  - id: 131
+    name: "cutting_board"
+    group: "Kitchenware & Appliances"
+    synonyms: ["chopping board"]
+    body_region: "none"
+    scale_tier: "medium"
+    min_bbox_pixels: 200
+
+  # Group 12: Street & Urban Environment (IDs 132 - 141)
+  - id: 132
+    name: "traffic_light"
+    group: "Street & Urban Environment"
+    synonyms: ["traffic signal", "stoplight"]
+    body_region: "none"
+    scale_tier: "medium"
+    min_bbox_pixels: 150
+  - id: 133
+    name: "stop_sign"
+    group: "Street & Urban Environment"
+    synonyms: ["road sign stop", "traffic stop sign"]
+    body_region: "none"
+    scale_tier: "medium"
+    min_bbox_pixels: 200
+  - id: 134
+    name: "fire_hydrant"
+    group: "Street & Urban Environment"
+    synonyms: ["hydrant", "water plug"]
+    body_region: "none"
+    scale_tier: "medium"
+    min_bbox_pixels: 250
+  - id: 135
+    name: "parking_meter"
+    group: "Street & Urban Environment"
+    synonyms: ["ticket meter", "pay station"]
+    body_region: "none"
+    scale_tier: "medium"
+    min_bbox_pixels: 250
+  - id: 136
+    name: "bench"
+    group: "Street & Urban Environment"
+    synonyms: ["park bench", "street bench"]
+    body_region: "none"
+    scale_tier: "large"
+    min_bbox_pixels: 400
+  - id: 137
+    name: "trash_can"
+    group: "Street & Urban Environment"
+    synonyms: ["rubbish bin", "waste bin", "garbage can"]
+    body_region: "none"
+    scale_tier: "medium"
+    min_bbox_pixels: 300
+  - id: 138
+    name: "street_light"
+    group: "Street & Urban Environment"
+    synonyms: ["lamp post", "street lamp"]
+    body_region: "none"
+    scale_tier: "large"
+    min_bbox_pixels: 300
+  - id: 139
+    name: "billboard"
+    group: "Street & Urban Environment"
+    synonyms: ["hoarding", "ad board", "advertisement board"]
+    body_region: "none"
+    scale_tier: "large"
+    min_bbox_pixels: 600
+  - id: 140
+    name: "vending_machine"
+    group: "Street & Urban Environment"
+    synonyms: ["snack machine", "drink dispenser"]
+    body_region: "none"
+    scale_tier: "large"
+    min_bbox_pixels: 600
+  - id: 141
+    name: "mailbox"
+    group: "Street & Urban Environment"
+    synonyms: ["post box", "letter box"]
+    body_region: "none"
+    scale_tier: "medium"
+    min_bbox_pixels: 250
+
+  # Group 13: Vehicles & Mobility (IDs 142 - 152)
+  - id: 142
+    name: "bicycle"
+    group: "Vehicles & Mobility"
+    synonyms: ["bike", "cycle", "pushbike"]
+    body_region: "none"
+    scale_tier: "large"
+    min_bbox_pixels: 500
+  - id: 143
+    name: "car"
+    group: "Vehicles & Mobility"
+    synonyms: ["automobile", "sedan", "suv", "vehicle"]
+    body_region: "none"
+    scale_tier: "large"
+    min_bbox_pixels: 600
+  - id: 144
+    name: "motorcycle"
+    group: "Vehicles & Mobility"
+    synonyms: ["motorbike", "scooter bike", "moped"]
+    body_region: "none"
+    scale_tier: "large"
+    min_bbox_pixels: 500
+  - id: 145
+    name: "airplane"
+    group: "Vehicles & Mobility"
+    synonyms: ["plane", "aeroplane", "aircraft"]
+    body_region: "none"
+    scale_tier: "large"
+    min_bbox_pixels: 600
+  - id: 146
+    name: "bus"
+    group: "Vehicles & Mobility"
+    synonyms: ["coach", "transit bus", "school bus"]
+    body_region: "none"
+    scale_tier: "large"
+    min_bbox_pixels: 700
+  - id: 147
+    name: "train"
+    group: "Vehicles & Mobility"
+    synonyms: ["locomotive", "railway car", "subway car"]
+    body_region: "none"
+    scale_tier: "large"
+    min_bbox_pixels: 700
+  - id: 148
+    name: "truck"
+    group: "Vehicles & Mobility"
+    synonyms: ["lorry", "pickup truck", "semi-trailer"]
+    body_region: "none"
+    scale_tier: "large"
+    min_bbox_pixels: 700
+  - id: 149
+    name: "boat"
+    group: "Vehicles & Mobility"
+    synonyms: ["ship", "vessel", "canoe", "yacht"]
+    body_region: "none"
+    scale_tier: "large"
+    min_bbox_pixels: 600
+  - id: 150
+    name: "electric_scooter"
+    group: "Vehicles & Mobility"
+    synonyms: ["e-scooter", "kick scooter"]
+    body_region: "none"
+    scale_tier: "medium"
+    min_bbox_pixels: 350
+  - id: 151
+    name: "skateboard"
+    group: "Vehicles & Mobility"
+    synonyms: ["longboard", "skate"]
+    body_region: "feet"
+    scale_tier: "medium"
+    min_bbox_pixels: 200
+  - id: 152
+    name: "wheelchair"
+    group: "Vehicles & Mobility"
+    synonyms: ["electric wheelchair", "mobility chair"]
+    body_region: "none"
+    scale_tier: "large"
+    min_bbox_pixels: 500
+
+  # Group 14: Sports & Fitness (IDs 153 - 162)
+  - id: 153
+    name: "surfboard"
+    group: "Sports & Fitness"
+    synonyms: ["wave board", "paddleboard"]
+    body_region: "none"
+    scale_tier: "large"
+    min_bbox_pixels: 500
+  - id: 154
+    name: "tennis_racket"
+    group: "Sports & Fitness"
+    synonyms: ["racquet", "tennis bat"]
+    body_region: "hands"
+    scale_tier: "medium"
+    min_bbox_pixels: 200
+  - id: 155
+    name: "baseball_bat"
+    group: "Sports & Fitness"
+    synonyms: ["bat"]
+    body_region: "hands"
+    scale_tier: "medium"
+    min_bbox_pixels: 150
+  - id: 156
+    name: "baseball_glove"
+    group: "Sports & Fitness"
+    synonyms: ["mitt", "catcher mitt"]
+    body_region: "hands"
+    scale_tier: "small"
+    min_bbox_pixels: 150
+  - id: 157
+    name: "sports_ball"
+    group: "Sports & Fitness"
+    synonyms: ["football", "soccer ball", "basketball", "tennis ball", "volleyball"]
+    body_region: "none"
+    scale_tier: "small"
+    min_bbox_pixels: 100
+  - id: 158
+    name: "frisbee"
+    group: "Sports & Fitness"
+    synonyms: ["flying disc"]
+    body_region: "hands"
+    scale_tier: "small"
+    min_bbox_pixels: 100
+  - id: 159
+    name: "skis"
+    group: "Sports & Fitness"
+    synonyms: ["ski boards", "snow skis"]
+    body_region: "feet"
+    scale_tier: "large"
+    min_bbox_pixels: 400
+  - id: 160
+    name: "snowboard"
+    group: "Sports & Fitness"
+    synonyms: ["snow board"]
+    body_region: "feet"
+    scale_tier: "large"
+    min_bbox_pixels: 400
+  - id: 161
+    name: "dumbbell"
+    group: "Sports & Fitness"
+    synonyms: ["hand weight", "free weight"]
+    body_region: "hands"
+    scale_tier: "small"
+    min_bbox_pixels: 100
+  - id: 162
+    name: "yoga_mat"
+    group: "Sports & Fitness"
+    synonyms: ["exercise mat", "pilates mat"]
+    body_region: "none"
+    scale_tier: "large"
+    min_bbox_pixels: 400
+
+  # Group 15: Tools, Stationery & Hardware (IDs 163 - 171)
+  - id: 163
+    name: "pen"
+    group: "Tools, Stationery & Hardware"
+    synonyms: ["ballpoint pen", "gel pen", "marker", "highlighter"]
+    body_region: "hands"
+    scale_tier: "micro"
+    min_bbox_pixels: 30
+  - id: 164
+    name: "pencil"
+    group: "Tools, Stationery & Hardware"
+    synonyms: ["lead pencil", "graphite pencil"]
+    body_region: "hands"
+    scale_tier: "micro"
+    min_bbox_pixels: 30
+  - id: 165
+    name: "book"
+    group: "Tools, Stationery & Hardware"
+    synonyms: ["notebook", "textbook", "hardcover", "paperback"]
+    body_region: "hands"
+    scale_tier: "small"
+    min_bbox_pixels: 120
+  - id: 166
+    name: "scissors"
+    group: "Tools, Stationery & Hardware"
+    synonyms: ["shears", "paper cutter"]
+    body_region: "hands"
+    scale_tier: "small"
+    min_bbox_pixels: 60
+  - id: 167
+    name: "stapler"
+    group: "Tools, Stationery & Hardware"
+    synonyms: ["paper stapler"]
+    body_region: "hands"
+    scale_tier: "small"
+    min_bbox_pixels: 80
+  - id: 168
+    name: "hammer"
+    group: "Tools, Stationery & Hardware"
+    synonyms: ["mallet", "claw hammer"]
+    body_region: "hands"
+    scale_tier: "medium"
+    min_bbox_pixels: 120
+  - id: 169
+    name: "screwdriver"
+    group: "Tools, Stationery & Hardware"
+    synonyms: ["phillips screwdriver", "flathead screwdriver"]
+    body_region: "hands"
+    scale_tier: "small"
+    min_bbox_pixels: 50
+  - id: 170
+    name: "wrench"
+    group: "Tools, Stationery & Hardware"
+    synonyms: ["spanner", "adjustable wrench"]
+    body_region: "hands"
+    scale_tier: "small"
+    min_bbox_pixels: 60
+  - id: 171
+    name: "flashlight"
+    group: "Tools, Stationery & Hardware"
+    synonyms: ["torch", "pocket light"]
+    body_region: "hands"
+    scale_tier: "small"
+    min_bbox_pixels: 70
+
+  # Group 16: Background / Hard-Negative Distractors (IDs 172 - 179)
+  - id: 172
+    name: "bare_skin"
+    group: "Background / Hard-Negative Distractors"
+    synonyms: ["skin surface", "unadorned skin"]
+    body_region: "none"
+    scale_tier: "medium"
+    min_bbox_pixels: 100
+  - id: 173
+    name: "bare_wrist"
+    group: "Background / Hard-Negative Distractors"
+    synonyms: ["unadorned wrist", "watchless wrist"]
+    body_region: "wrist"
+    scale_tier: "small"
+    min_bbox_pixels: 80
+  - id: 174
+    name: "bare_neck"
+    group: "Background / Hard-Negative Distractors"
+    synonyms: ["unadorned neck", "collarbone without necklace"]
+    body_region: "neck"
+    scale_tier: "small"
+    min_bbox_pixels: 80
+  - id: 175
+    name: "bare_ear"
+    group: "Background / Hard-Negative Distractors"
+    synonyms: ["unadorned ear", "earlobe without earring"]
+    body_region: "ear"
+    scale_tier: "micro"
+    min_bbox_pixels: 40
+  - id: 176
+    name: "empty_hand"
+    group: "Background / Hard-Negative Distractors"
+    synonyms: ["bare fingers", "empty palm", "ringless hand"]
+    body_region: "hands"
+    scale_tier: "small"
+    min_bbox_pixels: 100
+  - id: 177
+    name: "plain_fabric"
+    group: "Background / Hard-Negative Distractors"
+    synonyms: ["blank cloth", "textile background"]
+    body_region: "none"
+    scale_tier: "large"
+    min_bbox_pixels: 200
+  - id: 178
+    name: "wall_texture"
+    group: "Background / Hard-Negative Distractors"
+    synonyms: ["blank wall", "plaster", "wallpaper"]
+    body_region: "none"
+    scale_tier: "large"
+    min_bbox_pixels: 300
+  - id: 179
+    name: "desk_surface"
+    group: "Background / Hard-Negative Distractors"
+    synonyms: ["empty tabletop", "wood grain", "mat surface"]
+    body_region: "none"
+    scale_tier: "large"
+    min_bbox_pixels: 300

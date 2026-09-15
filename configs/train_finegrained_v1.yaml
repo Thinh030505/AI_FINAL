@@ -1,0 +1,44 @@
+# Training Configuration: Fine-Grained Detector v1
+# Designed for RTX 4050 Laptop GPU (6GB VRAM)
+# Micro-object safe augmentation profile
+
+task: detect
+mode: train
+model: ai-service/models/yolo11n.pt
+data: datasets/processed/dataset.yaml
+
+# Optimization
+epochs: 25
+batch: 8
+imgsz: 640
+device: 0  # GPU 0 (GeForce RTX 4050)
+workers: 2
+optimizer: AdamW
+lr0: 0.002
+lrf: 0.01
+momentum: 0.937
+weight_decay: 0.0005
+warmup_epochs: 2.0
+warmup_momentum: 0.8
+warmup_bias_lr: 0.1
+
+# Micro-Object-Safe Augmentation Profile
+# Reduced mosaic and mixup to prevent tiny adornments from being destroyed
+mosaic: 0.3
+mixup: 0.1
+copy_paste: 0.1
+scale: 0.5
+degrees: 5.0
+translate: 0.1
+fliplr: 0.5
+flipud: 0.0
+hsv_h: 0.015
+hsv_s: 0.4
+hsv_v: 0.3
+
+# Validation & Checkpoints
+val: true
+save: true
+save_period: 5
+patience: 10
+plots: true
