@@ -1,0 +1,183 @@
+[
+  {
+    "scenario": "Scenario A",
+    "name": "One person",
+    "objectsCount": 6,
+    "labels": [
+      "human eye",
+      "human eye",
+      "person",
+      "human head",
+      "human mouth",
+      "human face"
+    ],
+    "aiTotalMs": 496.12,
+    "gatewayWallMs": 740.9,
+    "status": "VERIFIED",
+    "device": {
+      "cuda": false,
+      "device": "cpu",
+      "gpuName": null,
+      "vramMb": null,
+      "torchVersion": "2.14.0+cpu"
+    }
+  },
+  {
+    "scenario": "Scenario B",
+    "name": "Person + accessories (glasses)",
+    "objectsCount": 7,
+    "labels": [
+      "human eye",
+      "human eye",
+      "person",
+      "human head",
+      "human mouth",
+      "human face",
+      "sunglasses"
+    ],
+    "aiTotalMs": 316.95,
+    "gatewayWallMs": 545.9,
+    "status": "VERIFIED",
+    "device": {
+      "cuda": false,
+      "device": "cpu",
+      "gpuName": null,
+      "vramMb": null,
+      "torchVersion": "2.14.0+cpu"
+    }
+  },
+  {
+    "scenario": "Scenario C",
+    "name": "Multiple people",
+    "objectsCount": 6,
+    "labels": [
+      "person",
+      "person",
+      "human head",
+      "human head",
+      "sunglasses",
+      "sunglasses"
+    ],
+    "aiTotalMs": 520.73,
+    "gatewayWallMs": 749.2,
+    "status": "VERIFIED",
+    "device": {
+      "cuda": false,
+      "device": "cpu",
+      "gpuName": null,
+      "vramMb": null,
+      "torchVersion": "2.14.0+cpu"
+    }
+  },
+  {
+    "scenario": "Scenario D",
+    "name": "Desk / office scene",
+    "objectsCount": 0,
+    "labels": [],
+    "aiTotalMs": 229.96,
+    "gatewayWallMs": 506.2,
+    "status": "PARTIALLY_VERIFIED",
+    "device": {
+      "cuda": false,
+      "device": "cpu",
+      "gpuName": null,
+      "vramMb": null,
+      "torchVersion": "2.14.0+cpu"
+    }
+  },
+  {
+    "scenario": "Scenario E",
+    "name": "Street / vehicles / scene",
+    "objectsCount": 8,
+    "labels": [
+      "car",
+      "car",
+      "bus",
+      "car",
+      "car",
+      "car",
+      "car",
+      "car"
+    ],
+    "aiTotalMs": 89.64,
+    "gatewayWallMs": 354.5,
+    "status": "VERIFIED",
+    "device": {
+      "cuda": false,
+      "device": "cpu",
+      "gpuName": null,
+      "vramMb": null,
+      "torchVersion": "2.14.0+cpu"
+    }
+  },
+  {
+    "scenario": "Scenario F",
+    "name": "Outdoor nature / scene objects",
+    "objectsCount": 0,
+    "labels": [],
+    "aiTotalMs": 252.96,
+    "gatewayWallMs": 519.2,
+    "status": "PARTIALLY_VERIFIED",
+    "device": {
+      "cuda": false,
+      "device": "cpu",
+      "gpuName": null,
+      "vramMb": null,
+      "torchVersion": "2.14.0+cpu"
+    }
+  },
+  {
+    "scenario": "Scenario G",
+    "name": "Text / Sign / OCR (Gated)",
+    "status": "BLOCKED",
+    "error": "{\"success\":false,\"message\":\"timeout of 30000ms exceeded\",\"error\":\"Bad Gateway\"}"
+  },
+  {
+    "scenario": "Scenario H",
+    "name": "Low light person",
+    "objectsCount": 7,
+    "labels": [
+      "human eye",
+      "human eye",
+      "person",
+      "human head",
+      "human mouth",
+      "human face",
+      "sunglasses"
+    ],
+    "aiTotalMs": 732.56,
+    "gatewayWallMs": 14654.0,
+    "status": "VERIFIED",
+    "device": {
+      "cuda": false,
+      "device": "cpu",
+      "gpuName": null,
+      "vramMb": null,
+      "torchVersion": "2.14.0+cpu"
+    }
+  },
+  {
+    "scenario": "Scenario I",
+    "name": "Multi-accessories person",
+    "objectsCount": 7,
+    "labels": [
+      "human eye",
+      "human eye",
+      "human head",
+      "human mouth",
+      "person",
+      "human face",
+      "sunglasses"
+    ],
+    "aiTotalMs": 696.12,
+    "gatewayWallMs": 1042.1,
+    "status": "VERIFIED",
+    "device": {
+      "cuda": false,
+      "device": "cpu",
+      "gpuName": null,
+      "vramMb": null,
+      "torchVersion": "2.14.0+cpu"
+    }
+  }
+]

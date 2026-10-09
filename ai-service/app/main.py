@@ -17,6 +17,7 @@ from app.api.object_detection_router import router as object_detection_router
 from app.api.segmentation_router import router as segmentation_router
 from app.api.image_analysis_router import router as image_analysis_router
 from app.api.feedback_router import router as feedback_router
+from app.api.smart_camera_router import router as smart_camera_router
 
 # Configure Logging
 logging.basicConfig(
@@ -49,6 +50,7 @@ app.include_router(object_detection_router)
 app.include_router(segmentation_router)
 app.include_router(image_analysis_router)
 app.include_router(feedback_router)
+app.include_router(smart_camera_router)
 
 @app.on_event("startup")
 async def startup_event():
@@ -96,7 +98,11 @@ async def startup_event():
         seg_s = get_segmentation_service()
         await seg_s.segment_image(dummy_pil)
 
-        logger.info("[WARMUP] YOLO and SegFormer forward-pass warmup complete.")
+        from app.services.realtime_ai_router import RealTimeAIRouter
+        router_s = RealTimeAIRouter.get_instance()
+        router_s.analyze_frame(dummy_arr, frame_id=0, mode="everything")
+
+        logger.info("[WARMUP] YOLO, SegFormer, and Smart Camera RealTimeAIRouter forward-pass warmup complete.")
     except Exception as warmup_err:
         logger.warning(f"[WARMUP] Warmup note: {warmup_err}")
 

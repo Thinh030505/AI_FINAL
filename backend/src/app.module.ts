@@ -10,6 +10,7 @@ import { TranslationsModule } from './modules/translations/translations.module';
 import { ObjectDetectionModule } from './modules/object-detection/object-detection.module';
 import { ImageAnalysisModule } from './modules/image-analysis/image-analysis.module';
 import { HealthModule } from './modules/health/health.module';
+import { SmartCameraModule } from './modules/smart-camera/smart-camera.module';
 
 @Module({
   imports: [
@@ -34,6 +35,7 @@ import { HealthModule } from './modules/health/health.module';
     ObjectDetectionModule,
     ImageAnalysisModule,
     HealthModule,
+    SmartCameraModule,
   ],
 })
 export class AppModule {}
