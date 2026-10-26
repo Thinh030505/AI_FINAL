@@ -1,4 +1,4 @@
-﻿from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field
 from typing import List
 
 class BoundingBox(BaseModel):
@@ -14,7 +14,7 @@ class DetectionItem(BaseModel):
     box: BoundingBox = Field(..., description="Bounding box pixel coordinates")
 
 class ObjectDetectionData(BaseModel):
-    model: str = Field(default="yolo11n", description="Name of the detection model used")
+    model: str = Field(default="yolo11m", description="Name of the detection model used")
     imageWidth: int = Field(..., description="Original image width in pixels")
     imageHeight: int = Field(..., description="Original image height in pixels")
     processingTimeMs: int = Field(..., description="Inference processing latency in milliseconds")

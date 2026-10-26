@@ -3,9 +3,9 @@
   "updated_at": "2026-09-09T10:20:00Z",
   "models": {
     "core_detector": {
-      "name": "yolo11n",
-      "version": "v11.0",
-      "weights": "yolo11n.pt",
+      "name": "yolo11m",
+      "version": "v11.0-m-coco2017",
+      "weights": "models/best.pt",
       "classes": 80,
       "task": "detect",
       "device": "auto",

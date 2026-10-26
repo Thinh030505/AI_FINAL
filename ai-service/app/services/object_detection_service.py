@@ -16,7 +16,8 @@ logger = logging.getLogger("ai-service")
 class ObjectDetectionService:
     _instance: Optional["ObjectDetectionService"] = None
     _model: Optional[YOLO] = None
-    _model_name: str = "yolo11n.pt"
+    _active_model_name: str = "yolo11m"
+    _loaded_weights_path: str = ""
     _device: str = "cpu"
     _runtime: str = "pytorch"
 
@@ -35,10 +36,31 @@ class ObjectDetectionService:
             self._device = "cuda:0" if torch.cuda.is_available() else "cpu"
             env_runtime = os.getenv("YOLO_RUNTIME", "auto").strip().lower()
 
-            target_model = self._model_name
+            # Absolute path resolution based on current file location (__file__)
+            base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+            primary_weights_path = os.path.join(base_dir, "models", "best.pt")
+            fallback_weights_path = os.path.join(base_dir, "yolo11n.pt")
+
+            # Prioritize models/best.pt; only fall back if best.pt does not exist
+            if os.path.exists(primary_weights_path):
+                target_model = primary_weights_path
+                self._active_model_name = "yolo11m"
+                logger.info(f"[ObjectDetection] Found primary YOLO11m weights at: {primary_weights_path}")
+            else:
+                logger.warning(
+                    f"[ObjectDetection] Primary weights '{primary_weights_path}' NOT found. "
+                    f"Falling back to baseline model '{fallback_weights_path}'."
+                )
+                if os.path.exists(fallback_weights_path):
+                    target_model = fallback_weights_path
+                    self._active_model_name = "yolo11n"
+                else:
+                    target_model = "yolo11n.pt"
+                    self._active_model_name = "yolo11n"
+
             # Check for ONNX runtime if requested
             if env_runtime in ["onnx", "auto"]:
-                onnx_path = self._model_name.replace(".pt", ".onnx")
+                onnx_path = target_model.replace(".pt", ".onnx")
                 if os.path.exists(onnx_path):
                     try:
                         import onnxruntime
@@ -52,9 +74,16 @@ class ObjectDetectionService:
             else:
                 self._runtime = "pytorch"
 
-            logger.info(f"[ObjectDetection] Loading YOLO model from {target_model} on device {self._device} (runtime: {self._runtime})...")
+            logger.info(
+                f"[ObjectDetection] Loading YOLO model ({self._active_model_name}) from {target_model} "
+                f"on device {self._device} (runtime: {self._runtime})..."
+            )
+            # If target_model exists but fails to load, raise immediately without silent fallback
             self._model = YOLO(target_model)
-            logger.info(f"[ObjectDetection] YOLO model loaded successfully ({target_model}).")
+            self._loaded_weights_path = target_model
+            logger.info(
+                f"[ObjectDetection] YOLO model loaded successfully ({self._active_model_name} from {target_model})."
+            )
         except Exception as e:
             logger.error(f"[ObjectDetection] Failed to load YOLO model: {e}", exc_info=True)
             self._model = None
@@ -150,7 +179,7 @@ class ObjectDetectionService:
         )
 
         return ObjectDetectionData(
-            model="yolo11n",
+            model=self._active_model_name,
             imageWidth=width,
             imageHeight=height,
             processingTimeMs=elapsed_ms,
