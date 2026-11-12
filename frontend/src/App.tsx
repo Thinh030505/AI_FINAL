@@ -12,6 +12,7 @@ import { CameraPage } from './pages/CameraPage';
 import { HistoryPage } from './pages/HistoryPage';
 import { LoginPage } from './pages/LoginPage';
 import { RegisterPage } from './pages/RegisterPage';
+import { VisualIntelligencePage } from './pages/VisualIntelligencePage';
 
 export const App: React.FC = () => {
   return (
@@ -29,6 +30,14 @@ export const App: React.FC = () => {
               element={
                 <ProtectedRoute>
                   <DashboardPage />
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/visual-intelligence"
+              element={
+                <ProtectedRoute>
+                  <VisualIntelligencePage />
                 </ProtectedRoute>
               }
             />

@@ -4,6 +4,7 @@ import { Image, ImageSchema } from './schemas/image.schema';
 import { ImagesController } from './images.controller';
 import { ImagesService } from './images.service';
 import { CloudinaryModule } from '../cloudinary/cloudinary.module';
+import { ImageBufferCacheService } from './image-buffer-cache.service';
 
 @Module({
   imports: [
@@ -11,7 +12,7 @@ import { CloudinaryModule } from '../cloudinary/cloudinary.module';
     CloudinaryModule,
   ],
   controllers: [ImagesController],
-  providers: [ImagesService],
-  exports: [ImagesService],
+  providers: [ImagesService, ImageBufferCacheService],
+  exports: [ImagesService, ImageBufferCacheService],
 })
 export class ImagesModule {}

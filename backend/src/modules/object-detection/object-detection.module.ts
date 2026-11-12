@@ -1,4 +1,4 @@
-﻿import { Module } from '@nestjs/common';
+import { Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
 import { HttpModule } from '@nestjs/axios';
 import {
@@ -6,6 +6,7 @@ import {
   ObjectDetectionSchema,
 } from './schemas/object-detection.schema';
 import { Image, ImageSchema } from '../images/schemas/image.schema';
+import { ImagesModule } from '../images/images.module';
 import { ObjectDetectionService } from './object-detection.service';
 import { ObjectDetectionController } from './object-detection.controller';
 
@@ -16,6 +17,7 @@ import { ObjectDetectionController } from './object-detection.controller';
       { name: Image.name, schema: ImageSchema },
     ]),
     HttpModule,
+    ImagesModule,
   ],
   controllers: [ObjectDetectionController],
   providers: [ObjectDetectionService],

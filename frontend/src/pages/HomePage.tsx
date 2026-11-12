@@ -1,59 +1,121 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ScanText, ArrowRight, ShieldCheck, Cpu, Database, Server } from 'lucide-react';
+import {
+  Scan,
+  ArrowRight,
+  Camera,
+  Layers,
+  ScanText,
+  Sparkles,
+  ArrowUpRight,
+} from 'lucide-react';
+import { Button } from '../components/ui/Button';
 
 export const HomePage: React.FC = () => {
+  const tools = [
+    {
+      title: 'Object & Vocab',
+      path: '/object-detection',
+      icon: Scan,
+      color: 'text-indigo-600 bg-indigo-50 border-indigo-200/80',
+      description: 'Detect 80+ objects with bilingual phonetic vocabulary.',
+    },
+    {
+      title: 'Visual Studio',
+      path: '/visual-intelligence',
+      icon: Sparkles,
+      color: 'text-purple-600 bg-purple-50 border-purple-200/80',
+      description: 'Dual-engine object detection and text extraction.',
+    },
+    {
+      title: 'Multimodal AI',
+      path: '/image-analysis',
+      icon: Layers,
+      color: 'text-sky-600 bg-sky-50 border-sky-200/80',
+      description: 'Scene synthesis, environmental regions, and vision fusion.',
+    },
+    {
+      title: 'Smart Camera',
+      path: '/camera',
+      icon: Camera,
+      color: 'text-emerald-600 bg-emerald-50 border-emerald-200/80',
+      description: 'Real-time lens with instant entity recognition.',
+    },
+    {
+      title: 'OCR Scanner',
+      path: '/ocr',
+      icon: ScanText,
+      color: 'text-amber-600 bg-amber-50 border-amber-200/80',
+      description: 'Document and photo text extraction with translation.',
+    },
+  ];
+
   return (
-    <div className="flex flex-col items-center justify-center py-12 text-center">
-      <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-400 text-xs font-semibold uppercase tracking-wider mb-6">
-        <Cpu className="w-4 h-4" /> Phase 1 Architecture Foundation
+    <div className="py-10 sm:py-16 space-y-16 max-w-5xl mx-auto">
+      {/* Hero Section */}
+      <div className="text-center space-y-6">
+        <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-indigo-50 border border-indigo-200/80 text-indigo-700 text-xs font-semibold">
+          <Sparkles className="w-3.5 h-3.5" />
+          <span>Vision & Language Intelligence</span>
+        </div>
+
+        <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 tracking-tight max-w-3xl mx-auto leading-tight">
+          See the World.{' '}
+          <span className="text-indigo-600">Learn the Words.</span>
+        </h1>
+
+        <p className="text-sm sm:text-base text-slate-600 max-w-xl mx-auto leading-relaxed">
+          Transform photos and camera scenes into active English vocabulary with IPA phonetics, bilingual meanings, and speech audio.
+        </p>
+
+        {/* Action CTAs */}
+        <div className="flex flex-wrap items-center justify-center gap-3 pt-2">
+          <Link to="/object-detection">
+            <Button variant="primary" size="lg" icon={<Scan className="w-4 h-4" />}>
+              Start Detection
+              <ArrowRight className="w-4 h-4 ml-1" />
+            </Button>
+          </Link>
+          <Link to="/visual-intelligence">
+            <Button variant="outline" size="lg" icon={<Sparkles className="w-4 h-4 text-purple-600" />}>
+              Visual Studio
+            </Button>
+          </Link>
+        </div>
       </div>
-      
-      <h1 className="text-4xl sm:text-6xl font-extrabold text-white tracking-tight max-w-3xl leading-tight">
-        Next-Generation <span className="bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">AI OCR</span> Workspace
-      </h1>
 
-      <p className="mt-6 text-lg text-slate-400 max-w-2xl">
-        Extract, structure, and translate document text effortlessly. Built on NestJS API Gateway, Python FastAPI AI Service, and React.
-      </p>
-
-      <div className="mt-8 flex flex-wrap justify-center gap-4">
-        <Link
-          to="/dashboard"
-          className="flex items-center gap-2 px-6 py-3 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-semibold shadow-lg shadow-indigo-600/30 transition-all hover:scale-105"
-        >
-          Open Dashboard
-          <ArrowRight className="w-4 h-4" />
-        </Link>
-        <Link
-          to="/ocr"
-          className="flex items-center gap-2 px-6 py-3 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-700 text-slate-200 font-semibold transition-all"
-        >
-          <ScanText className="w-4 h-4 text-indigo-400" />
-          OCR Studio (Placeholder)
-        </Link>
-      </div>
-
-      {/* Tech Stack Cards */}
-      <div className="mt-16 grid grid-cols-1 sm:grid-cols-3 gap-6 w-full max-w-4xl">
-        <div className="glass-card p-6 rounded-2xl text-left border border-slate-800">
-          <Server className="w-8 h-8 text-indigo-400 mb-3" />
-          <h3 className="font-semibold text-white">NestJS API Gateway</h3>
-          <p className="text-sm text-slate-400 mt-1">Central gateway routing requests, handling auth, and managing database connections.</p>
-        </div>
-
-        <div className="glass-card p-6 rounded-2xl text-left border border-slate-800">
-          <Cpu className="w-8 h-8 text-purple-400 mb-3" />
-          <h3 className="font-semibold text-white">Python FastAPI AI</h3>
-          <p className="text-sm text-slate-400 mt-1">Standalone microservice designed for PaddleOCR processing and ML inference.</p>
-        </div>
-
-        <div className="glass-card p-6 rounded-2xl text-left border border-slate-800">
-          <Database className="w-8 h-8 text-emerald-400 mb-3" />
-          <h3 className="font-semibold text-white">MongoDB & Mongoose</h3>
-          <p className="text-sm text-slate-400 mt-1">High-performance document storage for OCR records, metadata, and user history.</p>
-        </div>
+      {/* Tools Grid */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {tools.map((tool) => {
+          const Icon = tool.icon;
+          return (
+            <Link
+              key={tool.title}
+              to={tool.path}
+              className="flat-card p-5 hover:border-indigo-300 hover:shadow-subtle transition-all flex flex-col justify-between group"
+            >
+              <div className="space-y-3">
+                <div className="flex items-center justify-between">
+                  <div className={`w-10 h-10 rounded-xl border flex items-center justify-center ${tool.color}`}>
+                    <Icon className="w-5 h-5" />
+                  </div>
+                  <ArrowUpRight className="w-4 h-4 text-slate-300 group-hover:text-indigo-600 transition-colors" />
+                </div>
+                <div>
+                  <h3 className="font-bold text-slate-900 text-base group-hover:text-indigo-600 transition-colors">
+                    {tool.title}
+                  </h3>
+                  <p className="text-xs text-slate-500 mt-1 leading-relaxed">
+                    {tool.description}
+                  </p>
+                </div>
+              </div>
+            </Link>
+          );
+        })}
       </div>
     </div>
   );
 };
+
+export default HomePage;

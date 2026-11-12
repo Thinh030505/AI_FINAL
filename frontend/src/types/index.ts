@@ -1,3 +1,5 @@
+import { CocoVocabularyItem } from './vocabulary';
+
 export interface HealthResponse {
   status: string;
   service: string;
@@ -77,6 +79,11 @@ export interface DetectionItem {
   classId: number;
   confidence: number;
   box: BoundingBox;
+  vocabulary?: CocoVocabularyItem;
+}
+
+export interface EnrichedDetectionItem extends DetectionItem {
+  vocabulary?: CocoVocabularyItem;
 }
 
 export interface ObjectDetectionRecord {
@@ -92,6 +99,10 @@ export interface ObjectDetectionRecord {
   processingTimeMs: number;
   createdAt?: string;
   updatedAt?: string;
+}
+
+export interface EnrichedObjectDetectionRecord extends Omit<ObjectDetectionRecord, 'detections'> {
+  detections: EnrichedDetectionItem[];
 }
 
 export interface SemanticRegion {
@@ -232,5 +243,57 @@ export interface ImageAnalysisRecord {
   updatedAt?: string;
 }
 
+export interface VisualIntelligenceObject {
+  id: string;
+  classId: number;
+  label: string;
+  confidence: number;
+  bbox: BoundingBox;
+  vocabulary?: CocoVocabularyItem;
+}
 
+export interface VisualIntelligenceText {
+  id: string;
+  content: string;
+  confidence: number;
+  bbox: BoundingBox;
+  polygon?: number[][];
+}
+
+export interface VisualIntelligenceRecord {
+  id: string;
+  imageId: string;
+  imageUrl: string;
+  originalName: string;
+  imageWidth: number;
+  imageHeight: number;
+  analysis: {
+    objects: VisualIntelligenceObject[];
+    texts: VisualIntelligenceText[];
+    fullText: string;
+  };
+  engines: {
+    object_detection?: {
+      status: string;
+      model?: string;
+      count?: number;
+      processing_time_ms?: number;
+      message?: string;
+    };
+    ocr?: {
+      status: string;
+      engine?: string;
+      line_count?: number;
+      full_text?: string;
+      processing_time_ms?: number;
+      message?: string;
+    };
+    [key: string]: any;
+  };
+  totalProcessingTimeMs: number;
+  createdAt?: string;
+  updatedAt?: string;
+}
+
+export * from './vocabulary';
 

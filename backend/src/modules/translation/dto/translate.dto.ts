@@ -1,4 +1,4 @@
-import { IsNotEmpty, IsString, IsOptional, IsIn } from 'class-validator';
+import { IsNotEmpty, IsString, IsOptional } from 'class-validator';
 
 export class TranslateDto {
   @IsNotEmpty({ message: 'Text for translation cannot be empty' })
@@ -7,11 +7,9 @@ export class TranslateDto {
 
   @IsOptional()
   @IsString()
-  @IsIn(['auto', 'vi', 'en'], { message: 'sourceLanguage must be auto, vi, or en' })
   sourceLanguage?: string = 'auto';
 
   @IsNotEmpty({ message: 'Target language is required' })
   @IsString()
-  @IsIn(['vi', 'en'], { message: 'targetLanguage must be vi or en' })
-  targetLanguage: string = 'en';
+  targetLanguage: string = 'vi';
 }

@@ -1,4 +1,4 @@
-﻿import {
+import {
   Injectable,
   Logger,
   BadRequestException,
@@ -18,6 +18,7 @@ import {
   ObjectDetectionDocument,
 } from './schemas/object-detection.schema';
 import { Image, ImageDocument } from '../images/schemas/image.schema';
+import { ImageBufferCacheService } from '../images/image-buffer-cache.service';
 
 export interface SanitizedObjectDetectionResult {
   id: string;
@@ -55,6 +56,7 @@ export class ObjectDetectionService {
     private readonly imageModel: Model<ImageDocument>,
     private readonly httpService: HttpService,
     private readonly configService: ConfigService,
+    private readonly bufferCache: ImageBufferCacheService,
   ) {}
 
   async analyzeObjects(
@@ -77,24 +79,61 @@ export class ObjectDetectionService {
       throw new ForbiddenException('Access denied to this image resource');
     }
 
-    // 2. Call FastAPI AI Service
+    // 2. Call FastAPI AI Service (Phase 6.1: Direct Bytes Transfer with Fallback)
     const aiServiceUrl =
       this.configService.get<string>('aiServiceUrl') || 'http://localhost:8000';
-    this.logger.log(`[ObjectDetection] Calling AI Service at ${aiServiceUrl}/object-detection`);
 
     let response;
     let aiData;
 
-    try {
-      response = await firstValueFrom(
-        this.httpService.post(
-          `${aiServiceUrl}/object-detection`,
-          { imageUrl: image.imageUrl },
-          { timeout: 45000 },
-        ),
-      );
+    const cachedBuffer = this.bufferCache.get(imageId);
 
-      if (!response.data || !response.data.success) {
+    try {
+      if (cachedBuffer) {
+        this.logger.log(
+          `[ObjectDetection] Direct byte transfer to AI Service at ${aiServiceUrl}/object-detection/direct for imageId = ${imageId} (${cachedBuffer.sizeBytes} bytes)`,
+        );
+
+        try {
+          const formData = new FormData();
+          const blob = new Blob([new Uint8Array(cachedBuffer.buffer)], {
+            type: cachedBuffer.mimeType || 'image/jpeg',
+          });
+          formData.append('file', blob, cachedBuffer.originalName || 'image.jpg');
+
+          response = await firstValueFrom(
+            this.httpService.post(
+              `${aiServiceUrl}/object-detection/direct`,
+              formData,
+              { timeout: 45000 },
+            ),
+          );
+        } catch (directErr: any) {
+          this.logger.warn(
+            `[ObjectDetection] Direct byte transfer failed (${directErr.message}). Falling back to Cloudinary URL endpoint.`,
+          );
+          response = await firstValueFrom(
+            this.httpService.post(
+              `${aiServiceUrl}/object-detection`,
+              { imageUrl: image.imageUrl },
+              { timeout: 45000 },
+            ),
+          );
+        }
+      } else {
+        this.logger.log(
+          `[ObjectDetection] Buffer cache miss. Calling AI Service at ${aiServiceUrl}/object-detection via Cloudinary URL`,
+        );
+        response = await firstValueFrom(
+          this.httpService.post(
+            `${aiServiceUrl}/object-detection`,
+            { imageUrl: image.imageUrl },
+            { timeout: 45000 },
+          ),
+        );
+      }
+
+      if (!response || !response.data || !response.data.success) {
         throw new InternalServerErrorException(
           'AI Service returned unsuccessful object detection response',
         );
@@ -102,23 +141,10 @@ export class ObjectDetectionService {
 
       aiData = response.data.data;
     } catch (err: any) {
-      this.logger.error(
-        `Error communicating with AI Service at ${aiServiceUrl}/object-detection`,
-        err.message,
-      );
-      if (err.code === 'ECONNREFUSED' || err.code === 'ENOTFOUND') {
-        throw new ServiceUnavailableException(
-          `AI Object Detection Service is unavailable at ${aiServiceUrl}`,
-        );
+      if (err instanceof InternalServerErrorException) {
+        throw err;
       }
-      if (err.response) {
-        throw new BadGatewayException(
-          `AI Service error: ${err.response.data?.detail || err.response.statusText}`,
-        );
-      }
-      throw new BadGatewayException(
-        `AI Service communication failure: ${err.message}`,
-      );
+      this.handleAiServiceError(err, aiServiceUrl);
     }
 
     // 3. Save to MongoDB
@@ -217,5 +243,25 @@ export class ObjectDetectionService {
       createdAt: obj.createdAt,
       updatedAt: obj.updatedAt,
     };
+  }
+
+  private handleAiServiceError(err: any, aiServiceUrl: string): never {
+    this.logger.error(
+      `Error communicating with AI Service at ${aiServiceUrl}`,
+      err.message,
+    );
+    if (err.code === 'ECONNREFUSED' || err.code === 'ENOTFOUND') {
+      throw new ServiceUnavailableException(
+        `AI Object Detection Service is unavailable at ${aiServiceUrl}`,
+      );
+    }
+    if (err.response) {
+      throw new BadGatewayException(
+        `AI Service error: ${err.response.data?.detail || err.response.statusText}`,
+      );
+    }
+    throw new BadGatewayException(
+      `AI Service communication failure: ${err.message}`,
+    );
   }
 }

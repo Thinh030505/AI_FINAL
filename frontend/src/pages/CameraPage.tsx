@@ -21,7 +21,7 @@ import {
 import { smartCameraService } from '../services/smartCameraService';
 import { imageService } from '../services/imageService';
 import { imageAnalysisService } from '../services/imageAnalysisService';
-import { Sparkles, RotateCcw, Loader2, Download, AlertCircle, Crosshair, Snowflake } from 'lucide-react';
+import { Sparkles, RotateCcw, Loader2, Download, AlertCircle, Crosshair, Snowflake, SlidersHorizontal } from 'lucide-react';
 
 export const CameraPage: React.FC = () => {
   const navigate = useNavigate();
@@ -88,6 +88,7 @@ export const CameraPage: React.FC = () => {
   // UI Panels
   const [isModeDrawerOpen, setIsModeDrawerOpen] = useState<boolean>(false);
   const [isHierarchyTreeOpen, setIsHierarchyTreeOpen] = useState<boolean>(false);
+  const [showInspectorHud, setShowInspectorHud] = useState<boolean>(false);
 
   // Performance FPS Counters (Real camera presentation vs AI cadence)
   const [cameraFps, setCameraFps] = useState<number>(30);
@@ -405,50 +406,54 @@ export const CameraPage: React.FC = () => {
   };
 
   return (
-    <div className="relative w-full h-[calc(100vh-4rem)] bg-slate-950 overflow-hidden flex flex-col">
+    <div className="relative w-full h-[calc(100vh-4rem)] bg-slate-900 overflow-hidden flex flex-col">
       {/* Top Header Floating Status & Vision Mode Bar */}
       <div className="absolute top-4 inset-x-0 z-30 flex items-center justify-between px-4 pointer-events-none">
-        {/* Left space reserved for PerformanceHud */}
-        <div className="pointer-events-auto flex items-center gap-2" />
+        <div className="pointer-events-auto flex items-center gap-2">
+          <div className="bg-white/95 backdrop-blur-md border border-slate-200 rounded-full px-3.5 py-1 text-xs text-slate-800 flex items-center gap-2 shadow-elevated">
+            <span className="font-bold text-slate-900 text-xs">Smart Camera</span>
+            <span className={`w-2 h-2 rounded-full ${cameraState === 'live' ? 'bg-emerald-500' : 'bg-amber-500'}`} />
+          </div>
+        </div>
 
         {/* Right Status Banner */}
         <div className="pointer-events-auto flex items-center gap-2">
           {/* Spatial Debug Active Indicator */}
           {spatialDebug && (
-            <div className="bg-emerald-950/80 backdrop-blur-md border border-emerald-700/60 rounded-full px-3 py-1 text-xs text-emerald-300 flex items-center gap-1.5 shadow-lg">
-              <Crosshair className="w-3.5 h-3.5 text-emerald-400" />
+            <div className="bg-white/95 backdrop-blur-md border border-emerald-200 rounded-full px-3 py-1 text-xs text-emerald-700 flex items-center gap-1.5 shadow-elevated">
+              <Crosshair className="w-3.5 h-3.5 text-emerald-600" />
               <span className="font-semibold text-[11px]">Spatial Debug Active</span>
             </div>
           )}
 
           {/* Freeze Mode Active Indicator */}
           {isFrozen && (
-            <div className="bg-sky-950/80 backdrop-blur-md border border-sky-700/60 rounded-full px-3 py-1 text-xs text-sky-300 flex items-center gap-1.5 shadow-lg animate-pulse">
-              <Snowflake className="w-3.5 h-3.5 text-sky-400" />
+            <div className="bg-white/95 backdrop-blur-md border border-sky-200 rounded-full px-3 py-1 text-xs text-sky-700 flex items-center gap-1.5 shadow-elevated animate-pulse">
+              <Snowflake className="w-3.5 h-3.5 text-sky-600" />
               <span className="font-semibold text-[11px]">Frame Frozen</span>
             </div>
           )}
 
           {/* AI Connection Status Badge */}
           {aiState === 'offline' && (
-            <div className="bg-rose-950/80 backdrop-blur-md border border-rose-700/60 rounded-full px-3 py-1 text-xs text-rose-300 flex items-center gap-1.5 shadow-lg animate-pulse">
-              <AlertCircle className="w-3.5 h-3.5 text-rose-400" />
-              <span className="font-semibold text-[11px]">AI: Offline (Camera Live)</span>
+            <div className="bg-white/95 backdrop-blur-md border border-rose-200 rounded-full px-3 py-1 text-xs text-rose-700 flex items-center gap-1.5 shadow-elevated">
+              <AlertCircle className="w-3.5 h-3.5 text-rose-600" />
+              <span className="font-semibold text-[11px]">AI: Standby (Camera Live)</span>
             </div>
           )}
 
           {/* Vision Mode Indicator Banner */}
-          <div className="bg-slate-900/85 backdrop-blur-md border border-slate-700/60 rounded-full px-4 py-1.5 text-xs text-slate-300 flex items-center gap-2 shadow-lg">
-            <Sparkles className="w-3.5 h-3.5 text-amber-400" />
-            <span className="font-semibold text-white uppercase tracking-wider text-[11px]">
+          <div className="bg-white/95 backdrop-blur-md border border-slate-200 rounded-full px-3.5 py-1 text-xs text-slate-800 flex items-center gap-2 shadow-elevated">
+            <Sparkles className="w-3.5 h-3.5 text-indigo-600" />
+            <span className="font-semibold text-slate-900 uppercase tracking-wider text-[11px]">
               {detectionMode} Mode
             </span>
             <span
-              className={`w-1.5 h-1.5 rounded-full ${
-                cameraState === 'live' ? 'bg-emerald-400 animate-pulse' : 'bg-amber-400'
+              className={`w-2 h-2 rounded-full ${
+                cameraState === 'live' ? 'bg-emerald-500' : 'bg-amber-500'
               }`}
             />
-            <span className="text-slate-400 font-mono text-[11px]">
+            <span className="text-slate-500 font-mono text-[11px]">
               {detections.length} objects
             </span>
           </div>
@@ -464,21 +469,23 @@ export const CameraPage: React.FC = () => {
           onStreamReady={handleStreamReady}
           onStateChange={handleCameraStateChange}
         >
-          {/* Performance HUD */}
-          <PerformanceHud
-            cameraState={cameraState}
-            aiState={aiState}
-            cameraFps={cameraFps}
-            aiFps={aiFps}
-            resolution={streamResolution}
-            timings={timings}
-            device={deviceInfo}
-            detectionCount={detections.length}
-            trackCount={activeTrackCount}
-            skippedFrames={skippedFrames}
-            isInFlight={isInFlight}
-            diagnostics={diagnostics}
-          />
+          {/* Performance HUD (Only in Inspector Mode) */}
+          {showInspectorHud && (
+            <PerformanceHud
+              cameraState={cameraState}
+              aiState={aiState}
+              cameraFps={cameraFps}
+              aiFps={aiFps}
+              resolution={streamResolution}
+              timings={timings}
+              device={deviceInfo}
+              detectionCount={detections.length}
+              trackCount={activeTrackCount}
+              skippedFrames={skippedFrames}
+              isInFlight={isInFlight}
+              diagnostics={diagnostics}
+            />
+          )}
 
           {/* Interactive Live Bounding Box Overlay with Canonical Coordinate Transform */}
           <DetectionOverlay
@@ -558,24 +565,24 @@ export const CameraPage: React.FC = () => {
 
       {/* Snapshot Preview & Deep Multimodal Analysis Modal */}
       {capturedPreviewUrl && (
-        <div className="absolute inset-0 z-50 bg-slate-950/95 backdrop-blur-md flex flex-col items-center justify-center p-4">
-          <div className="relative max-w-2xl w-full bg-slate-900 border border-slate-700 rounded-3xl overflow-hidden shadow-2xl flex flex-col">
+        <div className="absolute inset-0 z-50 bg-slate-900/60 backdrop-blur-sm flex flex-col items-center justify-center p-4">
+          <div className="relative max-w-2xl w-full bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-elevated flex flex-col animate-in fade-in zoom-in-95 duration-150">
             {/* Modal Header */}
-            <div className="px-5 py-3 border-b border-slate-800 flex items-center justify-between">
-              <div className="flex items-center gap-2 font-bold text-white text-sm">
-                <Sparkles className="w-4 h-4 text-amber-400" />
+            <div className="px-5 py-3.5 border-b border-slate-100 flex items-center justify-between">
+              <div className="flex items-center gap-2 font-bold text-slate-900 text-sm">
+                <Sparkles className="w-4 h-4 text-indigo-600" />
                 <span>Photo Captured</span>
               </div>
               <button
                 onClick={handleRetakeSnapshot}
-                className="text-slate-400 hover:text-white p-1 rounded-lg hover:bg-slate-800 transition"
+                className="text-slate-400 hover:text-slate-700 p-1 rounded-lg hover:bg-slate-100 transition"
               >
                 <RotateCcw className="w-4 h-4" />
               </button>
             </div>
 
             {/* Photo Preview */}
-            <div className="relative w-full max-h-[60vh] bg-black flex items-center justify-center overflow-hidden">
+            <div className="relative w-full max-h-[60vh] bg-slate-100 flex items-center justify-center overflow-hidden">
               <img
                 src={capturedPreviewUrl}
                 alt="Captured Snapshot"
@@ -585,20 +592,20 @@ export const CameraPage: React.FC = () => {
 
             {/* Status Message */}
             {offlineStatus && (
-              <div className="px-5 py-2.5 bg-slate-950 text-xs font-mono text-indigo-300 border-t border-slate-800 flex items-center gap-2">
+              <div className="px-5 py-2 bg-indigo-50/70 text-xs font-mono text-indigo-700 border-t border-indigo-100 flex items-center gap-2">
                 {isUploadingToCloud && <Loader2 className="w-3.5 h-3.5 animate-spin" />}
                 <span>{offlineStatus}</span>
               </div>
             )}
 
             {/* Modal Actions */}
-            <div className="p-4 border-t border-slate-800 flex items-center justify-between gap-3 bg-slate-900/80">
+            <div className="p-4 border-t border-slate-100 flex items-center justify-between gap-3 bg-white">
               <button
                 onClick={handleRetakeSnapshot}
                 disabled={isUploadingToCloud}
-                className="py-2.5 px-4 rounded-xl border border-slate-700 text-slate-300 hover:bg-slate-800 hover:text-white text-xs font-semibold transition flex items-center gap-2"
+                className="py-2 px-3.5 rounded-lg border border-slate-200 text-slate-700 hover:bg-slate-50 text-xs font-semibold transition flex items-center gap-1.5"
               >
-                <RotateCcw className="w-4 h-4" />
+                <RotateCcw className="w-3.5 h-3.5" />
                 Retake
               </button>
 
@@ -606,21 +613,21 @@ export const CameraPage: React.FC = () => {
                 <a
                   href={capturedPreviewUrl}
                   download={`smart_camera_${Date.now()}.jpg`}
-                  className="py-2.5 px-4 rounded-xl border border-slate-700 text-slate-300 hover:bg-slate-800 hover:text-white text-xs font-semibold transition flex items-center gap-2"
+                  className="py-2 px-3.5 rounded-lg border border-slate-200 text-slate-700 hover:bg-slate-50 text-xs font-semibold transition flex items-center gap-1.5"
                 >
-                  <Download className="w-4 h-4" />
+                  <Download className="w-3.5 h-3.5" />
                   Save Photo
                 </a>
 
                 <button
                   onClick={handleRunDeepAnalysis}
                   disabled={isUploadingToCloud}
-                  className="py-2.5 px-5 rounded-xl bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white text-xs font-semibold transition shadow-lg flex items-center gap-2 disabled:opacity-50"
+                  className="py-2 px-4 rounded-lg bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-semibold transition shadow-sm flex items-center gap-1.5 disabled:opacity-50"
                 >
                   {isUploadingToCloud ? (
-                    <Loader2 className="w-4 h-4 animate-spin" />
+                    <Loader2 className="w-3.5 h-3.5 animate-spin" />
                   ) : (
-                    <Sparkles className="w-4 h-4 text-amber-300" />
+                    <Sparkles className="w-3.5 h-3.5" />
                   )}
                   Save & Deep Multimodal Analysis
                 </button>

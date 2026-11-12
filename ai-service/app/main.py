@@ -18,6 +18,7 @@ from app.api.segmentation_router import router as segmentation_router
 from app.api.image_analysis_router import router as image_analysis_router
 from app.api.feedback_router import router as feedback_router
 from app.api.smart_camera_router import router as smart_camera_router
+from app.api.visual_intelligence_router import router as visual_intelligence_router
 
 # Configure Logging
 logging.basicConfig(
@@ -51,6 +52,7 @@ app.include_router(segmentation_router)
 app.include_router(image_analysis_router)
 app.include_router(feedback_router)
 app.include_router(smart_camera_router)
+app.include_router(visual_intelligence_router)
 
 @app.on_event("startup")
 async def startup_event():

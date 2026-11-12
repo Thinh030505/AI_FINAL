@@ -12,6 +12,7 @@ import { Model, Types } from 'mongoose';
 import { ConfigService } from '@nestjs/config';
 import { Image, ImageDocument } from './schemas/image.schema';
 import { CloudinaryService } from '../cloudinary/cloudinary.service';
+import { ImageBufferCacheService } from './image-buffer-cache.service';
 
 export interface SanitizedImage {
   id: string;
@@ -43,6 +44,7 @@ export class ImagesService {
     @InjectModel(Image.name) private readonly imageModel: Model<ImageDocument>,
     private readonly cloudinaryService: CloudinaryService,
     private readonly configService: ConfigService,
+    private readonly bufferCache: ImageBufferCacheService,
   ) {}
 
   validateImageFile(file: Express.Multer.File): void {
@@ -96,7 +98,19 @@ export class ImagesService {
       });
 
       const savedImage = await createdImage.save();
-      return this.sanitizeImage(savedImage);
+      const sanitized = this.sanitizeImage(savedImage);
+
+      // Phase 6.1: Cache in-memory buffer to bypass redundant Cloudinary download in AI service
+      if (file && file.buffer) {
+        this.bufferCache.set(
+          sanitized.id,
+          file.buffer,
+          file.mimetype,
+          file.originalname,
+        );
+      }
+
+      return sanitized;
     } catch (dbError) {
       this.logger.error(
         `MongoDB save failed for image ${cloudinaryResult.public_id}. Triggering Cloudinary cleanup.`,
@@ -153,6 +167,9 @@ export class ImagesService {
 
     // Delete document from MongoDB
     await this.imageModel.findByIdAndDelete(imageId).exec();
+
+    // Clean up cache if present
+    this.bufferCache.delete(imageId);
 
     return {
       success: true,
